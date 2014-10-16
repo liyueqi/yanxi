@@ -1,0 +1,1 @@
+<?php get_header();get_search_form();Bing_postlist_loop();get_footer(); ?>

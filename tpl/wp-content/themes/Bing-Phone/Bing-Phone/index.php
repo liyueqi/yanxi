@@ -1,0 +1,1 @@
+<?php get_header();Bing_postlist_loop();get_footer(); ?>
