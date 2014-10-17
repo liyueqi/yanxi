@@ -1,6 +1,6 @@
 <?php
 
-echo "hello github!";
+echo "hello yier!";
 //phpinfo();
 
 
