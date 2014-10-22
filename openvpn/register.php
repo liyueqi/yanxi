@@ -1,16 +1,9 @@
-<table width="944" height="320" border="1">
-  <tbody>
-    <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-    </tr>
-  </tbody>
-</table>
+<?php
+$sh = $_GET['sh'];
+$command = "bash /home/wwwroot/yanxi/openvpn/reg.sh $sh";
+$result = system($command);
+echo $result;
+
+
+
+?>
