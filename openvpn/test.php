@@ -13,7 +13,7 @@
 	</head>
 	<body>
 	<button type="button" class="btn btn-lg btn-default">Default</button>
-	
+	<input type="text" class="form-control">
 	
 	</body>
 	
