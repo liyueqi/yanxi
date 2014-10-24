@@ -33,7 +33,7 @@ if(isset($_GET['code']))
     $sql = "select count(*) from invitecode where code='$code'";
     $result = $conn->query($sql);
     $rows = mysql_fetch_array($result);
-    echo $rows[1];
+    echo $rows[0];
 
 
 }else{}
