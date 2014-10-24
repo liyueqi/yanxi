@@ -8,7 +8,7 @@ class mysql
     private $RawResult;
     private $Result;
     public function __construct(){
-        $this->Conn = mysql_connect("localhost","rxot","1136358656");
+        $this->Conn = mysql_connect("localhost","root","1136358656");
         mysql_select_db("openvpn") or die(mysql_error());
     }
     public function SelectDb($db)
@@ -37,13 +37,13 @@ if(isset($_POST['code']))
     $num = count($rows);
     $time = date('Y-m-d H:i:s',time());
     $timeshot = strtotime($time);
-    do{
+
     $cername = substr(crypt($timeshot),0,8);
     $sql = "select * from invitecode where cert='$cername'";
     $result = $conn->query($sql);
     $rows = mysql_fetch_row($result);
     $count = count($rows);
-    }while($count != 0);
+    
     if($num = 0){
         echo "<script>alert('¸Ã×¢²áÂëÎÞÐ§£¡'); </script>";
     }else{
