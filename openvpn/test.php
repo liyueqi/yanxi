@@ -34,6 +34,11 @@ if(isset($_GET['code']))
     $result = $conn->query($sql);
     $rows = mysql_fetch_array($result);
     echo $rows[0];
+    $sql = "select * from invitecode where code='$code'";
+    $result = $conn->query($sql);
+    $rows = mysql_fetch_array($result);
+    $type = $rows['exp'];
+    echo $type;
 
 
 }else{}
