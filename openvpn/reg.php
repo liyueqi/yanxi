@@ -106,7 +106,7 @@ if(isset($_POST['code']))
     ?>
     
     <p><h2><a name="reg"></a></h2><h2>注册并获取您的openVPN配置文件</h2></p>
-	<form class="navbar-form navbar-left" name="myform" action="reg.php" method="post" onSubmit="return check()">
+	<form class="navbar-form navbar-left" name="myform" action="reg.php" method="post">
     <table width="200" border="1" class="table table-bordered table-hover  m10">
   <tbody>
     <tr>
