@@ -37,16 +37,22 @@ if(isset($_POST['code']))
     $num = count($rows);
     $time = date('Y-m-d H:i:s',time());
     $timeshot = strtotime($time);
-
+    echo "1<br>";
     $cername = substr(crypt($timeshot),0,8);
+    echo "2<br>";
     $sql = "select * from invitecode where cert='$cername'";
+    echo "3<br>";
     $result = $conn->query($sql);
+    echo "4<br>";
     $rows = mysql_fetch_row($result);
+    echo "5<br>";
     $count = count($rows);
-    
+    echo "6<br>";
     if($num = 0){
         echo "<script>alert('该注册码无效！'); </script>";
+        echo "7<br>";
     }else{
+        echo "8<br>";
         $sql = "update invitecode set status='已使用',regtime='$time',cert='$cername' where code='$code'";
         $result = $conn->query($sql);
         $command = "bash /home/wwwroot/yanxi/openvpn/reg.sh $cername";
@@ -54,6 +60,7 @@ if(isset($_POST['code']))
         $url = "<a href='http://yanxihanfu.me/openvpn/$cername.zip'>单击此处以下载您的openVPN配置文件</a>";
     }
 }else{
+    echo "1<br>";
 }
 ?>
 
