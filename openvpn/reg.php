@@ -72,7 +72,7 @@
     {
         $code = $_POST['code'];
         $conn = new mysql();
-        $sql = "select count(*) from invitecode where code='$code'";
+        $sql = "select count(*) from invitecode where code='$code'and status='0'";
         $result = $conn->query($sql);
         $rows = mysql_fetch_array($result);
         $num = $rows[0];
