@@ -72,15 +72,13 @@
     {
         $code = $_POST['code'];
         $conn = new mysql();
-        $sql = "select * from invitecode where code='$code'";
+        $sql = "select count(*) from invitecode where code='$code'";
         $result = $conn->query($sql);
-        $rows = mysql_fetch_row($result);
-        $num = count($rows);
+        $rows = mysql_fetch_array($result);
+        $num = $rows[0];
         $time = date('Y-m-d H:i:s',time());
         $timeshot = strtotime($time);
-
         $cername = substr(crypt($timeshot),0,8);
-
         $sql = "select * from invitecode where cert='$cername'";
 
         $result = $conn->query($sql);
