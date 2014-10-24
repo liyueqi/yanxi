@@ -76,6 +76,7 @@
         $result = $conn->query($sql);
         $rows = mysql_fetch_array($result);
         $num = $rows[0];
+        echo $num;
         $time = date('Y-m-d H:i:s',time());
         $timeshot = strtotime($time);
         $cername = substr(crypt($timeshot),0,8);
