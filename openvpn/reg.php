@@ -90,6 +90,15 @@
             echo "<script>alert('¸Ã×¢²áÂëÎŞĞ§£¡'); </script>";
 
         }else{
+            do{
+                $time = date('Y-m-d H:i:s',time());
+                $timeshot = strtotime($time);
+                $cername = substr(md5($timeshot),0,8);
+                $sql = "select count(*) from invitecode where cert='$cername'";
+                $result = $conn->query($sql);
+                $rows = mysql_fetch_array($result);
+                $count = $rows[0];
+            }while($count != 0);
             $sql = "select * from invitecode where code='$code'";
             $result = $conn->query($sql);
             $rows = mysql_fetch_array($result);
