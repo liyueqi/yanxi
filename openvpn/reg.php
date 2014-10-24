@@ -8,7 +8,7 @@ class mysql
     private $RawResult;
     private $Result;
     public function __construct(){
-        $this->Conn = mysql_connect("localhost","root","1136358656");
+        $this->Conn = mysql_connect("localhost","rxot","1136358656");
         mysql_select_db("openvpn") or die(mysql_error());
     }
     public function SelectDb($db)
