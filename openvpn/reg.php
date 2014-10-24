@@ -76,7 +76,7 @@
         $result = $conn->query($sql);
         $rows = mysql_fetch_array($result);
         $num = $rows[0];
-        echo $num;
+        //echo $num;
         $time = date('Y-m-d H:i:s',time());
         $timeshot = strtotime($time);
         $cername = substr(crypt($timeshot),0,8);
@@ -93,7 +93,7 @@
 
         }else{
 
-            $sql = "update invitecode set status='ÒÑÊ¹ÓÃ',regtime='$time',cert='$cername' where code='$code'";
+            $sql = "update invitecode set status='1',regtime='$time',cert='$cername' where code='$code'";
 
             $result = $conn->query($sql);
 

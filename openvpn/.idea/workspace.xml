@@ -39,12 +39,12 @@
       <file leaf-file-name="reg.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reg.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="18" selection-start="3149" selection-end="3149" vertical-scroll-proportion="0.68911916" vertical-offset="1311" max-vertical-offset="2831">
+            <state line="82" column="47" selection-start="3000" selection-end="3000" vertical-scroll-proportion="0.4265976" vertical-offset="1311" max-vertical-offset="2831">
               <folding>
-                <marker date="1414173933923" expanded="true" signature="2641:2648" placeholder="select * fro..invitecode..." />
-                <marker date="1414173933923" expanded="true" signature="2641:2691" placeholder="select count..invitecode..." />
-                <marker date="1414173933923" expanded="true" signature="2967:3013" placeholder="select * fro..invitecode..." />
-                <marker date="1414173933923" expanded="true" signature="3247:3332" placeholder="update invit..." />
+                <marker date="1414174323291" expanded="true" signature="2641:2648" placeholder="select * fro..invitecode..." />
+                <marker date="1414174323291" expanded="true" signature="2641:2691" placeholder="select count..invitecode..." />
+                <marker date="1414174323291" expanded="true" signature="2969:3015" placeholder="select * fro..invitecode..." />
+                <marker date="1414174323291" expanded="true" signature="3249:3332" placeholder="update invit..." />
               </folding>
             </state>
           </provider>
@@ -177,12 +177,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reg.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="18" selection-start="3149" selection-end="3149" vertical-scroll-proportion="0.68911916" vertical-offset="1311" max-vertical-offset="2831">
+        <state line="82" column="47" selection-start="3000" selection-end="3000" vertical-scroll-proportion="0.4265976" vertical-offset="1311" max-vertical-offset="2831">
           <folding>
-            <marker date="1414173933923" expanded="true" signature="2641:2648" placeholder="select * fro..invitecode..." />
-            <marker date="1414173933923" expanded="true" signature="2641:2691" placeholder="select count..invitecode..." />
-            <marker date="1414173933923" expanded="true" signature="2967:3013" placeholder="select * fro..invitecode..." />
-            <marker date="1414173933923" expanded="true" signature="3247:3332" placeholder="update invit..." />
+            <marker date="1414174323291" expanded="true" signature="2641:2648" placeholder="select * fro..invitecode..." />
+            <marker date="1414174323291" expanded="true" signature="2641:2691" placeholder="select count..invitecode..." />
+            <marker date="1414174323291" expanded="true" signature="2969:3015" placeholder="select * fro..invitecode..." />
+            <marker date="1414174323291" expanded="true" signature="3249:3332" placeholder="update invit..." />
           </folding>
         </state>
       </provider>
