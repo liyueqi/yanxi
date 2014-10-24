@@ -12,8 +12,18 @@
 	<script src="http://yanxihanfu.me/bootstrap/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-	<button type="button" class="btn btn-lg btn-default">Default</button>
-	<input type="text" class="form-control">
+	<div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Ö÷Ò³</a></li>
+            <li><a href="#about">×¢²á</a></li>
+            <li><a href="#contact">ÊÔÓÃ</a></li>
+            
+              
+              
+            
+          </ul>
+        </div><!--/.nav-collapse -->
+	
 	
 	</body>
 	
