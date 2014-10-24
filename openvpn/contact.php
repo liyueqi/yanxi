@@ -14,7 +14,7 @@
     <script src="http://static.bootcss.com/www/assets/js/site.min.js"></script>
 
 	</head>
-	<body>
+	<body class="post-template page">
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
           <div class="navbar-header">
@@ -42,8 +42,19 @@
     <p class="lead">一个基于IPv6的openVPN代理</p>
   </div>
 </header>
+   <ul class="nav nav-pills nav-stacked" role="tablist" style="max-width: 300px;">
+  <li role="presentation" class="active"><a href="#">介绍</a></li>
+  <li role="presentation"><a href="#">参与者</a></li>
+  <table width="200" border="1">
+    <tbody>
+      <tr></tr>
+    </tbody>
+  </table>
+  
+   </ul>
     
-    
+   
+
 	</body>
 	
 	</html>
