@@ -88,7 +88,7 @@
 
         $count = count($rows);
 
-        if($num = 0){
+        if($num == 0){
             echo "<script>alert('¸Ã×¢²áÂëÎÞÐ§£¡'); </script>";
 
         }else{
