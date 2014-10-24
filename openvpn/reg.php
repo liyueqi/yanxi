@@ -1,74 +1,5 @@
 <!DOCTYPE html>
-<?php
-class mysql
-{
-    public $Conn;
-    private $sql;
-    private $dbStatus;
-    private $RawResult;
-    private $Result;
-    public function __construct(){
-        $this->Conn = mysql_connect("localhost","root","1136358656");
-        mysql_select_db("openvpn") or die(mysql_error());
-    }
-    public function SelectDb($db)
-    {
-        $this->dbStatus = mysql_select_db($db,$this->Conn);
-        mysql_query("set names gb2312",$this->Conn);
-        return $this->dbStatus;
-    }
-    public function query($query)
-    {
-        $this->RawResult = mysql_query($query,$this->Conn);
-        //$this->Result = mysql_fetch_row($this->RawResult);
-        return $this->RawResult;
-    }
-    public function GetConn(){
-        return $this->Conn;
-    }
-}
-if(isset($_POST['code']))
-{
-    $code = $_POST['code'];
-    $conn = new mysql();
-    $sql = "select * from invitecode where code='$code'";
-    $result = $conn->query($sql);
-    $rows = mysql_fetch_row($result);
-    $num = count($rows);
-    $time = date('Y-m-d H:i:s',time());
-    $timeshot = strtotime($time);
-    echo "1<br>";
-    $cername = substr(crypt($timeshot),0,8);
-    echo "2<br>";
-    $sql = "select * from invitecode where cert='$cername'";
-    echo "3<br>";
-    $result = $conn->query($sql);
-    echo "4<br>";
-    $rows = mysql_fetch_row($result);
-    echo "5<br>";
-    $count = count($rows);
-    echo "6<br>";
-    if($num = 0){
-        echo "<script>alert('该注册码无效！'); </script>";
-        echo "7<br>";
-    }else{
-        echo "8<br>";
-        $sql = "update invitecode set status='已使用',regtime='$time',cert='$cername' where code='$code'";
-        echo "9<br>";
-        $result = $conn->query($sql);
-        echo "10<br>";
-        $command = "bash /home/wwwroot/yanxi/openvpn/reg.sh $code";
-        echo "11<br>";
-        $result = shell_exec($command);
-        echo "12<br>";
-        $url = "<a href='http://yanxihanfu.me/openvpn/$code.zip'>单击此处以下载您的openVPN配置文件</a>";
-        echo $url."<br>";
-        echo "13<br>";
-    }
-}else{
-    echo "14<br>";
-}
-?>
+
 
 
 <html>
@@ -110,12 +41,82 @@ if(isset($_POST['code']))
         <p><h4>服务器位于纽约。</h4></p>
     </div>
     <?php
-    if(isset($_POST['$code'])){
-        echo '<div class="alert alert-success" role="alert">'."
+    class mysql
+    {
+        public $Conn;
+        private $sql;
+        private $dbStatus;
+        private $RawResult;
+        private $Result;
+        public function __construct(){
+            $this->Conn = mysql_connect("localhost","root","1136358656");
+            mysql_select_db("openvpn") or die(mysql_error());
+        }
+        public function SelectDb($db)
+        {
+            $this->dbStatus = mysql_select_db($db,$this->Conn);
+            mysql_query("set names gb2312",$this->Conn);
+            return $this->dbStatus;
+        }
+        public function query($query)
+        {
+            $this->RawResult = mysql_query($query,$this->Conn);
+            //$this->Result = mysql_fetch_row($this->RawResult);
+            return $this->RawResult;
+        }
+        public function GetConn(){
+            return $this->Conn;
+        }
+    }
+    if(isset($_POST['code']))
+    {
+        $code = $_POST['code'];
+        $conn = new mysql();
+        $sql = "select * from invitecode where code='$code'";
+        $result = $conn->query($sql);
+        $rows = mysql_fetch_row($result);
+        $num = count($rows);
+        $time = date('Y-m-d H:i:s',time());
+        $timeshot = strtotime($time);
+        echo "1<br>";
+        $cername = substr(crypt($timeshot),0,8);
+        echo "2<br>";
+        $sql = "select * from invitecode where cert='$cername'";
+        echo "3<br>";
+        $result = $conn->query($sql);
+        echo "4<br>";
+        $rows = mysql_fetch_row($result);
+        echo "5<br>";
+        $count = count($rows);
+        echo "6<br>";
+        if($num = 0){
+            echo "<script>alert('该注册码无效！'); </script>";
+            echo "7<br>";
+        }else{
+            echo "8<br>";
+            $sql = "update invitecode set status='已使用',regtime='$time',cert='$cername' where code='$code'";
+            echo "9<br>";
+            $result = $conn->query($sql);
+            echo "10<br>";
+            $command = "bash /home/wwwroot/yanxi/openvpn/reg.sh $code";
+            echo "11<br>";
+            $result = shell_exec($command);
+            echo "12<br>";
+            $url = "<a href='http://yanxihanfu.me/openvpn/$code.zip'>单击此处以下载您的openVPN配置文件</a>";
+            echo $url."<br>";
+            echo "13<br>";
+            echo '<div class="alert alert-success" role="alert">'."
       <strong>恭喜！</strong> 配置文件生成成功！<br>$url
     </div>";
+        }
+    }else{
+        echo "14<br>";
     }
-    else{}
+
+
+
+
+
     ?>
     
     <p><h2><a name="reg"></a></h2><h2>注册并获取您的openVPN配置文件</h2></p>
