@@ -30,11 +30,10 @@ if(isset($_GET['code']))
 {
     $code = $_GET['code'];
     $conn = new mysql();
-    $sql = "select * from invitecode where code='$code'";
+    $sql = "select count(*) from invitecode where code='$code'";
     $result = $conn->query($sql);
-    $rows = mysql_fetch_row($result);
-    $count = count($rows);
-    echo $count;
+    $rows = mysql_fetch_array($result);
+    echo $rows[1];
 
 
 }else{}
