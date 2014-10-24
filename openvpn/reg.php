@@ -49,18 +49,12 @@ if(isset($_POST['code']))
     }else{
         $sql = "update invitecode set status='已使用',regtime='$time',cert='$cername' where code='$code'";
         $result = $conn->query($sql);
-
+        $command = "bash /home/wwwroot/yanxi/openvpn/reg.sh $cername";
+        $result = shell_exec($command);
+        $url = "<a href='http://yanxihanfu.me/openvpn/$cername.zip'>单击此处以下载您的openVPN配置文件</a>";
     }
-
-
 }else{
 }
-
-
-
-
-
-
 ?>
 
 
@@ -102,6 +96,14 @@ if(isset($_POST['code']))
         <p><h4>本VPN走IPv6线路，IPv6下有效，</h4></p>
         <p><h4>服务器位于纽约。</h4></p>
     </div>
+    <?php
+    if(isset($_POST['$code'])){
+        echo '<div class="alert alert-success" role="alert">'."
+      <strong>恭喜！</strong> 配置文件生成成功！<br>$url
+    </div>";
+    }
+    else{}
+    ?>
     
     <p><h2><a name="reg"></a></h2><h2>注册并获取您的openVPN配置文件</h2></p>
 	<form class="navbar-form navbar-left" name="myform" action="reg.php" method="post" onSubmit="return check()">
