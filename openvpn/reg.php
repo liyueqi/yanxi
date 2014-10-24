@@ -123,9 +123,9 @@
             }
             $result = $conn->query($sql);
 
-            $command = "bash /home/wwwroot/yanxi/openvpn/reg.sh $cername";
 
-            $result = shell_exec($command);
+
+            
 
             $url = "<a href='http://yanxihanfu.me/openvpn/$cername.zip'>单击此处以下载您的openVPN配置文件</a>";
 
