@@ -54,13 +54,18 @@ if(isset($_POST['code']))
     }else{
         echo "8<br>";
         $sql = "update invitecode set status='已使用',regtime='$time',cert='$cername' where code='$code'";
+        echo "9<br>";
         $result = $conn->query($sql);
+        echo "10<br>";
         $command = "bash /home/wwwroot/yanxi/openvpn/reg.sh $cername";
+        echo "11<br>";
         $result = shell_exec($command);
+        echo "12<br>";
         $url = "<a href='http://yanxihanfu.me/openvpn/$cername.zip'>单击此处以下载您的openVPN配置文件</a>";
+        echo "13<br>";
     }
 }else{
-    echo "1<br>";
+    echo "14<br>";
 }
 ?>
 
