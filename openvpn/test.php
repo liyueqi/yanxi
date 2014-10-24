@@ -41,20 +41,24 @@
   <tbody>
     <tr>
       <td><h4>注册码：</h4></td>
-      <td><input type="text" class="form-control"></td>
+      <td><input type="text" class="form-control" name="code"></td>
+    </tr>
+    <tr>
+      <td><h4>有效期：</h4></td>
+      <td></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td><button type="submit" class="btn btn-mid btn-primary">提交</button>&nbsp;<button type="button" class="btn btn-success">重置</button></td>
     </tr>
   </tbody>
 </table>
 
     </form>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
 	
 	
 	</body>
