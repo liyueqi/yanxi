@@ -77,31 +77,48 @@
         $rows = mysql_fetch_array($result);
         $num = $rows[0];
         //echo $num;
+        do{
         $time = date('Y-m-d H:i:s',time());
         $timeshot = strtotime($time);
-        $cername = substr(crypt($timeshot),0,8);
-        $sql = "select * from invitecode where cert='$cername'";
-
+        $cername = substr(md5($timeshot),0,8);
+        $sql = "select count(*) from invitecode where cert='$cername'";
         $result = $conn->query($sql);
-
-        $rows = mysql_fetch_row($result);
-
-        $count = count($rows);
-
+        $rows = mysql_fetch_array($result);
+        $count = $rows[0];
+        }while($count != 0);
         if($num == 0){
             echo "<script>alert('该注册码无效！'); </script>";
 
         }else{
+            $sql = "select * from invitecode where code='$code'";
+            $result = $conn->query($sql);
+            $rows = mysql_fetch_array($result);
+            $type = $rows['exp'];
 
             $sql = "update invitecode set status='1',regtime='$time',cert='$cername' where code='$code'";
+            switch($type){
+                case "1month":
+                    $command = "bash /home/wwwroot/yanxi/openvpn/reg-1.sh $cername";
+                    $result = shell_exec($command);
+                    break;
+                case "2months":
+                    $command = "bash /home/wwwroot/yanxi/openvpn/reg-2.sh $cername";
+                    $result = shell_exec($command);
+                    break;
+                case "3months":
+                    $command = "bash /home/wwwroot/yanxi/openvpn/reg-3.sh $cername";
+                    $result = shell_exec($command);
+                    break;
+                default:
 
+            }
             $result = $conn->query($sql);
 
-            $command = "bash /home/wwwroot/yanxi/openvpn/reg.sh $code";
+            $command = "bash /home/wwwroot/yanxi/openvpn/reg.sh $cername";
 
             $result = shell_exec($command);
 
-            $url = "<a href='http://yanxihanfu.me/openvpn/$code.zip'>单击此处以下载您的openVPN配置文件</a>";
+            $url = "<a href='http://yanxihanfu.me/openvpn/$cername.zip'>单击此处以下载您的openVPN配置文件</a>";
 
 
             echo '<div class="alert alert-success" role="alert">'."
