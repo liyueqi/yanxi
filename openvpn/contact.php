@@ -10,6 +10,8 @@
 	 <link rel="stylesheet" href="http://yanxihanfu.me/bootstrap/css/bootstrap-theme.min.css">
 	<script src="http://yanxihanfu.me/bootstrap/js/jquery.min.js"></script>
 	<script src="http://yanxihanfu.me/bootstrap/js/bootstrap.min.js"></script>
+    <script src="http://static.bootcss.com/www/assets/js/site.min.js"></script>
+
 	</head>
 	<body>
     <nav class="navbar navbar-inverse">
