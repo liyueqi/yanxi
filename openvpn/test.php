@@ -26,14 +26,35 @@
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <li class="active"><a href="#">主页</a></li>
-              <li><a href="#about">注册</a></li>
-              <li><a href="#contact">试用</a></li>
+              <li><a href="#reg">注册</a></li>
+              <li><a href="#try">试用</a></li>
               <li><a href="#contact">联系我们</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </nav>
-	
+    
+    
+    <p><h2><a name="reg"></a></h2><h2>注册并获取您的openVPN配置文件</h2></p>
+	<form class="navbar-form navbar-left" name="myform" action="test.php" method="post" onSubmit="return check()">
+    <table width="200" border="1" class="table table-bordered table-hover  m10">
+  <tbody>
+    <tr>
+      <td><h4>注册码：</h4></td>
+      <td><input type="text" class="form-control"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+
+    </form>
 	
 	
 	</body>
