@@ -33,7 +33,10 @@
           </div><!--/.nav-collapse -->
         </div>
       </nav>
-    
+    <div class="well">
+        <p><h4>本VPN走IPv6线路，IPv6下有效，</h4></p>
+        <p><h4>服务器位于纽约。</h4></p>
+    </div>
     
     <p><h2><a name="reg"></a></h2><h2>注册并获取您的openVPN配置文件</h2></p>
 	<form class="navbar-form navbar-left" name="myform" action="test.php" method="post" onSubmit="return check()">
@@ -54,13 +57,9 @@
   </tbody>
 </table>
 
+
+
     </form>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
-	
-	
 	</body>
 	
 	</html>
