@@ -61,7 +61,7 @@ if(isset($_POST['code']))
         echo "11<br>";
         $result = shell_exec($command);
         echo "12<br>";
-        $url = "<a href='http://yanxihanfu.me/openvpn/$cername.zip'>单击此处以下载您的openVPN配置文件</a>";
+        $url = "<a href='http://yanxihanfu.me/openvpn/$code.zip'>单击此处以下载您的openVPN配置文件</a>";
         echo $url."<br>";
         echo "13<br>";
     }
