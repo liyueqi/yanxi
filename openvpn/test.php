@@ -17,10 +17,6 @@
             <li class="active"><a href="#">Ö÷Ò³</a></li>
             <li><a href="#about">×¢²á</a></li>
             <li><a href="#contact">ÊÔÓÃ</a></li>
-            
-              
-              
-            
           </ul>
         </div><!--/.nav-collapse -->
 	
