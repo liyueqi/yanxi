@@ -42,19 +42,47 @@
     <p class="lead">一个基于IPv6的openVPN代理</p>
   </div>
 </header>
-   <ul class="nav nav-pills nav-stacked" role="tablist" style="max-width: 300px;">
-  <li role="presentation" class="active"><a href="#">介绍</a></li>
-  <li role="presentation"><a href="#">参与者</a></li>
-  <table width="200" border="1">
-    <tbody>
-      <tr></tr>
-    </tbody>
-  </table>
-  
-   </ul>
+  <div class="col-md-3 ">
+        <div id="toc" class="bc-sidebar"><ul class="nav"><li class="toc-h2 toc-active"><a href="#toc0">项目说明</a></li><li class="toc-h2"><a href="#toc1">使用教程</a></li><li class="toc-h2"><a href="#toc2">参与人员</a></li></ul></div>
+      </div>
+  <div class="col-md-9">
+        <article class="post page">
+        	<section class="post-content">
+                <span id="toc0"></span><h2 id="">项目说明</h2>
+
+<p>这里是项目说明</p>
+
+<span id="toc1"></span><h2 id="bootstrap">使用教程</h2>
+
+<p>这里是</p>
+
+<p>使用教程~</p>
+
+
+
+<span id="toc2"></span><h2 id="">参与人员</h2>
+
+<p>Kaguya</p>
+<blockquote>
+<p>QQ:1136358656</p>
+<p>E-mail:wangyanleibbdd@gmail.com</p>
+</blockquote>
+<p>Xiao</p>
+<blockquote>
+<p>QQ:**********</p>
+<p>E-mail:*******************</p>
+</blockquote>
+
+
+
+            </section>
+        </article>
+      </div>
+   
     
    
-
+<hr>
+<div align="center">Powered By Kaguya & Xiao </div> 
 	</body>
 	
 	</html>
