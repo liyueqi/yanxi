@@ -30,16 +30,15 @@ if(isset($_GET['code']))
 {
     $code = $_GET['code'];
     $conn = new mysql();
-    $sql = "select count(*) from invitecode where code='$code'";
+    $sql = "select count(*) from studentdb where stunum='$code'";
     $result = $conn->query($sql);
     $rows = mysql_fetch_array($result);
+    var_dump($rows);
     echo $rows[0];
-    $sql = "select * from invitecode where code='$code'";
+    $sql = "select count(*) from studentdb where stunum='$code'";
     $result = $conn->query($sql);
     $rows = mysql_fetch_array($result);
-    $type = $rows['exp'];
-    echo $type;
-
+    var_dump($rows);
 
 }else{}
 
