@@ -30,12 +30,12 @@ if(isset($_GET['code']))
 {
     $code = $_GET['code'];
     $conn = new mysql();
-    $sql = "select count(*) from studentdb where stunum='$code'";
+    $sql = "select count * from studentdb where stunum='$code'";
     $result = $conn->query($sql);
     $rows = mysql_fetch_array($result);
     var_dump($rows);
     echo $rows[0];
-    $sql = "select count(*) from studentdb where stunum='$code'";
+    $sql = "select * from studentdb where stunum='$code'";
     $result = $conn->query($sql);
     $rows = mysql_fetch_array($result);
     var_dump($rows);
