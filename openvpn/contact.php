@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<?php
-header("Content-type: text/html; charset=utf-8"); 
-?>
+
 <html>
   <head>
-    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Jelly VPN</title>
@@ -15,6 +13,7 @@ header("Content-type: text/html; charset=utf-8");
 	<script src="http://yanxihanfu.me/bootstrap/js/jquery.min.js"></script>
 	<script src="http://yanxihanfu.me/bootstrap/js/bootstrap.min.js"></script>
     <script src="http://static.bootcss.com/www/assets/js/site.min.js"></script>
+
 	</head>
 	<body class="post-template page">
     <nav class="navbar navbar-inverse navbar-fixed-top">
