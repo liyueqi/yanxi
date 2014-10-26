@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+ï»¿<!DOCTYPE html>
 
 
 
 <html>
 
   <head>
-    <meta charset="gbk">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Jelly VPN</title>
@@ -29,17 +29,17 @@
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="index.php">Ö÷Ò³</a></li>
-              <li><a href="#">×¢²á</a></li>
-              <li><a href="try.php">ÊÔÓÃ</a></li>
-              <li><a href="contact.php">ÁªÏµÎÒÃÇ</a></li>
+              <li class="active"><a href="index.php">ä¸»é¡µ</a></li>
+              <li><a href="#">æ³¨å†Œ</a></li>
+              <li><a href="try.php">è¯•ç”¨</a></li>
+              <li><a href="contact.php">è”ç³»æˆ‘ä»¬</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </nav>
     <div class="well">
-        <p><h4>±¾VPN×ßIPv6ÏßÂ·£¬IPv6ÏÂÓÐÐ§£¬</h4></p>
-        <p><h4>·þÎñÆ÷Î»ÓÚÅ¦Ô¼¡£</h4></p>
+        <p><h4>æœ¬VPNèµ°IPv6çº¿è·¯ï¼ŒIPv6ä¸‹æœ‰æ•ˆï¼Œ</h4></p>
+        <p><h4>æœåŠ¡å™¨ä½äºŽçº½çº¦ã€‚</h4></p>
     </div>
     <?php
     class mysql
@@ -88,7 +88,7 @@
         $count = $rows[0];
         }while($count != 0);
         if($num == 0){
-            echo "<script>alert('¸Ã×¢²áÂëÎÞÐ§£¡'); </script>";
+            echo "<script>alert('è¯¥æ³¨å†Œç æ— æ•ˆï¼'); </script>";
 
         }else{
             do{
@@ -128,11 +128,11 @@
 
             
 
-            $url = "<a href='http://yanxihanfu.me/openvpn/$cername.zip'>µ¥»÷´Ë´¦ÒÔÏÂÔØÄúµÄopenVPNÅäÖÃÎÄ¼þ</a>";
+            $url = "<a href='http://yanxihanfu.me/openvpn/$cername.zip'>å•å‡»æ­¤å¤„ä»¥ä¸‹è½½æ‚¨çš„openVPNé…ç½®æ–‡ä»¶</a>";
 
 
             echo '<div class="alert alert-success" role="alert">'."
-      <strong>¹§Ï²£¡</strong> ÅäÖÃÎÄ¼þÉú³É³É¹¦£¡<br>$url
+      <strong>æ­å–œï¼</strong> é…ç½®æ–‡ä»¶ç”ŸæˆæˆåŠŸï¼<br>$url
     </div>";
         }
     }else{
@@ -145,21 +145,21 @@
 
     ?>
     
-    <p><h2><a name="reg"></a></h2><h2>×¢²á²¢»ñÈ¡ÄúµÄopenVPNÅäÖÃÎÄ¼þ</h2></p>
+    <p><h2><a name="reg"></a></h2><h2>æ³¨å†Œå¹¶èŽ·å–æ‚¨çš„openVPNé…ç½®æ–‡ä»¶</h2></p>
 	<form class="navbar-form navbar-left" name="myform" action="reg.php" method="post">
     <table width="200" border="1" class="table table-bordered table-hover  m10">
   <tbody>
     <tr>
-      <td><h4>×¢²áÂë£º</h4></td>
+      <td><h4>æ³¨å†Œç ï¼š</h4></td>
       <td><input type="text" class="form-control" name="code"></td>
     </tr>
     <tr>
-      <td><h4>ÓÐÐ§ÆÚ£º</h4></td>
+      <td><h4>æœ‰æ•ˆæœŸï¼š</h4></td>
       <td></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
-      <td><button type="submit" class="btn btn-mid btn-primary">Ìá½»</button>&nbsp;<button type="reset" class="btn btn-success">ÖØÖÃ</button></td>
+      <td><button type="submit" class="btn btn-mid btn-primary">æäº¤</button>&nbsp;<button type="reset" class="btn btn-success">é‡ç½®</button></td>
     </tr>
   </tbody>
 </table>

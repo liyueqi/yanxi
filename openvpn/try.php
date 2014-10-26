@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+ï»¿<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="gbk">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Jelly VPN</title>
@@ -25,35 +25,35 @@
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="index.php">Ö÷Ò³</a></li>
-              <li><a href="reg.php">×¢²á</a></li>
-              <li><a href="#">ÊÔÓÃ</a></li>
-              <li><a href="contact.php">ÁªÏµÎÒÃÇ</a></li>
+              <li class="active"><a href="index.php">ä¸»é¡µ</a></li>
+              <li><a href="reg.php">æ³¨å†Œ</a></li>
+              <li><a href="#">è¯•ç”¨</a></li>
+              <li><a href="contact.php">è”ç³»æˆ‘ä»¬</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </nav>
     <div class="well">
-        <p><h4>±¾VPN×ßIPv6ÏßÂ·£¬IPv6ÏÂÓÐÐ§£¬<br>
-        ·þÎñÆ÷Î»ÓÚÅ¦Ô¼¡£<br>±¾Ò³ÉêÇëµÄÊÔÓÃVPNÅäÖÃÎÄ¼þÓÐÐ§ÆÚÎª3Ìì</h4></p>
+        <p><h4>æœ¬VPNèµ°IPv6çº¿è·¯ï¼ŒIPv6ä¸‹æœ‰æ•ˆï¼Œ<br>
+        æœåŠ¡å™¨ä½äºŽçº½çº¦ã€‚<br>æœ¬é¡µç”³è¯·çš„è¯•ç”¨VPNé…ç½®æ–‡ä»¶æœ‰æ•ˆæœŸä¸º3å¤©</h4></p>
     </div>
     
     <p><h2><a name="reg"></a></h2>
-    <h2>ÑéÖ¤Éí·Ý²¢»ñÈ¡ÄúµÄÊÔÓÃopenVPNÅäÖÃÎÄ¼þ</h2></p>
+    <h2>éªŒè¯èº«ä»½å¹¶èŽ·å–æ‚¨çš„è¯•ç”¨openVPNé…ç½®æ–‡ä»¶</h2></p>
 	<form class="navbar-form navbar-left" name="myform" action="reg.php" method="post" onSubmit="return check()">
     <table width="200" border="1" class="table table-bordered table-hover  m10">
   <tbody>
     <tr>
-      <td><h4>ÐÕÃû£º</h4></td>
+      <td><h4>å§“åï¼š</h4></td>
       <td><input type="text" class="form-control" name="name"></td>
     </tr>
     <tr>
-      <td><h4>Ñ§ºÅ£º</h4></td>
+      <td><h4>å­¦å·ï¼š</h4></td>
       <td><input type="text" class="form-control" name="stumum"></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
-      <td><button type="submit" class="btn btn-mid btn-primary">Ìá½»</button>&nbsp;<button type="reset" class="btn btn-success">ÖØÖÃ</button></td>
+      <td><button type="submit" class="btn btn-mid btn-primary">æäº¤</button>&nbsp;<button type="reset" class="btn btn-success">é‡ç½®</button></td>
     </tr>
   </tbody>
 </table>

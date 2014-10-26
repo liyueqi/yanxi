@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+ï»¿<!DOCTYPE html>
 
 
 
 <html>
 
   <head>
-    <meta charset="gbk">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Jelly VPN</title>
@@ -29,17 +29,17 @@
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="index.php">Ö÷Ò³</a></li>
-              <li><a href="#">×¢²á</a></li>
-              <li><a href="try.php">ÊÔÓÃ</a></li>
-              <li><a href="contact.php">ÁªÏµÎÒÃÇ</a></li>
+              <li class="active"><a href="index.php">ä¸»é¡µ</a></li>
+              <li><a href="#">æ³¨å†Œ</a></li>
+              <li><a href="try.php">è¯•ç”¨</a></li>
+              <li><a href="contact.php">è”ç³»æˆ‘ä»¬</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </nav>
     <div class="well">
-        <p><h4>±¾VPN×ßIPv6ÏßÂ·£¬IPv6ÏÂÓÐÐ§£¬</h4></p>
-        <p><h4>·þÎñÆ÷Î»ÓÚÅ¦Ô¼¡£</h4></p>
+        <p><h4>æœ¬VPNèµ°IPv6çº¿è·¯ï¼ŒIPv6ä¸‹æœ‰æ•ˆï¼Œ</h4></p>
+        <p><h4>æœåŠ¡å™¨ä½äºŽçº½çº¦ã€‚</h4></p>
     </div>
     
 	</body>
