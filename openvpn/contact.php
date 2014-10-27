@@ -51,8 +51,8 @@
         	<section class="post-content">
                 <span id="toc0"></span><h2 id="">项目说明</h2>
 
-<p><h4>现在一般大学内基本都有免费的IPv6网络，但是IPv4的网络连接往往是收费的（也就是所谓的“外网”）。<br />同时，由于GFW的封锁与干扰，很多的国外网站都无法正常的访问，除了Facebook、twitter、YouTube以外，还有大量的学术性网站。</h4></p>
-<p><h4>本项目的目的即是提供一个基于IPv6的廉价、稳定、自由的网络连接，通过本项目提供的服务，您可以完美解决上述问题，实现节省上网费用，自由访问任意网站的目的。</h4></p>
+<p><h4>现在一般大学内基本都有免费的<a href="http://zh.wikipedia.org/zh-hk/IPv6">IPv6</a>网络，但是<a href="http://zh.wikipedia.org/wiki/IPv4">IPv4</a>的网络连接往往是收费的（也就是所谓的“外网”）。<br />同时，由于<a href="http://zh.wikipedia.org/wiki/%E9%98%B2%E7%81%AB%E9%95%BF%E5%9F%8E">GFW</a>的封锁与干扰，很多的国外网站都无法正常的访问，除了Facebook、twitter、YouTube以外，还有大量的学术性网站。</h4></p>
+<p><h4>本项目的目的即是提供一个基于<a href="http://zh.wikipedia.org/zh-hk/IPv6">IPv6</a>的廉价、稳定、自由的网络连接，通过本项目提供的服务，您可以完美解决上述问题，实现节省上网费用，自由访问任意网站的目的。</h4></p>
 <span id="toc1"></span><h2 id="bootstrap">费用说明</h2>
 
 <span id="toc2"></span><h2 id="bootstrap">使用教程</h2>
