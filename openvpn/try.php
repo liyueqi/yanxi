@@ -111,7 +111,7 @@ if(isset($_POST['stunum']))
     
     <p><h2><a name="reg"></a></h2>
     <h2>如果您是复旦大学学生，您可以：<br />验证身份并获取您的试用openVPN配置文件</h2></p>
-	<form class="navbar-form navbar-left" name="myform" action="reg.php" method="post" onSubmit="return check()">
+	<form class="navbar-form navbar-left" name="myform" action="try.php" method="post" onSubmit="return check()">
     <table width="200" border="1" class="table table-bordered table-hover  m10">
   <tbody>
     <tr>
