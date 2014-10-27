@@ -27,7 +27,32 @@ public function GetConn(){
 return $this->Conn;
 }
 }
-if(isset($_POST['name']))
+if(isset($_POST['stunum']))
+{
+    $name=$_POST['name'];
+    $stunum=$_POST['stunum'];
+    $conn = new mysql();
+    $sql = "select count(*) from studentdb where names='$name' and stunum='$stunum'";
+    $result = $conn->query($sql);
+    $rows=sql_fetch_array($result);
+    $n = $rows[0];
+    if($n == 0){
+        echo "<script>alert('姓名/学号错误，请输入真实有效的复旦大学学生姓名和学号！'); </script>";
+    }else{
+        $sql = "select * from studentdb where names='$name' and stunum='$stunum'";
+        $result = $conn->query($sql);
+        $rows=sql_fetch_array($result);
+        $status=$rows['status'];
+        if($status == 0){
+            echo "<script>alert('$status/$name/$stunum'); </script>";
+        }else{
+            echo "<script>alert('您已经试用过了，暂不支持重复试用，谢谢合作！'); </script>";
+        }
+
+    }
+
+
+}else{}
 
 
 
@@ -43,6 +68,19 @@ if(isset($_POST['name']))
 	 <link rel="stylesheet" href="http://yanxihanfu.me/bootstrap/css/bootstrap-theme.min.css">
 	<script src="http://yanxihanfu.me/bootstrap/js/jquery.min.js"></script>
 	<script src="http://yanxihanfu.me/bootstrap/js/bootstrap.min.js"></script>
+      <script>
+          function check()
+          {
+              if(document.myform.name.value=="")
+              {alert("姓名不能为空.");return false;}
+              else{
+                  if(document.myform.stunum.value=="")
+                  {alert("学号不能为空.");return false;}
+                  else{
+                      return true;}
+              }
+          }
+      </script>
 	</head>
 	<body>
     <nav class="navbar navbar-inverse">
