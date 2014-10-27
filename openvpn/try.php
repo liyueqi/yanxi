@@ -48,7 +48,7 @@ if(isset($_POST['stunum']))
                 $time = date('Y-m-d H:i:s',time());
                 $timeshot = strtotime($time).$name.$stunum;
                 $cername = substr(md5($timeshot),0,8);
-                $sql = "update studentdb set status='1',,cername='$cername' where names='$name' and stunum='$stunum'";
+                $sql = "update studentdb set status='1',,cername='$cername' where stunum='$stunum'";
                 $result = $conn->query($sql);
                 $sql = "select * from studentdb where names='$name' and stunum='$stunum'";
                 $result = $conn->query($sql);
