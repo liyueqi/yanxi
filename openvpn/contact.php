@@ -50,7 +50,7 @@
   <div class="col-md-9">
         <article class="post page">
         	<section class="post-content">
-                <span id="toc0"></span><br /><br /><br /><h2 id="">项目说明<div align="right"><a href="#"><img src="./openvpn-pic/top.jpg" width="76" height="18"/></a>
+                <span id="toc0"><br /><br /><br /></span><h2 id="">项目说明<div align="right"><a href="#"><img src="./openvpn-pic/top.jpg" width="76" height="18"/></a>
                 </div></h2>
                 
               <p><h3>基本介绍</h3></p>
@@ -70,7 +70,7 @@
 <p></p>
 
 
-<span id="toc2"></span><br /><br /><br /><h2 id="bootstrap">使用教程<div align="right"><a href="#"><img src="./openvpn-pic/top.jpg" width="76" height="18"/></a>
+<span id="toc2"><br /><br /><br /></span><h2 id="bootstrap">使用教程<div align="right"><a href="#"><img src="./openvpn-pic/top.jpg" width="76" height="18"/></a>
                 </div></h2>
 
 <p>这里是</p>
@@ -79,7 +79,7 @@
 
 
 
-<span id="toc3"></span><br /><br /><br /><h2 id="">参与人员<div align="right"><a href="#"><img src="./openvpn-pic/top.jpg" width="76" height="18"/></a>
+<span id="toc3"><br /><br /><br /></span><h2 id="">参与人员<div align="right"><a href="#"><img src="./openvpn-pic/top.jpg" width="76" height="18"/></a>
                 </div></h2>
 
 <p>Kaguya</p>
