@@ -67,13 +67,24 @@
 <span id="toc1"></span>
 <h2 id="bootstrap">费用说明<div align="right"><a href="#"><img src="./openvpn-pic/top.jpg" width="76" height="18"/></a>
                 </div></h2>
-<p><h4>VPN的当前价格为￥10.00/月，其中包含：
+<p><h4>VPN的当前价格为￥10.00/月，其中包含</h4></p>：
 <blockquote>
+<h4>
 <p>IPv6下有效的VPN使用权</p>
 <p>IPv4下有效的shadowsocks和Goagent PaaS使用权</p>
-</blockquote>
 </h4>
-</p>
+<div class="alert alert-danger" role="alert">注意：本项目提供的openVPN账号仅在IPv6环境下有效，在IPv4环境下无效！(shadowsocks和Goagent PaaS不受影响)请在购买前仔细确认，恕不接受由于无IPv6而提出的退款要求！谢谢合作！</div>
+</blockquote>
+<p><h4>免费试用</h4></p>
+<blockquote>
+<h4>
+<p>用于免费试用的VPN配置文件有效期为48小时，逾期自动作废</p>
+<p>仅包含IPv6下有效的VPN使用权，无IPv4下shadowsocks和Goagent PaaS使用权</p>
+<p>对于复旦大学学生，可以直接在试用界面输入自己的姓名和学号获取试用资格</p>
+<p>对于非复旦大学学生，可以与相关人员联系以获取试用资格</p>
+</h4>
+</blockquote>
+
 
 
 <span id="toc2"></span><h2 id="bootstrap">使用教程<div align="right"><a href="#"><img src="./openvpn-pic/top.jpg" width="76" height="18"/></a>
