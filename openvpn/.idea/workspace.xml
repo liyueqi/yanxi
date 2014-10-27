@@ -38,28 +38,64 @@
       <file leaf-file-name="reg.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reg.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="42" selection-start="5021" selection-end="5235" vertical-scroll-proportion="-14.928572" vertical-offset="2280" max-vertical-offset="3515">
+            <state line="58" column="50" selection-start="1846" selection-end="1846" vertical-scroll-proportion="-15.25" vertical-offset="675" max-vertical-offset="4275">
               <folding>
-                <marker date="1414417371139" expanded="true" signature="2943:3007" placeholder="select count..invitecode..." />
-                <marker date="1414417371139" expanded="true" signature="3295:3348" placeholder="select count..invitecode..." />
-                <marker date="1414417371139" expanded="true" signature="3777:3830" placeholder="select count..invitecode..." />
-                <marker date="1414417371139" expanded="true" signature="4019:4062" placeholder="select * fro..invitecode..." />
-                <marker date="1414417371139" expanded="true" signature="4210:4293" placeholder="update invit..." />
+                <marker date="1414430977489" expanded="true" signature="3932:3996" placeholder="select count..invitecode..." />
+                <marker date="1414430977489" expanded="true" signature="4284:4337" placeholder="select count..invitecode..." />
+                <marker date="1414430977489" expanded="true" signature="4766:4819" placeholder="select count..invitecode..." />
+                <marker date="1414430977489" expanded="true" signature="5008:5051" placeholder="select * fro..invitecode..." />
+                <marker date="1414430977489" expanded="true" signature="5199:5282" placeholder="update invit..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="try.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="getinfo.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/getinfo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="0" selection-start="942" selection-end="942" vertical-scroll-proportion="0.73747844" vertical-offset="219" max-vertical-offset="798">
+              <folding>
+                <marker date="1414431174566" expanded="true" signature="837:879" placeholder="SELECT * FRO..invitecode..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="try.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/try.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="78" selection-start="3889" selection-end="3889" vertical-scroll-proportion="0.11398964" vertical-offset="1872" max-vertical-offset="3002">
+            <state line="80" column="5" selection-start="2127" selection-end="2963" vertical-scroll-proportion="-11.535714" vertical-offset="1197" max-vertical-offset="3002">
               <folding>
                 <marker date="1414429936776" expanded="true" signature="22:52" placeholder="..." />
                 <marker date="1414429936776" expanded="true" signature="31:52" placeholder="..." />
                 <marker date="1414429936776" expanded="true" signature="3111:3182" placeholder="select count..studentdb..." />
                 <marker date="1414429936776" expanded="true" signature="3421:3485" placeholder="select * fro..studentdb..." />
                 <marker date="1414429936776" expanded="true" signature="3835:3908" placeholder="update stude..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mod-user.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../admin/User/mod-user.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="21" selection-start="1816" selection-end="1816" vertical-scroll-proportion="12.178572" vertical-offset="1253" max-vertical-offset="3116">
+              <folding>
+                <element signature="e#1899#3131#0" expanded="false" />
+                <marker date="1414259373267" expanded="true" signature="3303:3347" placeholder="select * fro..admin..." />
+                <marker date="1414259373267" expanded="true" signature="6119:6242" placeholder="update membe..." />
+                <marker date="1414259373267" expanded="true" signature="6471:6493" placeholder="SELECT * FRO..members..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getinfo.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../admin/User/getinfo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="2" selection-start="0" selection-end="315" vertical-scroll-proportion="-6.785714" vertical-offset="0" max-vertical-offset="304">
+              <folding>
+                <marker date="1414259373265" expanded="true" signature="188:227" placeholder="SELECT * FRO..members..." />
               </folding>
             </state>
           </provider>
@@ -76,8 +112,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/test.php" />
-        <option value="$PROJECT_DIR$/reg.php" />
         <option value="$PROJECT_DIR$/try.php" />
+        <option value="$PROJECT_DIR$/reg.php" />
+        <option value="$PROJECT_DIR$/getinfo.php" />
       </list>
     </option>
   </component>
@@ -203,11 +240,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="127" column="0" selection-start="4751" selection-end="4751" vertical-scroll-proportion="0.0" vertical-offset="2413" max-vertical-offset="3344">
           <folding>
-            <marker date="1414417371139" expanded="true" signature="2943:3007" placeholder="select count..invitecode..." />
-            <marker date="1414417371139" expanded="true" signature="3295:3348" placeholder="select count..invitecode..." />
-            <marker date="1414417371139" expanded="true" signature="3777:3830" placeholder="select count..invitecode..." />
-            <marker date="1414417371139" expanded="true" signature="4019:4062" placeholder="select * fro..invitecode..." />
-            <marker date="1414417371139" expanded="true" signature="4210:4293" placeholder="update invit..." />
+            <marker date="1414430977489" expanded="true" signature="3932:3996" placeholder="select count..invitecode..." />
+            <marker date="1414430977489" expanded="true" signature="4284:4337" placeholder="select count..invitecode..." />
+            <marker date="1414430977489" expanded="true" signature="4766:4819" placeholder="select count..invitecode..." />
+            <marker date="1414430977489" expanded="true" signature="5008:5051" placeholder="select * fro..invitecode..." />
+            <marker date="1414430977489" expanded="true" signature="5199:5282" placeholder="update invit..." />
           </folding>
         </state>
       </provider>
@@ -240,28 +277,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reg.php">
+    <entry file="file://$PROJECT_DIR$/../admin/User/mod-user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="42" selection-start="5021" selection-end="5235" vertical-scroll-proportion="-14.928572" vertical-offset="2280" max-vertical-offset="3515">
+        <state line="48" column="21" selection-start="1816" selection-end="1816" vertical-scroll-proportion="12.178572" vertical-offset="1253" max-vertical-offset="3116">
           <folding>
-            <marker date="1414417371139" expanded="true" signature="2943:3007" placeholder="select count..invitecode..." />
-            <marker date="1414417371139" expanded="true" signature="3295:3348" placeholder="select count..invitecode..." />
-            <marker date="1414417371139" expanded="true" signature="3777:3830" placeholder="select count..invitecode..." />
-            <marker date="1414417371139" expanded="true" signature="4019:4062" placeholder="select * fro..invitecode..." />
-            <marker date="1414417371139" expanded="true" signature="4210:4293" placeholder="update invit..." />
+            <element signature="e#1899#3131#0" expanded="false" />
+            <marker date="1414259373267" expanded="true" signature="3303:3347" placeholder="select * fro..admin..." />
+            <marker date="1414259373267" expanded="true" signature="6119:6242" placeholder="update membe..." />
+            <marker date="1414259373267" expanded="true" signature="6471:6493" placeholder="SELECT * FRO..members..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../admin/User/getinfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="2" selection-start="0" selection-end="315" vertical-scroll-proportion="-6.785714" vertical-offset="0" max-vertical-offset="304">
+          <folding>
+            <marker date="1414259373265" expanded="true" signature="188:227" placeholder="SELECT * FRO..members..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/try.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="78" selection-start="3889" selection-end="3889" vertical-scroll-proportion="0.11398964" vertical-offset="1872" max-vertical-offset="3002">
+        <state line="80" column="5" selection-start="2127" selection-end="2963" vertical-scroll-proportion="-11.535714" vertical-offset="1197" max-vertical-offset="3002">
           <folding>
             <marker date="1414429936776" expanded="true" signature="22:52" placeholder="..." />
             <marker date="1414429936776" expanded="true" signature="31:52" placeholder="..." />
             <marker date="1414429936776" expanded="true" signature="3111:3182" placeholder="select count..studentdb..." />
             <marker date="1414429936776" expanded="true" signature="3421:3485" placeholder="select * fro..studentdb..." />
             <marker date="1414429936776" expanded="true" signature="3835:3908" placeholder="update stude..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="50" selection-start="1846" selection-end="1846" vertical-scroll-proportion="-15.25" vertical-offset="675" max-vertical-offset="4275">
+          <folding>
+            <marker date="1414430977489" expanded="true" signature="3932:3996" placeholder="select count..invitecode..." />
+            <marker date="1414430977489" expanded="true" signature="4284:4337" placeholder="select count..invitecode..." />
+            <marker date="1414430977489" expanded="true" signature="4766:4819" placeholder="select count..invitecode..." />
+            <marker date="1414430977489" expanded="true" signature="5008:5051" placeholder="select * fro..invitecode..." />
+            <marker date="1414430977489" expanded="true" signature="5199:5282" placeholder="update invit..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getinfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="942" selection-end="942" vertical-scroll-proportion="0.73747844" vertical-offset="219" max-vertical-offset="798">
+          <folding>
+            <marker date="1414431174566" expanded="true" signature="837:879" placeholder="SELECT * FRO..invitecode..." />
           </folding>
         </state>
       </provider>

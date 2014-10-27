@@ -22,6 +22,46 @@
               else{
                   return true;}
                       }
+
+          function showHint(str)
+          {
+
+              var xmlhttp;
+              var a1;
+
+
+              if (str.length==0)
+              {
+                  a1="";
+                  return;
+              }
+              if (window.XMLHttpRequest)
+              {// code for IE7+, Firefox, Chrome, Opera, Safari
+                  xmlhttp=new XMLHttpRequest();
+              }
+              else
+              {// code for IE6, IE5
+                  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+
+              }
+              xmlhttp.onreadystatechange=function()
+              {
+                  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+                  {
+                      a1 =xmlhttp.responseText;
+                      var a2=eval('('+a1+')');
+                      document.getElementById("exp").innerHTML=a2.exp;
+
+
+                  }
+              }
+
+              xmlhttp.open("GET","getinfo.php?id="+str,true);
+
+              xmlhttp.send();
+
+
+          }
       </script>
 	</head>
 	<body>
@@ -160,11 +200,11 @@
   <tbody>
     <tr>
       <td><h4>注册码：</h4></td>
-      <td><input type="text" class="form-control" name="code"></td>
+      <td><input type="text" class="form-control" name="code" onkeyup="showHint(this.value)"></td>
     </tr>
     <tr>
       <td><h4>有效期：</h4></td>
-      <td></td>
+      <td><label id="exp"></label></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
