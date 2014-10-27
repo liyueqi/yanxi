@@ -10,47 +10,11 @@
 	 <link href="http://yanxihanfu.me/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
 	 <link rel="stylesheet" href="http://yanxihanfu.me/bootstrap/css/bootstrap-theme.min.css">
      <link href="http://yanxihanfu.me/bootstrap/css/site.min.css?v3" rel="stylesheet">
-     <style>
-	 #gotoTop{display:none;position:fixed;top:75%;left:50%;cursor:pointer;
-margin-top:-50px;margin-left:520px;padding:9px 4px;width:20px;text-align:
-center;border:1px solid #e0e0e0;background:#fff;}
-/*用CSS表达式(expression)来实现ie6下position:fixed效果*/
-#gotoTop{_position:absolute;_top:expression(documentElement.scrollTop + 
-documentElement.clientHeight * 3/4 + "px")}
-/*鼠标进入的反馈效果*/
-#gotoTop.hover{background:#5CB542;color:#fff;text-decoration:none;}
-	 </style>
+     
 	<script src="http://yanxihanfu.me/bootstrap/js/jquery.min.js"></script>
 	<script src="http://yanxihanfu.me/bootstrap/js/bootstrap.min.js"></script>
     <script src="http://static.bootcss.com/www/assets/js/site.min.js"></script>
-	<script>
-	function gotoTop(min_height){
-    //预定义返回顶部的html代码，它的css样式默认为不显示
-    var gotoTop_html = '<div id="gotoTop">返回顶部</div>';
-    //将返回顶部的html代码插入页面上id为page的元素的末尾 
-    $("#page").append(gotoTop_html);
-    $("#gotoTop").click(//定义返回顶部点击向上滚动的动画
-        function(){$('html,body').animate({scrollTop:0},700);
-    }).hover(//为返回顶部增加鼠标进入的反馈效果，用添加删除css类实现
-        function(){$(this).addClass("hover");},
-        function(){$(this).removeClass("hover");
-    });
-    //获取页面的最小高度，无传入值则默认为600像素
-    min_height ? min_height = min_height : min_height = 600;
-    //为窗口的scroll事件绑定处理函数
-    $(window).scroll(function(){
-        //获取窗口的滚动条的垂直位置
-        var s = $(window).scrollTop();
-        //当窗口的滚动条的垂直位置大于页面的最小高度时，让返回顶部元素渐现，否则渐隐
-        if( s > min_height){
-            $("#gotoTop").fadeIn(100);
-        }else{
-            $("#gotoTop").fadeOut(200);
-        };
-    });
-};
-gotoTop();
-	</script>
+	
 	</head>
 	<body class="post-template page">
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -86,8 +50,10 @@ gotoTop();
   <div class="col-md-9">
         <article class="post page">
         	<section class="post-content">
-                <span id="toc0"></span><h2 id="">项目说明</h2>
-<p><h3>基本介绍</h3></p>
+                <span id="toc0"></span><h2 id="">项目说明<div align="right"><a href="#"><img src="./openvpn-pic/top.jpg" width="76" height="18"/></a>
+                </div></h2>
+                
+              <p><h3>基本介绍</h3></p>
 <p><h4>现在一般大学内基本都有免费的<a href="http://zh.wikipedia.org/zh-hk/IPv6">IPv6</a>网络，但是<a href="http://zh.wikipedia.org/wiki/IPv4">IPv4</a>的网络连接往往是收费的（也就是所谓的“外网”）。<br />同时，由于<a href="http://zh.wikipedia.org/wiki/%E9%98%B2%E7%81%AB%E9%95%BF%E5%9F%8E">GFW</a>的封锁与干扰，很多的国外网站都无法正常的访问，除了Facebook、twitter、YouTube以外，还有大量的学术性网站。</h4></p>
 <p><h4>本项目的目的即是提供一个基于<a href="http://zh.wikipedia.org/zh-hk/IPv6">IPv6</a>的廉价、稳定、自由的网络连接，通过本项目提供的服务，您可以完美解决上述问题，实现节省上网费用，自由访问任意网站的目的。</h4></p>
 <p><h3>项目概况</h3></p>
@@ -99,11 +65,13 @@ gotoTop();
 <p><h4>如果项目发展良好，将来会增加国内服务器以提高国内网站的使用体验。</h4></p>
 <p><h3>本项目支持试用，请按照相关说明操作或者联系相关人员。<br /><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1136358656&amp;Site=JellyVPN&amp;Menu=yes"><img src="http://skin.54kefu.net/icon/3_online.gif" vspace="4" border="0" align="absmiddle" title=""></a></h3></p>
 <span id="toc1"></span>
-<h2 id="bootstrap">费用说明</h2>
+<h2 id="bootstrap">费用说明<div align="right"><a href="#"><img src="./openvpn-pic/top.jpg" width="76" height="18"/></a>
+                </div></h2>
 <>
 
 
-<span id="toc2"></span><h2 id="bootstrap">使用教程</h2>
+<span id="toc2"></span><h2 id="bootstrap">使用教程<div align="right"><a href="#"><img src="./openvpn-pic/top.jpg" width="76" height="18"/></a>
+                </div></h2>
 
 <p>这里是</p>
 
@@ -111,7 +79,8 @@ gotoTop();
 
 
 
-<span id="toc3"></span><h2 id="">参与人员</h2>
+<span id="toc3"></span><h2 id="">参与人员<div align="right"><a href="#"><img src="./openvpn-pic/top.jpg" width="76" height="18"/></a>
+                </div></h2>
 
 <p>Kaguya</p>
 <blockquote>
@@ -122,12 +91,15 @@ gotoTop();
 <blockquote>
 <p>QQ:**********</p>
 <p>E-mail:*******************</p>
+<p><div align="right"><a href="#"><img src="./openvpn-pic/top.jpg" width="76" height="18"/></a>
+                </div></p>
 </blockquote>
 
 
 
             </section>
         </article>
+        
       </div>
    
     
