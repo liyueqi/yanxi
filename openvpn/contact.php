@@ -10,10 +10,47 @@
 	 <link href="http://yanxihanfu.me/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
 	 <link rel="stylesheet" href="http://yanxihanfu.me/bootstrap/css/bootstrap-theme.min.css">
      <link href="http://yanxihanfu.me/bootstrap/css/site.min.css?v3" rel="stylesheet">
+     <style>
+	 #gotoTop{display:none;position:fixed;top:75%;left:50%;cursor:pointer;
+margin-top:-50px;margin-left:520px;padding:9px 4px;width:20px;text-align:
+center;border:1px solid #e0e0e0;background:#fff;}
+/*用CSS表达式(expression)来实现ie6下position:fixed效果*/
+#gotoTop{_position:absolute;_top:expression(documentElement.scrollTop + 
+documentElement.clientHeight * 3/4 + "px")}
+/*鼠标进入的反馈效果*/
+#gotoTop.hover{background:#5CB542;color:#fff;text-decoration:none;}
+	 </style>
 	<script src="http://yanxihanfu.me/bootstrap/js/jquery.min.js"></script>
 	<script src="http://yanxihanfu.me/bootstrap/js/bootstrap.min.js"></script>
     <script src="http://static.bootcss.com/www/assets/js/site.min.js"></script>
-
+	<script>
+	function gotoTop(min_height){
+    //预定义返回顶部的html代码，它的css样式默认为不显示
+    var gotoTop_html = '<div id="gotoTop">返回顶部</div>';
+    //将返回顶部的html代码插入页面上id为page的元素的末尾 
+    $("#page").append(gotoTop_html);
+    $("#gotoTop").click(//定义返回顶部点击向上滚动的动画
+        function(){$('html,body').animate({scrollTop:0},700);
+    }).hover(//为返回顶部增加鼠标进入的反馈效果，用添加删除css类实现
+        function(){$(this).addClass("hover");},
+        function(){$(this).removeClass("hover");
+    });
+    //获取页面的最小高度，无传入值则默认为600像素
+    min_height ? min_height = min_height : min_height = 600;
+    //为窗口的scroll事件绑定处理函数
+    $(window).scroll(function(){
+        //获取窗口的滚动条的垂直位置
+        var s = $(window).scrollTop();
+        //当窗口的滚动条的垂直位置大于页面的最小高度时，让返回顶部元素渐现，否则渐隐
+        if( s > min_height){
+            $("#gotoTop").fadeIn(100);
+        }else{
+            $("#gotoTop").fadeOut(200);
+        };
+    });
+};
+gotoTop();
+	</script>
 	</head>
 	<body class="post-template page">
     <nav class="navbar navbar-inverse navbar-fixed-top">
