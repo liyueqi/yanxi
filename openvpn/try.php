@@ -34,14 +34,14 @@ if(isset($_POST['stunum']))
     $conn = new mysql();
     $sql = "select count(*) from studentdb where names='$name' and stunum='$stunum'";
     $result = $conn->query($sql);
-    $rows=sql_fetch_array($result);
+    $rows=mysql_fetch_array($result);
     $n = $rows[0];
     if($n == 0){
         echo "<script>alert('姓名/学号错误，请输入真实有效的复旦大学学生姓名和学号！'); </script>";
     }else{
         $sql = "select * from studentdb where names='$name' and stunum='$stunum'";
         $result = $conn->query($sql);
-        $rows=sql_fetch_array($result);
+        $rows=mysql_fetch_array($result);
         $status=$rows['status'];
         if($status == 0){
             echo "<script>alert('$status/$name/$stunum'); </script>";
