@@ -1,75 +1,5 @@
 ﻿<!DOCTYPE html>
-<?php
-class mysql
-{
-public $Conn;
-private $sql;
-private $dbStatus;
-private $RawResult;
-private $Result;
-public function __construct(){
-$this->Conn = mysql_connect("localhost","root","1136358656");
-mysql_select_db("openvpn") or die(mysql_error());
-}
-public function SelectDb($db)
-{
-$this->dbStatus = mysql_select_db($db,$this->Conn);
-mysql_query("set names gb2312",$this->Conn);
-return $this->dbStatus;
-}
-public function query($query)
-{
-$this->RawResult = mysql_query($query,$this->Conn);
-//$this->Result = mysql_fetch_row($this->RawResult);
-return $this->RawResult;
-}
-public function GetConn(){
-return $this->Conn;
-}
-}
-if(isset($_POST['stunum']))
-{
-    $name=$_POST['name'];
-    $stunum=$_POST['stunum'];
-    $conn = new mysql();
-    $sql = "select count(*) from studentdb where names='$name' and stunum='$stunum'";
-    $result = $conn->query($sql);
-    $rows=mysql_fetch_array($result);
-    $n = $rows[0];
-    if($n == 0){
-        echo "<script>alert('姓名/学号错误，请输入真实有效的复旦大学学生姓名和学号！'); </script>";
-    }else{
-        $sql = "select * from studentdb where names='$name' and stunum='$stunum'";
-        $result = $conn->query($sql);
-        $rows=mysql_fetch_array($result);
-        $status=$rows['status'];
-        if($status == 0){
 
-                $time = date('Y-m-d H:i:s',time());
-                $timeshot = strtotime($time).$name.$stunum;
-                $cername = substr(md5($timeshot),0,8);
-                $sql = "update studentdb set status='1',cername='$cername' where stunum='$stunum'";
-                $result = $conn->query($sql);
-                $sql = "select * from studentdb where names='$name' and stunum='$stunum'";
-                $result = $conn->query($sql);
-                $rows=mysql_fetch_array($result);
-                $status=$rows['status'];
-            echo "<script>alert('$status'); </script>";
-
-
-
-        }else{
-            echo "<script>alert('您已经试用过了，暂不支持重复试用，谢谢合作！'); </script>";
-        }
-
-    }
-
-
-}else{}
-
-
-
-?>
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
@@ -121,7 +51,81 @@ if(isset($_POST['stunum']))
         <p><h4>本VPN走IPv6线路，IPv6下有效，<br>
         服务器位于纽约。<br>本页申请的试用VPN配置文件有效期为3天</h4></p>
     </div>
-    
+    <?php
+    class mysql
+    {
+        public $Conn;
+        private $sql;
+        private $dbStatus;
+        private $RawResult;
+        private $Result;
+        public function __construct(){
+            $this->Conn = mysql_connect("localhost","root","1136358656");
+            mysql_select_db("openvpn") or die(mysql_error());
+        }
+        public function SelectDb($db)
+        {
+            $this->dbStatus = mysql_select_db($db,$this->Conn);
+            mysql_query("set names gb2312",$this->Conn);
+            return $this->dbStatus;
+        }
+        public function query($query)
+        {
+            $this->RawResult = mysql_query($query,$this->Conn);
+//$this->Result = mysql_fetch_row($this->RawResult);
+            return $this->RawResult;
+        }
+        public function GetConn(){
+            return $this->Conn;
+        }
+    }
+    if(isset($_POST['stunum']))
+    {
+        $name=$_POST['name'];
+        $stunum=$_POST['stunum'];
+        $conn = new mysql();
+        $sql = "select count(*) from studentdb where names='$name' and stunum='$stunum'";
+        $result = $conn->query($sql);
+        $rows=mysql_fetch_array($result);
+        $n = $rows[0];
+        if($n == 0){
+            echo "<script>alert('姓名/学号错误，请输入真实有效的复旦大学学生姓名和学号！'); </script>";
+        }else{
+            $sql = "select * from studentdb where names='$name' and stunum='$stunum'";
+            $result = $conn->query($sql);
+            $rows=mysql_fetch_array($result);
+            $status=$rows['status'];
+            if($status == 0){
+
+                $time = date('Y-m-d H:i:s',time());
+                $timeshot = strtotime($time).$name.$stunum;
+                $cername = substr(md5($timeshot),0,8);
+                $sql = "update studentdb set status='1',cername='$cername' where stunum='$stunum'";
+                $result = $conn->query($sql);
+                $command = "bash /home/wwwroot/yanxi/openvpn/reg-1.sh $cername";
+                $result = shell_exec($command);
+                $url = "<a href='http://yanxihanfu.me/openvpn/$cername.zip'>单击此处以下载您的试用openVPN配置文件</a>";
+
+
+                echo '<div class="alert alert-success" role="alert">'."
+                <strong>恭喜！</strong> 试用配置文件生成成功！<br>$url
+                    </div>";
+
+
+
+
+            }else{
+                echo "<script>alert('您已经试用过了，暂不支持重复试用，谢谢合作！'); </script>";
+            }
+
+        }
+
+
+    }else{}
+
+
+
+    ?>
     <p><h2><a name="reg"></a></h2>
     <h2>如果您是复旦大学学生，您可以：<br />验证身份并获取您的试用openVPN配置文件</h2></p>
 	<form class="navbar-form navbar-left" name="myform" action="try.php" method="post" onSubmit="return check()">

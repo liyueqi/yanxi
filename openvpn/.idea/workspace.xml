@@ -38,7 +38,7 @@
       <file leaf-file-name="reg.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reg.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="102" selection-start="4201" selection-end="4295" vertical-scroll-proportion="-13.571428" vertical-offset="1824" max-vertical-offset="3515">
+            <state line="142" column="42" selection-start="5021" selection-end="5235" vertical-scroll-proportion="-14.928572" vertical-offset="2280" max-vertical-offset="3515">
               <folding>
                 <marker date="1414417371139" expanded="true" signature="2943:3007" placeholder="select count..invitecode..." />
                 <marker date="1414417371139" expanded="true" signature="3295:3348" placeholder="select count..invitecode..." />
@@ -53,14 +53,13 @@
       <file leaf-file-name="try.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/try.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="51" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.37651122" vertical-offset="675" max-vertical-offset="2926">
+            <state line="127" column="6" selection-start="4497" selection-end="4497" vertical-scroll-proportion="0.9343696" vertical-offset="1872" max-vertical-offset="3002">
               <folding>
-                <marker date="1414429178167" expanded="true" signature="758:829" placeholder="select count..studentdb..." />
-                <marker date="1414429178167" expanded="true" signature="1040:1104" placeholder="select * fro..studentdb..." />
-                <marker date="1414429178167" expanded="true" signature="1438:1511" placeholder="update stude..." />
-                <marker date="1414429178167" expanded="true" signature="1584:1648" placeholder="select * fro..studentdb..." />
-                <marker date="1414429178167" expanded="true" signature="1971:2001" placeholder="..." />
-                <marker date="1414429178167" expanded="true" signature="1980:2001" placeholder="..." />
+                <marker date="1414429486395" expanded="true" signature="22:52" placeholder="..." />
+                <marker date="1414429486395" expanded="true" signature="31:52" placeholder="..." />
+                <marker date="1414429486395" expanded="true" signature="3111:3182" placeholder="select count..studentdb..." />
+                <marker date="1414429486395" expanded="true" signature="3421:3485" placeholder="select * fro..studentdb..." />
+                <marker date="1414429486395" expanded="true" signature="3835:3908" placeholder="update stude..." />
               </folding>
             </state>
           </provider>
@@ -243,7 +242,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reg.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="102" selection-start="4201" selection-end="4295" vertical-scroll-proportion="-13.571428" vertical-offset="1824" max-vertical-offset="3515">
+        <state line="142" column="42" selection-start="5021" selection-end="5235" vertical-scroll-proportion="-14.928572" vertical-offset="2280" max-vertical-offset="3515">
           <folding>
             <marker date="1414417371139" expanded="true" signature="2943:3007" placeholder="select count..invitecode..." />
             <marker date="1414417371139" expanded="true" signature="3295:3348" placeholder="select count..invitecode..." />
@@ -256,14 +255,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/try.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="51" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.37651122" vertical-offset="675" max-vertical-offset="2926">
+        <state line="127" column="6" selection-start="4497" selection-end="4497" vertical-scroll-proportion="0.9343696" vertical-offset="1872" max-vertical-offset="3002">
           <folding>
-            <marker date="1414429178167" expanded="true" signature="758:829" placeholder="select count..studentdb..." />
-            <marker date="1414429178167" expanded="true" signature="1040:1104" placeholder="select * fro..studentdb..." />
-            <marker date="1414429178167" expanded="true" signature="1438:1511" placeholder="update stude..." />
-            <marker date="1414429178167" expanded="true" signature="1584:1648" placeholder="select * fro..studentdb..." />
-            <marker date="1414429178167" expanded="true" signature="1971:2001" placeholder="..." />
-            <marker date="1414429178167" expanded="true" signature="1980:2001" placeholder="..." />
+            <marker date="1414429486395" expanded="true" signature="22:52" placeholder="..." />
+            <marker date="1414429486395" expanded="true" signature="31:52" placeholder="..." />
+            <marker date="1414429486395" expanded="true" signature="3111:3182" placeholder="select count..studentdb..." />
+            <marker date="1414429486395" expanded="true" signature="3421:3485" placeholder="select * fro..studentdb..." />
+            <marker date="1414429486395" expanded="true" signature="3835:3908" placeholder="update stude..." />
           </folding>
         </state>
       </provider>
