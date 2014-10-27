@@ -50,6 +50,8 @@ if(isset($_POST['stunum']))
                 $cername = substr(md5($timeshot),0,8);
                 $sql = "update studentdb set status='1',,cername='$cername' where names='$name' and stunum='$stunum'";
                 $result = $conn->query($sql);
+                $sql = "select * from studentdb where names='$name' and stunum='$stunum'";
+                $result = $conn->query($sql);
                 $rows=mysql_fetch_array($result);
                 $status=$rows['status'];
             echo "<script>alert('$status'); </script>";
