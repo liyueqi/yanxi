@@ -44,7 +44,18 @@ if(isset($_POST['stunum']))
         $rows=mysql_fetch_array($result);
         $status=$rows['status'];
         if($status == 0){
-            echo "<script>alert('$status/$name/$stunum'); </script>";
+
+                $time = date('Y-m-d H:i:s',time());
+                $timeshot = strtotime($time).$name.$stunum;
+                $cername = substr(md5($timeshot),0,8);
+                $sql = "update studentdb set status='1',,cername='$cername' where names='$name' and stunum='$stunum'";
+                $result = $conn->query($sql);
+                $rows=mysql_fetch_array($result);
+                $status=$rows['status'];
+            echo "<script>alert('$status'); </script>";
+
+
+
         }else{
             echo "<script>alert('您已经试用过了，暂不支持重复试用，谢谢合作！'); </script>";
         }
