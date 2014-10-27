@@ -67,7 +67,7 @@
 <span id="toc1"></span>
 <h2 id="bootstrap">费用说明<div align="right"><a href="#"><img src="./openvpn-pic/top.jpg" width="76" height="18"/></a>
                 </div></h2>
-<p><h4>VPN的当前价格为￥10.00/月，其中包含</h4></p>：
+<p><h4>VPN的当前价格为￥10.00/月，其中包含：</h4></p>
 <blockquote>
 <h4>
 <p>IPv6下有效的VPN使用权</p>
