@@ -1,4 +1,37 @@
 ﻿<!DOCTYPE html>
+<?php
+class mysql
+{
+public $Conn;
+private $sql;
+private $dbStatus;
+private $RawResult;
+private $Result;
+public function __construct(){
+$this->Conn = mysql_connect("localhost","root","1136358656");
+mysql_select_db("openvpn") or die(mysql_error());
+}
+public function SelectDb($db)
+{
+$this->dbStatus = mysql_select_db($db,$this->Conn);
+mysql_query("set names gb2312",$this->Conn);
+return $this->dbStatus;
+}
+public function query($query)
+{
+$this->RawResult = mysql_query($query,$this->Conn);
+//$this->Result = mysql_fetch_row($this->RawResult);
+return $this->RawResult;
+}
+public function GetConn(){
+return $this->Conn;
+}
+}
+if(isset($_POST['name']))
+
+
+
+?>
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
@@ -39,7 +72,7 @@
     </div>
     
     <p><h2><a name="reg"></a></h2>
-    <h2>验证身份并获取您的试用openVPN配置文件</h2></p>
+    <h2>如果您是复旦大学学生，您可以：<br />验证身份并获取您的试用openVPN配置文件</h2></p>
 	<form class="navbar-form navbar-left" name="myform" action="reg.php" method="post" onSubmit="return check()">
     <table width="200" border="1" class="table table-bordered table-hover  m10">
   <tbody>
@@ -49,7 +82,7 @@
     </tr>
     <tr>
       <td><h4>学号：</h4></td>
-      <td><input type="text" class="form-control" name="stumum"></td>
+      <td><input type="text" class="form-control" name="stunum"></td>
     </tr>
     <tr>
       <td>&nbsp;</td>

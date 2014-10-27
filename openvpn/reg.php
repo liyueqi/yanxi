@@ -14,6 +14,15 @@
 	 <link rel="stylesheet" href="http://yanxihanfu.me/bootstrap/css/bootstrap-theme.min.css">
 	<script src="http://yanxihanfu.me/bootstrap/js/jquery.min.js"></script>
 	<script src="http://yanxihanfu.me/bootstrap/js/bootstrap.min.js"></script>
+      <script>
+          function check()
+          {
+              if(document.myform.code.value=="")
+              {alert("注册码不能为空.");return false;}
+              else{
+                  return true;}
+                      }
+      </script>
 	</head>
 	<body>
     <nav class="navbar navbar-inverse">
@@ -146,7 +155,7 @@
     ?>
     
     <p><h2><a name="reg"></a></h2><h2>注册并获取您的openVPN配置文件</h2></p>
-	<form class="navbar-form navbar-left" name="myform" action="reg.php" method="post">
+	<form class="navbar-form navbar-left" name="myform" action="reg.php" method="post" onsubmit="return check();">
     <table width="200" border="1" class="table table-bordered table-hover  m10">
   <tbody>
     <tr>
