@@ -53,13 +53,13 @@
       <file leaf-file-name="try.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/try.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="6" selection-start="4497" selection-end="4497" vertical-scroll-proportion="0.9343696" vertical-offset="1872" max-vertical-offset="3002">
+            <state line="102" column="78" selection-start="3889" selection-end="3889" vertical-scroll-proportion="0.11398964" vertical-offset="1872" max-vertical-offset="3002">
               <folding>
-                <marker date="1414429486395" expanded="true" signature="22:52" placeholder="..." />
-                <marker date="1414429486395" expanded="true" signature="31:52" placeholder="..." />
-                <marker date="1414429486395" expanded="true" signature="3111:3182" placeholder="select count..studentdb..." />
-                <marker date="1414429486395" expanded="true" signature="3421:3485" placeholder="select * fro..studentdb..." />
-                <marker date="1414429486395" expanded="true" signature="3835:3908" placeholder="update stude..." />
+                <marker date="1414429936776" expanded="true" signature="22:52" placeholder="..." />
+                <marker date="1414429936776" expanded="true" signature="31:52" placeholder="..." />
+                <marker date="1414429936776" expanded="true" signature="3111:3182" placeholder="select count..studentdb..." />
+                <marker date="1414429936776" expanded="true" signature="3421:3485" placeholder="select * fro..studentdb..." />
+                <marker date="1414429936776" expanded="true" signature="3835:3908" placeholder="update stude..." />
               </folding>
             </state>
           </provider>
@@ -255,13 +255,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/try.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="6" selection-start="4497" selection-end="4497" vertical-scroll-proportion="0.9343696" vertical-offset="1872" max-vertical-offset="3002">
+        <state line="102" column="78" selection-start="3889" selection-end="3889" vertical-scroll-proportion="0.11398964" vertical-offset="1872" max-vertical-offset="3002">
           <folding>
-            <marker date="1414429486395" expanded="true" signature="22:52" placeholder="..." />
-            <marker date="1414429486395" expanded="true" signature="31:52" placeholder="..." />
-            <marker date="1414429486395" expanded="true" signature="3111:3182" placeholder="select count..studentdb..." />
-            <marker date="1414429486395" expanded="true" signature="3421:3485" placeholder="select * fro..studentdb..." />
-            <marker date="1414429486395" expanded="true" signature="3835:3908" placeholder="update stude..." />
+            <marker date="1414429936776" expanded="true" signature="22:52" placeholder="..." />
+            <marker date="1414429936776" expanded="true" signature="31:52" placeholder="..." />
+            <marker date="1414429936776" expanded="true" signature="3111:3182" placeholder="select count..studentdb..." />
+            <marker date="1414429936776" expanded="true" signature="3421:3485" placeholder="select * fro..studentdb..." />
+            <marker date="1414429936776" expanded="true" signature="3835:3908" placeholder="update stude..." />
           </folding>
         </state>
       </provider>
