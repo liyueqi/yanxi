@@ -101,7 +101,7 @@
       <file leaf-file-name="generate.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="22" selection-start="2885" selection-end="2885" vertical-scroll-proportion="0.54058725" vertical-offset="1131" max-vertical-offset="2375">
+            <state line="92" column="41" selection-start="2927" selection-end="2927" vertical-scroll-proportion="0.5734024" vertical-offset="1131" max-vertical-offset="2375">
               <folding>
                 <element signature="n#__construct#0;n#mysql#0;n#!!top" expanded="false" />
                 <element signature="n#SelectDb#0;n#mysql#0;n#!!top" expanded="false" />
@@ -497,7 +497,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/generate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="22" selection-start="2885" selection-end="2885" vertical-scroll-proportion="0.54058725" vertical-offset="1131" max-vertical-offset="2375">
+        <state line="92" column="41" selection-start="2927" selection-end="2927" vertical-scroll-proportion="0.5734024" vertical-offset="1131" max-vertical-offset="2375">
           <folding>
             <element signature="n#__construct#0;n#mysql#0;n#!!top" expanded="false" />
             <element signature="n#SelectDb#0;n#mysql#0;n#!!top" expanded="false" />
