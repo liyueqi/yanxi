@@ -92,11 +92,19 @@
 <p><h3>（仅限windows，相信Linux党不需要这个）</h3></p>
 <p><h4>1、软件安装</h4></p>
 <blockquote>
-<p><h4>根据自己系统下载相应的openvpn软件：</h4></p>
+<ol type="I">
+<li><p><h4>根据自己系统下载相应的openvpn软件：</h4></p>
 <blockquote>
 <p><h4>64位Windows系统：<a href="./exe/openvpn-2.3.4-x64.exe">OpenVPN-2.3.4 X64</a></h4></p>
 <p><h4>32位Windows系统：<a href="./exe/openvpn-2.3.4-x86.exe">OpenVPN-2.3.4 X86</a></h4></p>
 </blockquote>
+</li>
+<li>
+<p><h4>右键点击下载得到的安装程序，点击“以管理员身份运行。”</h4><img src="./openvpn-pic/pic-1.PNG"></p>
+</li>
+<li><p><h4></h4></p>
+</li>
+</ol>
 </blockquote>
 
 
