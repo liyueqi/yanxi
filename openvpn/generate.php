@@ -108,7 +108,7 @@ if(isset($_POST['code']))
         <tbody>
         <tr>
             <td><h4>待切分码：</h4></td>
-            <td><textarea class="form-control" name="code" rows="4" ></td>
+            <td><textarea class="form-control" name="code" rows="4" ></textarea></td>
         </tr>
         <tr>
             <td><h4>注册码：</h4></td>
