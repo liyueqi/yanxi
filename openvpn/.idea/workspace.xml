@@ -26,11 +26,11 @@
       <file leaf-file-name="generate.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="47" selection-start="3486" selection-end="3486" vertical-scroll-proportion="2.148532" vertical-offset="1017" max-vertical-offset="3534">
+            <state line="117" column="22" selection-start="3399" selection-end="3399" vertical-scroll-proportion="0.21243523" vertical-offset="2100" max-vertical-offset="3534">
               <folding>
-                <marker date="1414495072410" expanded="true" signature="3503:3608" placeholder="insert into ..." />
-                <marker date="1414495072410" expanded="true" signature="3784:3869" placeholder="insert into ..." />
-                <marker date="1414495072410" expanded="true" signature="3784:3850" placeholder="insert into ..." />
+                <marker date="1414495314623" expanded="true" signature="3503:3608" placeholder="insert into ..." />
+                <marker date="1414495314623" expanded="true" signature="3784:3869" placeholder="insert into ..." />
+                <marker date="1414495314623" expanded="true" signature="3784:3850" placeholder="insert into ..." />
               </folding>
             </state>
           </provider>
@@ -301,11 +301,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/generate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="47" selection-start="3486" selection-end="3486" vertical-scroll-proportion="2.148532" vertical-offset="1017" max-vertical-offset="3534">
+        <state line="117" column="22" selection-start="3399" selection-end="3399" vertical-scroll-proportion="0.21243523" vertical-offset="2100" max-vertical-offset="3534">
           <folding>
-            <marker date="1414495072410" expanded="true" signature="3503:3608" placeholder="insert into ..." />
-            <marker date="1414495072410" expanded="true" signature="3784:3869" placeholder="insert into ..." />
-            <marker date="1414495072410" expanded="true" signature="3784:3850" placeholder="insert into ..." />
+            <marker date="1414495314623" expanded="true" signature="3503:3608" placeholder="insert into ..." />
+            <marker date="1414495314623" expanded="true" signature="3784:3869" placeholder="insert into ..." />
+            <marker date="1414495314623" expanded="true" signature="3784:3850" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>

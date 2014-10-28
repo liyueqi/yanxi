@@ -118,7 +118,7 @@ if(isset($_POST['code']))
     while($len >= 16){
         $res[$i] = substr($code,0,16);
         $code = str_replace($res[$i],"",$code);
-        $sql = "insert into invitecode (code,status,generatetime,exp,node) values ('$res[$i]','0','$time','$exp','$mode')";
+        $sql = "insert into invitecode (code,status,generatetime,exp,node) values ('$res[$i]','0','$time','$exp','$node')";
         $result = $conn->query($sql);
         $len = strlen($code);
         $i++;
