@@ -91,6 +91,7 @@ if(isset($_POST['code']))
         $res[$i] = substr($code,0,8);
         echo $res[$i];
         $code = str_replace($res[$i]," ",$code);
+        $len = strlen($code);
         $i = $i + 1;
     }
 
