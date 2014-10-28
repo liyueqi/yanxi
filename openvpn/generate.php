@@ -84,6 +84,7 @@ if(isset($_POST['code']))
 {
     $code = $_POST['code'];
     $res = array();
+    global $i;
     $i = 0;
     $len = strlen($code);
     while($len>=8){
