@@ -89,7 +89,7 @@ if(isset($_POST['code']))
     $len = strlen($code);
     while($len >= 8){
         $res[$i] = substr($code,0,8);
-        echo $res[$i];
+       
         $code = str_replace($res[$i],"",$code);
         $len = strlen($code);
         $i++;
