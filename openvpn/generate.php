@@ -20,7 +20,17 @@
             if(document.myform.code.value=="")
             {alert("注册码不能为空.");return false;}
             else{
-                return true;}
+				if(document.myform.exp.value=="")
+            {alert("有效期不能为空.");return false;}
+				else
+				{
+					if(document.myform.node.value=="")
+            		{alert("节点不能为空.");return false;}
+					else
+					{return true;
+					}
+				}
+            }
         }
 
 
@@ -82,15 +92,34 @@ class mysql
 }
 if(isset($_POST['code']))
 {
+    $conn = new mysql();
+    $time = date('Y-m-d H:i:s',time());
     $code = $_POST['code'];
+    $exp = $_POST['exp'];
+    $node = $_POST['node'];
+    switch($exp){
+        case "1":
+            $exp = "1month";
+            break;
+        case "2":
+            $exp = "2months";
+            break;
+        case "3":
+            $exp = "3months";
+            break;
+        default:
+
+
+    }
     $res = array();
     global $i;
     $i = 0;
     $len = strlen($code);
     while($len >= 8){
         $res[$i] = substr($code,0,8);
-       
         $code = str_replace($res[$i],"",$code);
+        $sql = "insert into test (code,status,generatetime,exp,node) values ('$res[$i]','0','$time','$exp','$mode')";
+        $result = $conn->query($sql);
         $len = strlen($code);
         $i++;
     }
@@ -107,11 +136,27 @@ if(isset($_POST['code']))
 
 <p><h2><a name="reg"></a></h2><h2>生成注册码</h2></p>
 <form class="navbar-form navbar-left" name="myform" action="generate.php" method="post" onsubmit="return check();">
-    <table width="200" border="1" class="table table-bordered table-hover  m10">
+    <table width="118%" border="1" class="table table-bordered table-hover  m10">
         <tbody>
         <tr>
-            <td><h4>待切分码：</h4></td>
-            <td><textarea class="form-control" name="code" rows="4" ></textarea></td>
+            <td width="34%"><h4>待切分码：</h4></td>
+            <td width="66%"><textarea class="form-control" name="code" rows="4" ></textarea></td>
+        </tr>
+        <tr>
+        <td>
+        <h4>有效期：</h4>
+        </td>
+        <td>
+        <input type="text" class="form-control" name="exp">
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <h4>节点：</h4>
+        </td>
+        <td>
+        <input type="text" class="form-control" name="node">
+        </td>
         </tr>
         <tr>
             <td><h4>注册码：</h4></td>
