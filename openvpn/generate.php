@@ -118,7 +118,7 @@ if(isset($_POST['code']))
     while($len >= 8){
         $res[$i] = substr($code,0,8);
         $code = str_replace($res[$i],"",$code);
-        $sql = "insert into test (code,status,generatetime,exp,node) values ('$res[$i]','0','$time','$exp','$mode')";
+        $sql = "insert into invitecode (code,status,generatetime,exp,node) values ('$res[$i]','0','$time','$exp','$mode')";
         $result = $conn->query($sql);
         $len = strlen($code);
         $i++;
