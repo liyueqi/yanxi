@@ -90,9 +90,9 @@ if(isset($_POST['code']))
     while($len >= 8){
         $res[$i] = substr($code,0,8);
         echo $res[$i];
-        $code = str_replace($res[$i]," ",$code);
+        $code = str_replace($res[$i],"",$code);
         $len = strlen($code);
-        $i = $i + 1;
+        $i++;
     }
 
 }else{
@@ -118,7 +118,7 @@ if(isset($_POST['code']))
             <td><?php
                 $n = 0;
                 for($n=0;$n<$i;$n++){
-                    echo $res[$i]."<br />";
+                    echo $res[$n]."<br />";
                 }
                 ?></td>
         </tr>
