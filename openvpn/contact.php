@@ -100,10 +100,107 @@
 </blockquote>
 </li>
 <li>
-<p><h4>右键点击下载得到的安装程序，点击“以管理员身份运行。”</h4><img src="./openvpn-pic/pic-1.PNG"></p>
+<p><h4>右键点击下载得到的安装程序，点击“以管理员身份运行”</h4><img src="./openvpn-pic/pic-1.PNG"></p>
 </li>
-<li><p><h4></h4></p>
+<p>
+<li><p><h4>在welcome界面下点击“next”继续。</h4><img src="./openvpn-pic/pic-2.PNG"></p>
 </li>
+</p>
+<p>
+<li>
+<p><h4>在用户协议界面点击“I Agree”，进入下一步。</h4><img src="./openvpn-pic/pic-3.PNG"></p>
+</li>
+</p>
+<p>
+<li>
+<p><h4>选择组件界面，直接点击“Next”，进入下一步。</h4><img src="./openvpn-pic/pic-4.PNG"></p>
+</li>
+</p>
+<p>
+<li>
+<p><h4>选择您想要安装到的文件夹，一般保持默认即可，牢记该安装目录，之后的配置过程中会用到，点击“Next”，进入下一步。</h4><img src="./openvpn-pic/pic-5.PNG"></p>
+</li>
+</p>
+<p>
+<li>
+<p><h4>进入安装过程，请耐心等待，不要进行任何其他操作。</h4><img src="./openvpn-pic/pic-6.PNG"></p>
+</li>
+</p>
+<p>
+<li>
+<p><h4>如果系统弹出类似下图的提示“您想安装这个软件设备吗”，请勾选“始终信任”并点击“安装”</h4><img src="./openvpn-pic/pic-7.PNG"></p>
+</li>
+</p>
+<p>
+<li>
+<p><h4>安装完成后，直接点击“Next”，进入下一步。</h4><img src="./openvpn-pic/pic-8.PNG"></p>
+</li>
+</p>
+<p>
+<li>
+<p><h4>在完成后，取消“start OpenVPN”和“Show Readme”，直接点击“Next”，进入下一步。</h4><img src="./openvpn-pic/pic-9.PNG"></p>
+</li>
+</p>
+<p>
+<li>
+<p><h4>根据刚才记下的安装目录，找到openvpn文件夹。</h4><img src="./openvpn-pic/pic-10.PNG"></p>
+</li>
+</p>
+<p>
+<li>
+<p><h4>进入openvpn文件夹，找到config文件夹。</h4><img src="./openvpn-pic/pic-11.PNG"></p>
+</li>
+</p>
+<p>
+<li>
+<p><h4>进入config文件夹，里面除了一个自述文档，什么也没有。</h4><img src="./openvpn-pic/pic-12.PNG"></p>
+</li>
+</p>
+<p>
+<li>
+<p><h4>在本网站根据相关提示下载openVPN证书文件，压缩包打开如下：</h4><img src="./openvpn-pic/pic-13.PNG"></p>
+</li>
+</p>
+<p>
+<li>
+<p><h4>将压缩文件中的五个文件全部解压到config文件夹中，如图所示。</h4><img src="./openvpn-pic/pic-14.PNG"></p>
+</li>
+</p>
+<p>
+<li>
+<p><h4>找到openvpn的桌面快捷方式，右键以管理员身份运行。</h4><img src="./openvpn-pic/pic-15.PNG"></p>
+</li>
+</p>
+<p>
+<li>
+<p><h4>在弹出的“用户账户控制”对话框中，单击“是”启动openvpn。</h4><img src="./openvpn-pic/pic-16.PNG"></p>
+</li>
+</p>
+<p>
+<li>
+<p><h4>找到任务栏右下角托盘区的openvpn图标。</h4><img src="./openvpn-pic/pic-17.PNG"></p>
+</li>
+</p>
+<p>
+<li>
+<p><h4>右击小图标，在弹出的菜单中单击“connect”。</h4><img src="./openvpn-pic/pic-18.PNG"></p>
+</li>
+</p>
+<p>
+<li>
+<p><h4>openvpn将自动连接服务器，请耐心等待。</h4><img src="./openvpn-pic/pic-19.PNG"></p>
+</li>
+</p>
+<p>
+<li>
+<p><h4>待上一步出现的窗口自动消失，托盘区显示“**** is now connected”字样的气泡，同时图标变绿时，即为成功建立openvpn连接。</h4><img src="./openvpn-pic/pic-20.PNG"></p>
+</li>
+<p>
+<li>
+<p><h4>尽情享受廉价且自由的互联网吧！</h4></p>
+</li>
+</p>
+</p>
 </ol>
 </blockquote>
 
