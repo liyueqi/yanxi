@@ -89,10 +89,15 @@
 
 <span id="toc2"></span><h2 id="bootstrap">使用教程<div align="right"><a href="#"><img src="./openvpn-pic/top.jpg" width="76" height="18"/></a>
                 </div></h2>
-
-<p>这里是</p>
-
-<p>使用教程~</p>
+<p><h3>（仅限windows，相信Linux党不需要这个）</h3></p>
+<p><h4>1、软件安装</h4></p>
+<blockquote>
+<p><h4>根据自己系统下载相应的openvpn软件：</h4></p>
+<blockquote>
+<p><h4>64位Windows系统：<a href="./exe/openvpn-2.3.4-x64.exe">OpenVPN-2.3.4 X64</a></h4></p>
+<p><h4>32位Windows系统：<a href="./exe/openvpn-2.3.4-x86.exe">OpenVPN-2.3.4 X86</a></h4></p>
+</blockquote>
+</blockquote>
 
 
 

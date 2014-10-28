@@ -22,36 +22,7 @@
     <favorites_list name="openvpn" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="generate.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/generate.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="51" selection-start="1967" selection-end="1967" vertical-scroll-proportion="0.44214162" vertical-offset="789" max-vertical-offset="3534">
-              <folding>
-                <marker date="1414495743372" expanded="true" signature="3509:3614" placeholder="insert into ..." />
-                <marker date="1414495743372" expanded="true" signature="3790:3875" placeholder="insert into ..." />
-                <marker date="1414495743372" expanded="true" signature="3790:3856" placeholder="insert into ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reg.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reg.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="202" column="93" selection-start="6590" selection-end="6673" vertical-scroll-proportion="-7.785714" vertical-offset="3620" max-vertical-offset="4275">
-              <folding>
-                <marker date="1414472582039" expanded="true" signature="3964:4028" placeholder="select count..invitecode..." />
-                <marker date="1414472582039" expanded="true" signature="4316:4369" placeholder="select count..invitecode..." />
-                <marker date="1414472582039" expanded="true" signature="4798:4851" placeholder="select count..invitecode..." />
-                <marker date="1414472582039" expanded="true" signature="5040:5083" placeholder="select * fro..invitecode..." />
-                <marker date="1414472582039" expanded="true" signature="5231:5314" placeholder="update invit..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -139,8 +110,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <editor active="false" />
     <layout>
       <window_info id="更改" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -192,11 +163,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="179" column="29" selection-start="6059" selection-end="6059" vertical-scroll-proportion="0.0" vertical-offset="3401" max-vertical-offset="4275">
           <folding>
-            <marker date="1414472582039" expanded="true" signature="3964:4028" placeholder="select count..invitecode..." />
-            <marker date="1414472582039" expanded="true" signature="4316:4369" placeholder="select count..invitecode..." />
-            <marker date="1414472582039" expanded="true" signature="4798:4851" placeholder="select count..invitecode..." />
-            <marker date="1414472582039" expanded="true" signature="5040:5083" placeholder="select * fro..invitecode..." />
-            <marker date="1414472582039" expanded="true" signature="5231:5314" placeholder="update invit..." />
+            <marker date="1414472582039" expanded="true" signature="-1:-1" placeholder="select count..invitecode..." />
+            <marker date="1414472582039" expanded="true" signature="-1:-1" placeholder="select count..invitecode..." />
+            <marker date="1414472582039" expanded="true" signature="-1:-1" placeholder="select count..invitecode..." />
+            <marker date="1414472582039" expanded="true" signature="-1:-1" placeholder="select * fro..invitecode..." />
+            <marker date="1414472582039" expanded="true" signature="-1:-1" placeholder="update invit..." />
           </folding>
         </state>
       </provider>
@@ -236,11 +207,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="127" column="0" selection-start="4751" selection-end="4751" vertical-scroll-proportion="0.0" vertical-offset="2413" max-vertical-offset="3344">
           <folding>
-            <marker date="1414472582039" expanded="true" signature="3964:4028" placeholder="select count..invitecode..." />
-            <marker date="1414472582039" expanded="true" signature="4316:4369" placeholder="select count..invitecode..." />
-            <marker date="1414472582039" expanded="true" signature="4798:4851" placeholder="select count..invitecode..." />
-            <marker date="1414472582039" expanded="true" signature="5040:5083" placeholder="select * fro..invitecode..." />
-            <marker date="1414472582039" expanded="true" signature="5231:5314" placeholder="update invit..." />
+            <marker date="1414472582039" expanded="true" signature="-1:-1" placeholder="select count..invitecode..." />
+            <marker date="1414472582039" expanded="true" signature="-1:-1" placeholder="select count..invitecode..." />
+            <marker date="1414472582039" expanded="true" signature="-1:-1" placeholder="select count..invitecode..." />
+            <marker date="1414472582039" expanded="true" signature="-1:-1" placeholder="select * fro..invitecode..." />
+            <marker date="1414472582039" expanded="true" signature="-1:-1" placeholder="update invit..." />
           </folding>
         </state>
       </provider>
@@ -286,26 +257,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reg.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="202" column="93" selection-start="6590" selection-end="6673" vertical-scroll-proportion="-7.785714" vertical-offset="3620" max-vertical-offset="4275">
-          <folding>
-            <marker date="1414472582039" expanded="true" signature="3964:4028" placeholder="select count..invitecode..." />
-            <marker date="1414472582039" expanded="true" signature="4316:4369" placeholder="select count..invitecode..." />
-            <marker date="1414472582039" expanded="true" signature="4798:4851" placeholder="select count..invitecode..." />
-            <marker date="1414472582039" expanded="true" signature="5040:5083" placeholder="select * fro..invitecode..." />
-            <marker date="1414472582039" expanded="true" signature="5231:5314" placeholder="update invit..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/generate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="51" selection-start="1967" selection-end="1967" vertical-scroll-proportion="0.44214162" vertical-offset="789" max-vertical-offset="3534">
           <folding>
-            <marker date="1414495743372" expanded="true" signature="3509:3614" placeholder="insert into ..." />
-            <marker date="1414495743372" expanded="true" signature="3790:3875" placeholder="insert into ..." />
-            <marker date="1414495743372" expanded="true" signature="3790:3856" placeholder="insert into ..." />
+            <marker date="1414495743372" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1414495743372" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1414495743372" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="202" column="93" selection-start="6590" selection-end="6673" vertical-scroll-proportion="0.37651122" vertical-offset="3620" max-vertical-offset="4275">
+          <folding>
+            <marker date="1414472582039" expanded="true" signature="-1:-1" placeholder="select count..invitecode..." />
+            <marker date="1414472582039" expanded="true" signature="-1:-1" placeholder="select count..invitecode..." />
+            <marker date="1414472582039" expanded="true" signature="-1:-1" placeholder="select count..invitecode..." />
+            <marker date="1414472582039" expanded="true" signature="-1:-1" placeholder="select * fro..invitecode..." />
+            <marker date="1414472582039" expanded="true" signature="-1:-1" placeholder="update invit..." />
           </folding>
         </state>
       </provider>
