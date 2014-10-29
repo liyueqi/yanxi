@@ -12,8 +12,10 @@
 	 <link href="http://yanxihanfu.me/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	 <link href="http://yanxihanfu.me/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
 	 <link rel="stylesheet" href="http://yanxihanfu.me/bootstrap/css/bootstrap-theme.min.css">
+     <link href="http://yanxihanfu.me/bootstrap/css/site.min.css?v3" rel="stylesheet">
 	<script src="http://yanxihanfu.me/bootstrap/js/jquery.min.js"></script>
 	<script src="http://yanxihanfu.me/bootstrap/js/bootstrap.min.js"></script>
+    <script src="http://static.bootcss.com/www/assets/js/site.min.js"></script>
 	</head>
 	<body class="post-template page">
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -39,7 +41,7 @@
       </nav>
     <header class="jumbotron subhead">
   <div class="container">
-    <h1>关于Jelly VPN</h1>
+    <h1>Jelly VPN</h1>
     <p class="lead">一个基于IPv6的openVPN代理</p>
   </div>
 </header>
