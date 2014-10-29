@@ -15,8 +15,8 @@
 	<script src="http://yanxihanfu.me/bootstrap/js/jquery.min.js"></script>
 	<script src="http://yanxihanfu.me/bootstrap/js/bootstrap.min.js"></script>
 	</head>
-	<body>
-    <nav class="navbar navbar-inverse">
+	<body class="post-template page">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -29,14 +29,21 @@
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">主页</a></li>
+              <li class="active"><a href="index.php">主页</a></li>
               <li><a href="reg.php">注册</a></li>
               <li><a href="try.php">试用</a></li>
-              <li><a href="contact.php">联系我们</a></li>
+              <li><a href="#">联系我们</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </nav>
+    <header class="jumbotron subhead">
+  <div class="container">
+    <h1>关于Jelly VPN</h1>
+    <p class="lead">一个基于IPv6的openVPN代理</p>
+  </div>
+</header>
+
     <div class="well">
         <p><h4>本VPN走IPv6线路，IPv6下有效，</h4></p>
         <p><h4>服务器位于纽约。</h4></p>
