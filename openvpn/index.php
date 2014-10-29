@@ -52,13 +52,13 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="./openvpn-pic/pic-0.jpg" alt="...">
+      <img src="./openvpn-pic/pic-1.png" alt="...">
       <div class="carousel-caption">
         ...
       </div>
     </div>
     <div class="item">
-      <img src="./openvpn-pic/pic-1.png" alt="...">
+      <img src="./openvpn-pic/pic-2.png" alt="...">
       <div class="carousel-caption">
         ...
       </div>
