@@ -174,6 +174,8 @@ if(isset($_POST['code']))
         </tbody>
     </table>
 </form>
+<hr>
+<div align="center">Powered By Kaguya & Xiao </div> 
 </body>
 
 </html>

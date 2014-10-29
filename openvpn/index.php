@@ -74,7 +74,8 @@
       </a>
     </div>
   </div>
-
+<hr>
+<div align="center">Powered By Kaguya & Xiao </div> 
     </body>
 	</html>
 
