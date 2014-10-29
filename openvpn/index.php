@@ -46,10 +46,6 @@
   </div>
 </header>
 
-    <div class="well">
-        <p><h4>本VPN走IPv6线路，IPv6下有效，</h4></p>
-        <p><h4>服务器位于纽约。</h4></p>
-    </div>
 <div class="bs-example">
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
