@@ -55,13 +55,13 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item">
-          <img  alt="First slide" src="./openvpn-pic/pic-4.PNG">
+          <img  alt="First slide" src="./openvpn-pic/jelly-1.png">
         </div>
         <div class="item active">
-          <img  alt="Second slide" src="./openvpn-pic/pic-5.PNG">
+          <img  alt="Second slide" src="./openvpn-pic/jelly-1.png">
         </div>
         <div class="item">
-          <img  alt="Third slide" src="./openvpn-pic/pic-6.PNG">
+          <img  alt="Third slide" src="./openvpn-pic/jelly-1.png">
         </div>
       </div>
       <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
