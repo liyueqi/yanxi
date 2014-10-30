@@ -76,6 +76,7 @@
   </div>
 <hr>
 <div align="center">Powered By Kaguya & Xiao </div> 
+<div align="center">2014 </div> 
     </body>
 	</html>
 
