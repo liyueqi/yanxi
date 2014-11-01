@@ -48,8 +48,9 @@
         </div>
       </nav>
     <div class="well">
-        <p><h4>本VPN走IPv6线路，IPv6下有效，<br>
-        服务器位于纽约。<br>本页申请的试用VPN配置文件有效期为3天</h4></p>
+        <p><h4 align="center">本VPN走IPv6线路，IPv6下有效，<br>
+        服务器位于纽约。<br>
+        本页申请的试用VPN配置文件有效期为2天</h4></p>
     </div>
     <?php
     class mysql
@@ -127,28 +128,48 @@
 
     ?>
     <p><h2><a name="reg"></a></h2>
-    <h2>如果您是复旦大学学生，您可以：<br />验证身份并获取您的试用openVPN配置文件</h2></p>
-	<form class="navbar-form navbar-left" name="myform" action="try.php" method="post" onSubmit="return check()">
-    <table width="200" border="1" class="table table-bordered table-hover  m10">
-  <tbody>
-    <tr>
-      <td><h4>姓名：</h4></td>
-      <td><input type="text" class="form-control" name="name"></td>
-    </tr>
-    <tr>
-      <td><h4>学号：</h4></td>
-      <td><input type="text" class="form-control" name="stunum"></td>
-    </tr>
-    <tr>
-      <td>&nbsp;</td>
-      <td><button type="submit" class="btn btn-mid btn-primary">提交</button>&nbsp;<button type="reset" class="btn btn-success">重置</button></td>
-    </tr>
-  </tbody>
-</table>
-    </form>
-	<br/>
-<br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <h4 align="center">如果您是复旦大学学生，您可以：<br />验证身份并获取您的试用openVPN配置文件</h4></p>
+	
+	<div align="center">
+	  <table width="298" border="0">
+	    <tbody>
+	      <tr>
+	        <td width="781"><form class="navbar-form navbar-left" name="myform" action="try.php" method="post" onSubmit="return check()">
+	          <div align="center">
+	            <table width="200" border="1" class="table table-bordered table-hover  m10">
+	              <tbody>
+	                <tr>
+	                  <td><h4 align="center">姓名：</h4></td>
+	                  <td><div align="center">
+	                    <input type="text" class="form-control" name="name">
+                      </div></td>
+                    </tr>
+	                <tr>
+	                  <td><h4 align="center">学号：</h4></td>
+	                  <td><div align="center">
+	                    <input type="text" class="form-control" name="stunum">
+                      </div></td>
+                    </tr>
+	                <tr>
+	                  <td><div align="center"></div></td>
+	                  <td><div align="center">
+	                    <button type="submit" class="btn btn-mid btn-primary">提交</button>
+	                    &nbsp;
+	                    <button type="reset" class="btn btn-success">重置</button>
+                      </div></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+	          </form>
+            <div align="center"></div></td>
+          </tr>
+        </tbody>
+      </table>
+	  <br/>
+  <br/>
+  <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    </div>
 	<hr>
 	
 <div align="center">Powered By Kaguya & Xiao </div> 
