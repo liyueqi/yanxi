@@ -43,7 +43,9 @@
   <div class="container">
     <h1>Jelly VPN</h1>
     <p class="lead">一个基于IPv6的openVPN代理</p>
-	<div class="bs-example">
+	
+  </div>
+  <div class="bs-example">
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
@@ -70,7 +72,6 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-  </div>
   </div>
 </header>
 
