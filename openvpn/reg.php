@@ -87,8 +87,8 @@
         </div>
       </nav>
     <div class="well">
-        <p><h4>本VPN走IPv6线路，IPv6下有效，</h4></p>
-        <p><h4>服务器位于纽约。</h4></p>
+        <p><h3 align="center">本VPN走IPv6线路，IPv6下有效，</h3></p>
+        <p align="center"><h3 align="center">服务器位于纽约。</h3></p>
     </div>
     <?php
     class mysql
@@ -194,29 +194,42 @@
 
     ?>
     
-    <p><h2><a name="reg"></a></h2><h2>注册并获取您的openVPN配置文件</h2></p>
-	<form class="navbar-form navbar-left" name="myform" action="reg.php" method="post" onsubmit="return check();">
-    <table width="200" border="1" class="table table-bordered table-hover  m10">
-  <tbody>
-    <tr>
-      <td><h4>注册码：</h4></td>
-      <td><input type="text" class="form-control" name="code" onkeyup="showHint(this.value)"></td>
-    </tr>
-    <tr>
-      <td><h4>有效期：</h4></td>
-      <td><label id="exp"></label></td>
-    </tr>
-    <tr>
-      <td>&nbsp;</td>
-      <td><button type="submit" class="btn btn-mid btn-primary">提交</button>&nbsp;<button type="reset" class="btn btn-success">重置</button></td>
-    </tr>
-  </tbody>
-</table>
-    </form>
-	<br />
-	<br />
-	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-	<hr>
+    <p><h2><a name="reg"></a></h2><h2 align="center">注册并获取您的openVPN配置文件</h2></p>
+    <div align="center"></div>
+    <div align="center">
+      <table width="324" border="0">
+        <tbody>
+          <tr>
+            <td width="318"><form class="navbar-form navbar-left" name="myform" action="reg.php" method="post" onsubmit="return check();">
+              <div align="center">
+                <table width="200" border="1" class="table table-bordered table-hover  m10">
+                  <tbody>
+                    <tr>
+                      <td><h4>注册码：</h4></td>
+                      <td><input type="text" class="form-control" name="code" onkeyup="showHint(this.value)"></td>
+                    </tr>
+                    <tr>
+                      <td><h4>有效期：</h4></td>
+                      <td><label id="exp"></label></td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                      <td><button type="submit" class="btn btn-mid btn-primary">提交</button>
+                        &nbsp;
+                        <button type="reset" class="btn btn-success">重置</button></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </form></td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <br />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    </div>
+    <hr>
 <div align="center">Powered By Kaguya & Xiao </div> 
 	</body>
 	
