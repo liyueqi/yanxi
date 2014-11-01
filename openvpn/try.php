@@ -131,41 +131,43 @@
     <h4 align="center">如果您是复旦大学学生，您可以：<br />验证身份并获取您的试用openVPN配置文件</h4></p>
 	
 	<div align="center">
-	  <table width="298" border="0">
+    
+	  <table width="334" border="0">
 	    <tbody>
+        <form class="navbar-form navbar-left" name="myform" action="try.php" method="post" onSubmit="return check()">
 	      <tr>
-	        <td width="781"><form class="navbar-form navbar-left" name="myform" action="try.php" method="post" onSubmit="return check()">
-	          <div align="center">
-	            <table width="200" border="1" class="table table-bordered table-hover  m10">
-	              <tbody>
-	                <tr>
-	                  <td><h4 align="center">姓名：</h4></td>
-	                  <td><div align="center">
-	                    <input type="text" class="form-control" name="name">
-                      </div></td>
-                    </tr>
-	                <tr>
-	                  <td><h4 align="center">学号：</h4></td>
-	                  <td><div align="center">
-	                    <input type="text" class="form-control" name="stunum">
-                      </div></td>
-                    </tr>
-	                <tr>
-	                  <td><div align="center"></div></td>
-	                  <td><div align="center">
-	                    <button type="submit" class="btn btn-mid btn-primary">提交</button>
-	                    &nbsp;
-	                    <button type="reset" class="btn btn-success">重置</button>
-                      </div></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-	          </form>
+	        <td width="328"><div align="right">
+	          <table width="86%" border="1" class="table table-bordered table-hover  m10">
+	            <tbody>
+	              <tr>
+	                <td width="28%"><h4 align="center">姓名：</h4></td>
+	                <td width="72%"><div align="center">
+	                  <input type="text" class="form-control" name="name">
+                    </div></td>
+                  </tr>
+	              <tr>
+	                <td><h4 align="center">学号：</h4></td>
+	                <td><div align="center">
+	                  <input type="text" class="form-control" name="stunum">
+                    </div></td>
+                  </tr>
+	              <tr>
+	                <td><div align="center"></div></td>
+	                <td><div align="center">
+	                  <button type="submit" class="btn btn-mid btn-primary">提交</button>
+	                  &nbsp;
+	                  <button type="reset" class="btn btn-success">重置</button>
+                    </div></td>
+                  </tr>
+                </tbody>
+              </table>
+	          </div>
             <div align="center"></div></td>
           </tr>
+          </form>
         </tbody>
       </table>
+       
 	  <br/>
   <br/>
   <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
