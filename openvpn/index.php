@@ -43,10 +43,7 @@
   <div class="container">
     <h1>Jelly VPN</h1>
     <p class="lead">一个基于IPv6的openVPN代理</p>
-  </div>
-</header>
-
-<div class="bs-example">
+	<div class="bs-example">
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
@@ -74,6 +71,10 @@
       </a>
     </div>
   </div>
+  </div>
+</header>
+
+
 <hr>
 <div align="center">Powered By Kaguya & Xiao </div> 
 <div align="center">2014 </div> 
