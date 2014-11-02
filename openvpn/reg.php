@@ -85,13 +85,13 @@
             </ul>
           </div><!--/.nav-collapse -->
         </div>
-      </nav>
+    </nav>
     <div class="well">
         <p><h3 align="center">本VPN走IPv6线路，IPv6下有效，</h3></p>
         <p align="center"><h3 align="center">服务器位于纽约。</h3></p>
     </div>
-    <div style="position:absolute;left:50%;"><img src="./openvpn-pic/jelly-1.jpg" ></div>
-    <div style="position:absolute;left:50%;">
+    <div style="position:absolute;"><img src="./openvpn-pic/jelly-1.jpg" ></div>
+    <div style="position: absolute; MARGIN-RIGHT: auto; MARGIN-LEFT: auto; left: 427px; top: 312px;">
     <?php
     class mysql
     {
@@ -196,7 +196,7 @@
 
     ?>
     
-    <p><h2><a name="reg"></a></h2><h2 align="center">注册并获取您的openVPN配置文件</h2></p>
+    <p><h2><a name="reg"></a></h2><h2>注册并获取您的openVPN配置文件</h2></p>
     <div align="center"></div>
     <div align="center">
       <table width="380" border="0">
