@@ -90,6 +90,8 @@
         <p><h3 align="center">本VPN走IPv6线路，IPv6下有效，</h3></p>
         <p align="center"><h3 align="center">服务器位于纽约。</h3></p>
     </div>
+    <div style="position:absolute;left:50%;"><img src="./openvpn-pic/jelly-1.jpg" ></div>
+    <div style="position:absolute;left:50%;">
     <?php
     class mysql
     {
@@ -233,6 +235,7 @@
     </div>
     <hr>
 <div align="center">Powered By Kaguya & Xiao </div> 
+</div>
 	</body>
 	
 	</html>
