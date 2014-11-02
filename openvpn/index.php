@@ -45,34 +45,33 @@
     <p class="lead">一个基于IPv6的openVPN代理</p>
 	
   </div>
-  <div class="bs-example">
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
-        <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="item">
-          <img width="1366" alt="First slide" src="./openvpn-pic/jelly-1.png">
-        </div>
-        <div class="item active">
-          <img width="1366" alt="Second slide" src="./openvpn-pic/jelly-1.png">
-        </div>
-        <div class="item">
-          <img width="1366" alt="Third slide" src="./openvpn-pic/jelly-1.png">
-        </div>
-      </div>
-      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"><</span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right">></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </div>
+ <div class="carousel slide" id="carousel-61168">
+<ol class="carousel-indicators">
+	<li class="active" data-slide-to="0" data-target="#carousel-61168">&nbsp;</li>
+	<li data-slide-to="1" data-target="#carousel-61168">&nbsp;</li>
+	<li data-slide-to="2" data-target="#carousel-61168">&nbsp;</li>
+</ol>
+
+<div class="carousel-inner">
+<div class="item active"><img alt="" src="./openvpn-pic/jelly-1.jpg" />
+<div class="carousel-caption" contenteditable="true">
+
+</div>
+</div>
+
+<div class="item"><img alt="" src="./openvpn-pic/jelly-1.jpg" />
+<div class="carousel-caption" contenteditable="true">
+
+</div>
+</div>
+
+<div class="item"><img alt="" src="./openvpn-pic/jelly-1.jpg" />
+<div class="carousel-caption" contenteditable="true">
+
+</div>
+</div>
+</div>
+<a class="left carousel-control" data-slide="prev" href="#carousel-61168">&lsaquo;</a> <a class="right carousel-control" data-slide="next" href="#carousel-61168">&rsaquo;</a></div>
 </header>
 
 
