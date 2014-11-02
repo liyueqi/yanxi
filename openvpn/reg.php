@@ -21,6 +21,7 @@
 	<script src="https://yanxihanfu.me/bootstrap/js/jquery.min.js"></script>
 	<script src="https://yanxihanfu.me/bootstrap/js/bootstrap.min.js"></script>
       <script>
+	  document.getElementById("in1").style.height=document.getElementById("in2").scrollHeight+"px"
           function check()
           {
               if(document.myform.code.value=="")
@@ -93,8 +94,9 @@
         </div>
     </nav>
     
-    
-    <div style="background: rgba(255, 255, 255, 0.7) !important;width: 70%; background: #DA70D6; margin:0 auto; filter: alpha(opacity=70); opacity: 0.7;">
+    <div id="in1" style="background: rgba(255, 255, 255, 0.7) !important;width: 70%; margin:0 auto; filter: alpha(opacity=70); opacity: 0.7;">
+    </div>
+    <div id="in2" style="width: 70%;  margin:0 auto; ">
     <br />
         <div class="well">
         <p><h3 align="center">本VPN走IPv6线路，IPv6下有效，</h3></p>
@@ -244,6 +246,7 @@
     <hr>
 <div align="center">Powered By Kaguya & Xiao </div> 
 </div>
+
 	</body>
 	
 	</html>
