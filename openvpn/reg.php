@@ -12,7 +12,7 @@
     <style>
 	body {
 		TEXT-ALIGN: center;
- background-image: url(./openvpn-pic/test2.jpg);
+ background-image: url(./openvpn-pic/test1.jpg);
  background-size:cover;
 }
 	</style>
@@ -246,8 +246,7 @@
           </tr>
         </tbody>
       </table>
-      <h6><br />
-        <br /><br /><br /><br /><br /><br /><br />
+      <h6><br /><br /><br />
         <br /><br />
       </h6>
     </div>
