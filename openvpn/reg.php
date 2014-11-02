@@ -98,7 +98,7 @@
       </nav>
     
     
-    <div id="in1" style="background: rgba(255, 255, 255, 0.6) !important;width: 70%; height:100%;overflow:hidden;margin:0 auto;opacity: 0.7; ">
+    <div id="in1" style="background: rgba(255, 255, 255, 0.6) !important;width: 70%; height:100%;overflow:hidden;margin:0 auto;opacity: 0.9; ">
     
       <p>&nbsp;</p>
       <p>&nbsp;</p>
