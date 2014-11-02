@@ -180,10 +180,10 @@
           </form>
         </tbody>
       </table>
-       
-	  <br/>
-  <br/>
-  <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	  <p>&nbsp;</p>
+	  <p><br/>
+	    <br/>
+      </p>
     </div>
 	<hr>
 	
