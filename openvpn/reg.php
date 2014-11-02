@@ -13,6 +13,7 @@
 	body {
 		TEXT-ALIGN: center;
  background-image: url(./openvpn-pic/violet.jpg);
+ background-size:cover;
 }
 	</style>
 	 <link href="https://yanxihanfu.me/bootstrap/css/bootstrap.min.css" rel="stylesheet">
