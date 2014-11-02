@@ -215,8 +215,8 @@
 </blockquote>
 <p>Xiao</p>
 <blockquote>
-<p>QQ:**********</p>
-<p>E-mail:*******************</p>
+<p>QQ:1471520536</p>
+<p>E-mail:JerryTansWork@hotmail.com</p>
 <p><div align="right"><a href="#"><img src="./openvpn-pic/top.jpg" width="76" height="18"/></a>
                 </div></p>
 </blockquote>

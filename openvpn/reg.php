@@ -197,10 +197,10 @@
     <p><h2><a name="reg"></a></h2><h2 align="center">注册并获取您的openVPN配置文件</h2></p>
     <div align="center"></div>
     <div align="center">
-      <table width="324" border="0">
+      <table width="380" border="0">
         <tbody>
           <tr>
-            <td width="318"><form class="navbar-form navbar-left" name="myform" action="reg.php" method="post" onsubmit="return check();">
+            <td width="374"><form class="navbar-form navbar-left" name="myform" action="reg.php" method="post" onsubmit="return check();">
               <div align="center">
                 <table width="200" border="1" class="table table-bordered table-hover  m10">
                   <tbody>
@@ -225,9 +225,11 @@
           </tr>
         </tbody>
       </table>
-      <br />
-      <br />
-      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <h6><br />
+        <br />
+        <br /><br /><br /><br /><br /><br /><br /><br /> 
+        3<br /><br /><br /><br />
+      </h6>
     </div>
     <hr>
 <div align="center">Powered By Kaguya & Xiao </div> 
