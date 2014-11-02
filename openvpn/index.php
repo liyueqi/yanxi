@@ -45,7 +45,9 @@
     <p class="lead">一个基于IPv6的openVPN代理</p>
 	
   </div>
- <div class="carousel slide" id="carousel-61168">
+ 
+</header>
+<div class="carousel slide" id="carousel-61168">
 <ol class="carousel-indicators">
 	<li class="active" data-slide-to="0" data-target="#carousel-61168">&nbsp;</li>
 	<li data-slide-to="1" data-target="#carousel-61168">&nbsp;</li>
@@ -72,8 +74,6 @@
 </div>
 </div>
 <a class="left carousel-control" data-slide="prev" href="#carousel-61168">&lsaquo;</a> <a class="right carousel-control" data-slide="next" href="#carousel-61168">&rsaquo;</a></div>
-</header>
-
 
 <hr>
 <div align="center">Powered By Kaguya & Xiao </div> 
