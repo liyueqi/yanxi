@@ -92,9 +92,7 @@
             </ul>
           </div><!--/.nav-collapse -->
         </div>
-        <div id="in1" style="background: rgba(255, 255, 255, 0.7) !important;width: 70%; margin:0 auto; filter: alpha(opacity=70); opacity: 0.7;">
-        <br />
-        </div>
+        
     </nav>
     
     <div id="in1" style="background: rgba(255, 255, 255, 0.7) !important;width: 70%; margin:0 auto; filter: alpha(opacity=70); opacity: 0.7;">
