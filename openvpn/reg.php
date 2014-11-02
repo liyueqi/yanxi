@@ -96,7 +96,8 @@
         </div>
       </nav>
     
-    <div id="in1" style="background: rgba(255, 255, 255, 0.7) !important;width: 70%; height:100%;overflow:hidden;margin:0 auto; filter: alpha(opacity=70); opacity: 0.7;">
+    
+    <div id="in1" style="background: rgba(255, 255, 255, 0.7) !important;width: 70%; height:100%;overflow:hidden;margin:0 auto; ">
     
     <br />
         <div class="well">
@@ -240,8 +241,9 @@
       </table>
       <h6><br />
         <br />
-        <br /><br /><br /><br /><br /><br /><br /><br />
-        <br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br />
+        <br />
+        <br /><br />
       </h6>
     </div>
     <hr>
