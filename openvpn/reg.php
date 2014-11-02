@@ -101,7 +101,6 @@
     <div id="in1" style="background: rgba(255, 255, 255, 0.4) !important;width: 70%; height:100%;overflow:hidden;margin:0 auto;opacity: 0.9; ">
     
       <p>&nbsp;</p>
-      <p>&nbsp;</p>
       <p><br />
       <div style="width: 70%;margin:0 auto;opacity: 0.7;">
       <div class="well">
@@ -246,7 +245,7 @@
           </tr>
         </tbody>
       </table>
-      <h6><br /><br /><br />
+      <h6><br /><br />
         <br /><br />
       </h6>
     </div>
