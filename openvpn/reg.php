@@ -12,7 +12,7 @@
     <style>
 	body {
 		TEXT-ALIGN: center;
- background-image: url(./openvpn-pic/jelly-1.jpg);
+ background-image: url(./openvpn-pic/violet.jpg);
 }
 	</style>
 	 <link href="https://yanxihanfu.me/bootstrap/css/bootstrap.min.css" rel="stylesheet">
