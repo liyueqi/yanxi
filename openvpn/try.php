@@ -60,9 +60,9 @@
       <p><br />
       <div style="width: 70%;margin:0 auto;opacity: 0.7;">
     <div class="well">
-        <p><h3 align="center">本VPN走IPv6线路，IPv6下有效，<br>
+        <strong><p><h3 align="center">本VPN走IPv6线路，IPv6下有效，<br>
         服务器位于纽约。<br>
-        本页申请的试用VPN配置文件有效期为2天</h3></p>
+        本页申请的试用VPN配置文件有效期为2天</h3></p></strong>
     </div>
     </div>
     <?php
@@ -141,7 +141,7 @@
 
     ?>
     <p><h2><a name="reg"></a></h2>
-    <h3 align="center">如果您是复旦大学学生，您可以：<br />验证身份并获取您的试用openVPN配置文件</h3></p>
+    <strong><h3 align="center">如果您是复旦大学学生，您可以：<br />验证身份并获取您的试用openVPN配置文件</h3></p></strong>
 	
 	<div align="center">
     
