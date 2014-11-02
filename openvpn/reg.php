@@ -71,8 +71,10 @@
           }
       </script>
 	</head>
-	<body>
-    <nav class="navbar navbar-inverse">
+	
+    
+	<body class="post-template page">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -86,17 +88,17 @@
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <li class="active"><a href="index.php">主页</a></li>
-              <li><a href="#">注册</a></li>
+              <li><a href="reg.php">注册</a></li>
               <li><a href="try.php">试用</a></li>
-              <li><a href="contact.php">联系我们</a></li>
+              <li><a href="#">联系我们</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
-        
-    </nav>
+      </nav>
     
-    <div id="in1" style="background: rgba(255, 255, 255, 0.7) !important;width: 70%; margin:0 auto; filter: alpha(opacity=70); opacity: 0.7;">
-    
+    <div id="in1" style="background: rgba(255, 255, 255, 0.7) !important;width: 70%; height:100%;overflow:hidden;margin:0 auto; filter: alpha(opacity=70); opacity: 0.7;">
+    </div>
+    <div id="in1" style="width: 70%; height:100%;overflow:hidden;margin:0 auto; ">
     <br />
         <div class="well">
         <p><h3 align="center">本VPN走IPv6线路，IPv6下有效，</h3></p>
