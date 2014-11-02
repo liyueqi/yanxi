@@ -9,6 +9,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Jelly VPN</title>
+    <style>
+	body {
+ background-image: url(./openvpn-pic/jelly-1.jpg);
+}
+	</style>
 	 <link href="https://yanxihanfu.me/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	 <link href="https://yanxihanfu.me/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
 	 <link rel="stylesheet" href="https://yanxihanfu.me/bootstrap/css/bootstrap-theme.min.css">
@@ -86,12 +91,13 @@
           </div><!--/.nav-collapse -->
         </div>
     </nav>
-    <div class="well">
+    
+    
+    <div style="position: absolute; background: #DA70D6; left: 404px; top: 53px;filter: alpha(opacity=50);opacity: 0.3;">
+        <div class="well">
         <p><h3 align="center">本VPN走IPv6线路，IPv6下有效，</h3></p>
         <p align="center"><h3 align="center">服务器位于纽约。</h3></p>
     </div>
-    <div style="position:absolute;"><img src="./openvpn-pic/jelly-1.jpg" ></div>
-    <div style="position: absolute; MARGIN-RIGHT: auto; MARGIN-LEFT: auto; left: 427px; top: 312px;">
     <?php
     class mysql
     {
@@ -229,8 +235,8 @@
       </table>
       <h6><br />
         <br />
-        <br /><br /><br /><br /><br /><br /><br /><br /> 
-        3<br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br />
       </h6>
     </div>
     <hr>
