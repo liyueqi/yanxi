@@ -103,7 +103,7 @@
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p><br />
-      <div style="width: 70%;margin:0 auto;">
+      <div style="width: 70%;margin:0 auto;opacity: 0.7;">
       <div class="well">
         <p><h3 align="center">本VPN走IPv6线路，IPv6下有效，</h3></p>
         <p align="center"><h3 align="center">服务器位于纽约。</h3></p>
