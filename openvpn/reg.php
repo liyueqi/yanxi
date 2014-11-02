@@ -97,8 +97,7 @@
       </nav>
     
     <div id="in1" style="background: rgba(255, 255, 255, 0.7) !important;width: 70%; height:100%;overflow:hidden;margin:0 auto; filter: alpha(opacity=70); opacity: 0.7;">
-    </div>
-    <div id="in1" style="width: 70%; height:100%;overflow:hidden;margin:0 auto; ">
+    
     <br />
         <div class="well">
         <p><h3 align="center">本VPN走IPv6线路，IPv6下有效，</h3></p>
