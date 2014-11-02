@@ -97,7 +97,7 @@
       </nav>
     
     
-    <div id="in1" style="background: rgba(255, 255, 255, 0.7) !important;width: 70%; height:100%;overflow:hidden;margin:0 auto; ">
+    <div id="in1" style="background: rgba(255, 255, 255, 0.6) !important;width: 70%; height:100%;overflow:hidden;margin:0 auto; ">
     
     <br />
         <div class="well">
@@ -242,7 +242,6 @@
       <h6><br />
         <br />
         <br /><br /><br /><br /><br /><br /><br />
-        <br />
         <br /><br />
       </h6>
     </div>
