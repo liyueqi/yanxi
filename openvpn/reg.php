@@ -73,8 +73,8 @@
 	</head>
 	
     
-	<body class="post-template page">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+<body class="post-template page">
+<nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -99,7 +99,9 @@
     
     <div id="in1" style="background: rgba(255, 255, 255, 0.6) !important;width: 70%; height:100%;overflow:hidden;margin:0 auto; ">
     
-    <br />
+      <p>&nbsp;</p>
+      <p><br />
+      </p>
         <div class="well">
         <p><h3 align="center">本VPN走IPv6线路，IPv6下有效，</h3></p>
         <p align="center"><h3 align="center">服务器位于纽约。</h3></p>
