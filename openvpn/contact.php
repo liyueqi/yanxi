@@ -43,12 +43,12 @@
     <p class="lead">一个基于IPv6的openVPN代理</p>
   </div>
 </header>
-<div>
-<video controls="" autoplay="" name="media"><source src="./makeshit.mp3" type="audio/mpeg"></video>
-  </div>
+
   <div class="col-md-3 ">
         <div id="toc" class="bc-sidebar"><ul class="nav"><li class="toc-h2 toc-active"><a href="#toc0">项目说明</a></li><li class="toc-h2"><a href="#toc1">费用说明</a></li><li class="toc-h2"><a href="#toc2">使用教程</a></li><li class="toc-h2"><a href="#toc3">参与人员</a></li></ul></div>
-      </div>
+      <video controls="" autoplay="" name="media"><source src="./makeshit.mp3" type="audio/mpeg"></video>
+
+	  </div>
   <div class="col-md-9">
         <article class="post page">
         	<section class="post-content">
