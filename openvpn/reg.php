@@ -93,7 +93,7 @@
     </nav>
     
     
-    <div style="position: absolute; background: #DA70D6; left: 404px; top: 53px;filter: alpha(opacity=30);opacity: 0.3;">
+    <div style="position: absolute; background: #DA70D6; left: 404px; top: 53px;filter: alpha(opacity=90);opacity: 0.9;">
         <div class="well">
         <p><h3 align="center">本VPN走IPv6线路，IPv6下有效，</h3></p>
         <p align="center"><h3 align="center">服务器位于纽约。</h3></p>
