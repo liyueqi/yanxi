@@ -9,6 +9,13 @@
 	 <link href="https://yanxihanfu.me/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	 <link href="https://yanxihanfu.me/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
 	 <link rel="stylesheet" href="https://yanxihanfu.me/bootstrap/css/bootstrap-theme.min.css">
+     <style>
+	body {
+		TEXT-ALIGN: center;
+ background-image: url(./openvpn-pic/test3.jpg);
+ background-size:cover;
+}
+	</style>
 	<script src="https://yanxihanfu.me/bootstrap/js/jquery.min.js"></script>
 	<script src="https://yanxihanfu.me/bootstrap/js/bootstrap.min.js"></script>
       <script>
@@ -25,8 +32,8 @@
           }
       </script>
 	</head>
-	<body>
-    <nav class="navbar navbar-inverse">
+	<body class="post-template page">
+<nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -47,10 +54,16 @@
           </div><!--/.nav-collapse -->
         </div>
       </nav>
+       <div id="in1" style="background: rgba(255, 255, 255, 0.4) !important;width: 70%; height:100%;overflow:hidden;margin:0 auto;opacity: 0.9; ">
+    
+      <p>&nbsp;</p>
+      <p><br />
+      <div style="width: 70%;margin:0 auto;opacity: 0.7;">
     <div class="well">
         <p><h3 align="center">本VPN走IPv6线路，IPv6下有效，<br>
         服务器位于纽约。<br>
         本页申请的试用VPN配置文件有效期为2天</h3></p>
+    </div>
     </div>
     <?php
     class mysql
@@ -170,11 +183,12 @@
        
 	  <br/>
   <br/>
-  <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+  <br/><br/><br/><br/><br/><br/><br/><br/><br/>
     </div>
 	<hr>
 	
 <div align="center">Powered By Kaguya & Xiao </div> 
+</div>
 	</body>
 	
 	</html>
