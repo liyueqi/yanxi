@@ -126,7 +126,8 @@
       <p><br />
       <div style="width: 70%;margin:0 auto;opacity: 0.7;">
       <div class="well">
-        <p><h3 align="center">本VPN走IPv6线路，IPv6下有效，</h3></p>
+        <p>
+        <h3 align="center">本 VPN 走 Pv6 线路， IPv6 下有效，</h3></p>
         <p align="center"><h3 align="center">服务器位于纽约。</h3></p>
     </div>
       </div>
@@ -236,7 +237,8 @@
 
     ?>
     
-    <p><h2><a name="reg"></a></h2><h2>注册并获取您的openVPN配置文件</h2></p>
+    <p><h2><a name="reg"></a></h2>
+    <h2>注册并获取您的 OpenVPN 配置文件</h2></p>
     <div align="center"></div>
     <div align="center">
       <table width="380" border="0">
