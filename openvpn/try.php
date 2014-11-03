@@ -15,7 +15,34 @@
  background-image: url(./openvpn-pic/test3.jpg);
  background-size:cover;
 }
-	</style>
+	.post-template.page .navbar.navbar-inverse.navbar-fixed-top {
+	font-family: 微软雅黑;
+}
+     .post-template.page #in1 {
+	font-family: 微软雅黑;
+}
+     .post-template.page #in1 {
+	font-family: 微软雅黑;
+}
+     .post-template.page #in1 div {
+	font-family: 微软雅黑;
+}
+     .post-template.page #in1 div strong h3 {
+	font-family: 微软雅黑;
+}
+     .post-template.page #in1 strong h3 {
+	font-family: 微软雅黑;
+}
+     .post-template.page #in1 div table .navbar-form.navbar-left tr td div .table.table-bordered.table-hover.m10 tbody tr td h4 {
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+}
+     .post-template.page #in1 div table .navbar-form.navbar-left tr td div .table.table-bordered.table-hover.m10 tbody tr td div .btn.btn-mid.btn-primary {
+	font-family: 微软雅黑;
+}
+     .post-template.page #in1 div table .navbar-form.navbar-left tr td div .table.table-bordered.table-hover.m10 tbody tr td div .btn.btn-success {
+	font-family: 微软雅黑;
+}
+     </style>
 	<script src="https://yanxihanfu.me/bootstrap/js/jquery.min.js"></script>
 	<script src="https://yanxihanfu.me/bootstrap/js/bootstrap.min.js"></script>
       <script>
@@ -59,11 +86,12 @@
       <p>&nbsp;</p>
       <p><br />
       <div style="width: 70%;margin:0 auto;opacity: 0.7;">
-    <div class="well">
-        <strong><p><h3 align="center">本VPN走IPv6线路，IPv6下有效，<br>
+    
+        <strong><p>
+        <h3 align="center">本 VPN 走 IPv6 线路， IPv6 下有效，<br>
         服务器位于纽约。<br>
-        本页申请的试用VPN配置文件有效期为2天</h3></p></strong>
-    </div>
+        本页申请的试用 VPN 配置文件有效期为 2 天</h3></p></strong>
+    
     </div>
     <?php
     class mysql
@@ -141,7 +169,8 @@
 
     ?>
     <p><h2><a name="reg"></a></h2>
-    <strong><h3 align="center">如果您是复旦大学学生，您可以：<br />验证身份并获取您的试用openVPN配置文件</h3></p></strong>
+    <strong><h3 align="center">如果您是复旦大学学生，您可以：<br />
+      验证身份并获取您的试用 OpenVPN 配置文件</h3></p></strong>
 	
 	<div align="center">
     
@@ -180,6 +209,8 @@
           </form>
         </tbody>
       </table>
+	  <p>&nbsp;</p>
+	  <p>&nbsp;</p>
 	  <p>&nbsp;</p>
 	  <p><br/>
       </p>
