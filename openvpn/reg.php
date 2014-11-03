@@ -36,6 +36,12 @@
     .post-template.page #in1 div table tbody tr td .navbar-form.navbar-left div .table.table-bordered.table-hover.m10 tbody tr td .btn.btn-success {
 	font-family: 微软雅黑;
 }
+    .post-template.page #in1 div h3 {
+	font-family: 微软雅黑;
+}
+    .post-template.page .navbar.navbar-inverse.navbar-fixed-top {
+	font-family: 微软雅黑;
+}
     </style>
 	 <link href="https://yanxihanfu.me/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	 <link href="https://yanxihanfu.me/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
