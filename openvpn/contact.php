@@ -97,7 +97,7 @@
 <ol type="I">
 <li><p><h4>根据自己系统下载相应的openvpn软件：</h4></p>
 <blockquote>
-<p><h4>64位Windows系统：<a href="./exe/openvpn-2.3.4-x64.exe">OpenVPN-2.3.4 X64</a><br /><a href="./exe/openvpn-2.3.5-x64.exe">OpenVPN-2.3.5 X64</a></h4></p>
+<p><h4>64位Windows系统：<br /><a href="./exe/openvpn-2.3.4-x64.exe">OpenVPN-2.3.4 X64</a><br /><a href="./exe/openvpn-2.3.5-x64.exe">OpenVPN-2.3.5 X64</a></h4></p>
 <p><h4>32位Windows系统：<a href="./exe/openvpn-2.3.4-x86.exe">OpenVPN-2.3.4 X86</a></h4></p>
 </blockquote>
 </li>
