@@ -125,11 +125,11 @@
       <p>&nbsp;</p>
       <p><br />
       <div style="width: 70%;margin:0 auto;opacity: 0.7;">
-      <div class="well">
+      
         <p>
         <h3 align="center">本 VPN 走 Pv6 线路， IPv6 下有效，</h3></p>
         <p align="center"><h3 align="center">服务器位于纽约。</h3></p>
-    </div>
+    
       </div>
       </p>
         
