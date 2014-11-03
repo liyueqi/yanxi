@@ -169,8 +169,8 @@
 
     ?>
     <p><h2><a name="reg"></a></h2>
-    <strong><h3 align="center">如果您是复旦大学学生，您可以：<br />
-      验证身份并获取您的试用 OpenVPN 配置文件</h3></p></strong>
+    <strong><h3 align="center">如果您是复旦大学学生，您可以：</h3></p>
+      <p><h3 align="center">验证身份并获取您的试用 OpenVPN 配置文件</h3></p></strong>
 	
 	<div align="center">
     
