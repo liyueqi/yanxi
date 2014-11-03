@@ -275,7 +275,10 @@
           </tr>
         </tbody>
       </table>
-      <h6><br /><br />
+      <h6><br />
+      </h6>
+      <h6>&nbsp;</h6>
+      <h6><br />
         <br /><br />
       </h6>
     </div>
