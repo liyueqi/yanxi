@@ -15,10 +15,32 @@
  background-image: url(./openvpn-pic/test3.jpg);
  background-size:cover;
 }
-	</style>
+	.post-template.page #in1 div .well h3 {
+	font-family: 微软雅黑;
+}
+    .post-template.page #in1 div .well h3 {
+	font-family: 微软雅黑;
+}
+    #in1 h2 {
+	font-family: 微软雅黑;
+}
+    .post-template.page #in1 div table tbody tr td .navbar-form.navbar-left div .table.table-bordered.table-hover.m10 tbody tr td {
+	font-family: 微软雅黑;
+}
+    .post-template.page #in1 div table tbody tr td .navbar-form.navbar-left div .table.table-bordered.table-hover.m10 tbody tr td h4 {
+	font-family: 微软雅黑;
+}
+    .post-template.page #in1 div table tbody tr td .navbar-form.navbar-left div .table.table-bordered.table-hover.m10 tbody tr td .btn.btn-mid.btn-primary {
+	font-family: 微软雅黑;
+}
+    .post-template.page #in1 div table tbody tr td .navbar-form.navbar-left div .table.table-bordered.table-hover.m10 tbody tr td .btn.btn-success {
+	font-family: 微软雅黑;
+}
+    </style>
 	 <link href="https://yanxihanfu.me/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	 <link href="https://yanxihanfu.me/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
 	 <link rel="stylesheet" href="https://yanxihanfu.me/bootstrap/css/bootstrap-theme.min.css">
+	 
 	<script src="https://yanxihanfu.me/bootstrap/js/jquery.min.js"></script>
 	<script src="https://yanxihanfu.me/bootstrap/js/bootstrap.min.js"></script>
       <script>
