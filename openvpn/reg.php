@@ -42,6 +42,9 @@
     .post-template.page .navbar.navbar-inverse.navbar-fixed-top {
 	font-family: 微软雅黑;
 }
+    .post-template.page #in1 div h4 {
+	font-family: 微软雅黑;
+}
     </style>
 	 <link href="https://yanxihanfu.me/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	 <link href="https://yanxihanfu.me/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
@@ -123,7 +126,7 @@
             </ul>
           </div><!--/.nav-collapse -->
         </div>
-      </nav>
+</nav>
     
     
     <div id="in1" style="background: rgba(255, 255, 255, 0.4) !important;width: 70%; height:100%;overflow:hidden;margin:0 auto;opacity: 0.9; ">
@@ -275,7 +278,7 @@
           </tr>
         </tbody>
       </table>
-      <h6>&nbsp;</h6>
+      <h4>购买注册码请联系QQ：1136358656 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1136358656&amp;Site=JellyVPN&amp;Menu=yes"><img src="http://skin.54kefu.net/icon/3_online.gif" vspace="4" border="0" align="absmiddle" title=""></a><br />或者E-mail： 13307130177@fudan.edu.cn</h4>
       
       <h6>&nbsp;</h6>
       <h6><br />
