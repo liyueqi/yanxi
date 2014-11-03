@@ -258,7 +258,7 @@
                       <td>&nbsp;</td>
                       <td><button type="submit" class="btn btn-mid btn-primary">提交</button>
                         &nbsp;
-                        <button type="reset" class="btn btn-success">重置</button></td>
+                        <button type="reset" class="btn btn-success">重置</button> </td>
                     </tr>
                   </tbody>
                 </table>
