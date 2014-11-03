@@ -88,9 +88,9 @@
       <div style="width: 70%;margin:0 auto;opacity: 0.7;">
     
         <strong><p>
-        <h3 align="center">本 VPN 走 IPv6 线路， IPv6 下有效，<br>
-        服务器位于纽约。<br>
-        本页申请的试用 VPN 配置文件有效期为 2 天</h3></p></strong>
+        <h3 align="center">本 VPN 走 IPv6 线路， IPv6 下有效，</h3></p>
+        <p><h3 align="center">服务器位于纽约。</h3></p>
+        <p><h3 align="center">本页申请的试用 VPN 配置文件有效期为 2 天</h3></p></strong>
     
     </div>
     <?php
@@ -210,9 +210,6 @@
         </tbody>
       </table>
 	  <p>&nbsp;</p>
-	  <p>&nbsp;</p>
-	  <p>&nbsp;</p>
-      
 	  <p><br/>
       </p>
     </div>
