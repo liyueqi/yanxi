@@ -65,7 +65,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;openvpn原理图
 <p><h4>项目发展一段时间后，将视情况陆续增加服务器以进一步提升服务质量。<br />由于在IPv4情况下严格的网络审查以及openvpn流量极易被识别等因素，<strong>暂时不对IPv4开放服务。</strong><br />近期将会附带相对安全便利的Shaddowsocks和Goagent Paas代理以满足用户在IPv4网络下的需要。</h4></p>
 <p><h4>如果项目发展良好，将来会增加国内服务器以提高国内网站的使用体验。</h4></p>
-<p><h3>本项目支持试用，请按照相关说明操作或者联系相关人员。<br /><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1136358656&amp;Site=JellyVPN&amp;Menu=yes"><img src="http://skin.54kefu.net/icon/3_online.gif" vspace="4" border="0" align="absmiddle" title=""></a></h3></p>
+<p><h3>本项目支持试用，请按照相关说明操作或者联系相关人员。<br /><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1136358656&amp;Site=JellyVPN&amp;Menu=yes"><img src="./openvpn-pic/qq.gif" vspace="4" border="0" align="absmiddle" title=""></a></h3></p>
 <span id="toc1"></span>
 <h2 id="bootstrap">费用说明<div align="right"><a href="#"><img src="./openvpn-pic/top.jpg" width="76" height="18"/></a>
                 </div></h2>
