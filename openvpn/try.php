@@ -142,7 +142,7 @@
                 $time = date('Y-m-d H:i:s',time());
                 $timeshot = strtotime($time).$name.$stunum;
                 $cername = substr(md5($timeshot),0,8);
-                $sql = "update studentdb set status='1',cername='$cername' where stunum='$stunum'";
+                $sql = "update studentdb set status='1',cername='$cername',trytime='$time' where stunum='$stunum'";
                 $result = $conn->query($sql);
                 $command = "bash /home/wwwroot/yanxi/openvpn/try.sh $cername";
                 $result = shell_exec($command);
