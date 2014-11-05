@@ -52,6 +52,7 @@
 	 
 	<script src="https://yanxihanfu.me/bootstrap/js/jquery.min.js"></script>
 	<script src="https://yanxihanfu.me/bootstrap/js/bootstrap.min.js"></script>
+	<base target="_blank">
       <script>
 	  document.getElementById("in1").style.height=document.getElementById("in2").scrollHeight+"px"
           function check()
@@ -233,8 +234,8 @@
 
 
             echo '<div class="alert alert-success" role="alert">'."
-      <strong>恭喜！</strong> 配置文件生成成功！<br>$url
-    </div>";
+                <strong>恭喜！</strong> 配置文件生成成功！<br>$url<br /><strong>戳<a href='./contact.php#toc2'>我</a>查看设置和使用教程~~</strong>
+                    </div>";
         }
     }else{
 

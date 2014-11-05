@@ -35,6 +35,7 @@
 
 
     </script>
+	<base target="_blank">
 </head>
 <body>
 <nav class="navbar navbar-inverse">
