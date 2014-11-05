@@ -150,7 +150,7 @@
 
 
                 echo '<div class="alert alert-success" role="alert">'."
-                <strong>恭喜！</strong> 试用配置文件生成成功！<br>$url
+                <strong>恭喜！</strong> 试用配置文件生成成功！<br>$url<br /><strong>戳<a href='./contact.php#toc2'>我</a>查看设置和使用教程~~</strong>
                     </div>";
 
 
