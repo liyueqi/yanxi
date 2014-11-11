@@ -45,7 +45,7 @@
     <p class="lead">一个基于IPv6的openVPN代理</p>
 	
   </div>
- <base target="_blank">
+
 </header>
 <div class="carousel slide" id="carousel-61168">
 <ol class="carousel-indicators">

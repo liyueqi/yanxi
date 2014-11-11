@@ -52,7 +52,7 @@
 	 
 	<script src="https://yanxihanfu.me/bootstrap/js/jquery.min.js"></script>
 	<script src="https://yanxihanfu.me/bootstrap/js/bootstrap.min.js"></script>
-	<base target="_blank">
+
       <script>
 	  document.getElementById("in1").style.height=document.getElementById("in2").scrollHeight+"px"
           function check()

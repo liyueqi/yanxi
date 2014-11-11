@@ -58,7 +58,7 @@
               }
           }
       </script>
-	  <base target="_blank">
+
 	</head>
 	<body class="post-template page">
 <nav class="navbar navbar-inverse navbar-fixed-top">
