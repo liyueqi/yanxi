@@ -206,19 +206,21 @@
             $result = $conn->query($sql);
             $rows = mysql_fetch_array($result);
             $type = $rows['exp'];
+            $server = $rows['server'];
+            $node = $row['node'];
 
             $sql = "update invitecode set status='1',regtime='$time',cert='$cername' where code='$code'";
             switch($type){
                 case "1month":
-                    $command = "bash /home/wwwroot/yanxi/openvpn/reg-1.sh $cername";
+                    $command = "bash /home/wwwroot/yanxi/openvpn/reg-1.sh $cername $server $node";
                     $result = shell_exec($command);
                     break;
                 case "2months":
-                    $command = "bash /home/wwwroot/yanxi/openvpn/reg-2.sh $cername";
+                    $command = "bash /home/wwwroot/yanxi/openvpn/reg-2.sh $cername $server $node";
                     $result = shell_exec($command);
                     break;
                 case "3months":
-                    $command = "bash /home/wwwroot/yanxi/openvpn/reg-3.sh $cername";
+                    $command = "bash /home/wwwroot/yanxi/openvpn/reg-3.sh $cername $server $node";
                     $result = shell_exec($command);
                     break;
                 default:
