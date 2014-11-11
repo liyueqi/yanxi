@@ -145,9 +145,9 @@
                 $cername = substr(md5($timeshot),0,8);
                 $sql = "update studentdb set status='1',cername='$cername',trytime='$time' where stunum='$stunum'";
                 $result = $conn->query($sql);
-                $command = "bash /home/wwwroot/yanxi/openvpn/try.sh $cername";
+                $command = "bash /home/wwwroot/yanxi/openvpn/try.sh $cername 1 3";
                 $result = shell_exec($command);
-                $url = "<a href='$cername.zip'>单击此处以下载您的试用openVPN配置文件</a>";
+                $url = "<a href='$cername.zip'>单击此处以下载您的试用 OpenVPN 配置文件</a>";
 
 
                 echo '<div class="alert alert-success" role="alert">'."
