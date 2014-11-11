@@ -210,6 +210,7 @@
             $node = $row['node'];
 
             $sql = "update invitecode set status='1',regtime='$time',cert='$cername' where code='$code'";
+            /*
             switch($type){
                 case "1month":
                     $command = "bash /home/wwwroot/yanxi/openvpn/reg-1.sh $cername $server $node";
@@ -227,7 +228,8 @@
 
             }
             $result = $conn->query($sql);
-
+*/
+            echo $server."<br />".$node;
 
 
             
