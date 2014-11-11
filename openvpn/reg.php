@@ -207,7 +207,7 @@
             $rows = mysql_fetch_array($result);
             $type = $rows['exp'];
             $server = $rows['server'];
-            $node = $row['node'];
+            $node = $rows['node'];
 
             $sql = "update invitecode set status='1',regtime='$time',cert='$cername' where code='$code'";
             /*
