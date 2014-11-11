@@ -27,7 +27,7 @@
 					if(document.myform.node.value=="")
             		{alert("节点不能为空.");return false;}
 					else
-					{return true;
+					{if(document.myform.server.value==""){alert("服务器不能为空.");return false;}else{return true;}
 					}
 				}
             }
@@ -98,6 +98,7 @@ if(isset($_POST['code']))
     $code = $_POST['code'];
     $exp = $_POST['exp'];
     $node = $_POST['node'];
+    $server = $_POST['server'];
     switch($exp){
         case "1":
             $exp = "1month";
@@ -119,7 +120,7 @@ if(isset($_POST['code']))
     while($len >= 16){
         $res[$i] = substr($code,0,16);
         $code = str_replace($res[$i],"",$code);
-        $sql = "insert into invitecode (code,status,generatetime,exp,node) values ('$res[$i]','0','$time','$exp','$node')";
+        $sql = "insert into invitecode (code,status,generatetime,exp,server,node) values ('$res[$i]','0','$time','$exp','$server','$node')";
         $result = $conn->query($sql);
         $len = strlen($code);
         $i++;
@@ -149,6 +150,14 @@ if(isset($_POST['code']))
         </td>
         <td>
         <input type="text" class="form-control" name="exp">
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <h4>服务器：</h4>
+        </td>
+        <td>
+        <input type="text" class="form-control" name="server">
         </td>
         </tr>
         <tr>
