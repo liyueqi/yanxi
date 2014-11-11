@@ -13,7 +13,7 @@
   	<script src="https://yanxihanfu.me/bootstrap/js/jquery.min.js"></script>
 	<script src="https://yanxihanfu.me/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://yanxihanfu.me/bootstrap/js/site.min.js"></script>
-	<base target="_blank">
+
 	</head>
 	<body class="post-template page">
     <nav class="navbar navbar-inverse navbar-fixed-top">
