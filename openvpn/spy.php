@@ -82,9 +82,9 @@ function sizeformat($bytesize)
 
 $mysql_server_name="localhost";
 
-$mysql_username    ="user";
+$mysql_username    ="root";
 
-$mysql_password    =" xxxxxxx ";
+$mysql_password    ="1136358656";
 
 $mysql_database    ="openvpn";
 

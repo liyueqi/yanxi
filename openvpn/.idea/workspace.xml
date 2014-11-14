@@ -26,9 +26,9 @@
       <file leaf-file-name="spy.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spy.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="176" column="45" selection-start="2987" selection-end="2987" vertical-scroll-proportion="5.775475" vertical-offset="0" max-vertical-offset="3572">
+            <state line="86" column="31" selection-start="1053" selection-end="1053" vertical-scroll-proportion="0.2625216" vertical-offset="1482" max-vertical-offset="3572">
               <folding>
-                <marker date="1415970309833" expanded="true" signature="1170:1216" placeholder="SELECT * FRO..log..." />
+                <marker date="1415972410452" expanded="true" signature="1171:1217" placeholder="SELECT * FRO..log..." />
               </folding>
             </state>
           </provider>
@@ -262,9 +262,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spy.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="176" column="45" selection-start="2987" selection-end="2987" vertical-scroll-proportion="5.775475" vertical-offset="0" max-vertical-offset="3572">
+        <state line="86" column="31" selection-start="1053" selection-end="1053" vertical-scroll-proportion="0.2625216" vertical-offset="1482" max-vertical-offset="3572">
           <folding>
-            <marker date="1415970309833" expanded="true" signature="1170:1216" placeholder="SELECT * FRO..log..." />
+            <marker date="1415972410452" expanded="true" signature="1171:1217" placeholder="SELECT * FRO..log..." />
           </folding>
         </state>
       </provider>
