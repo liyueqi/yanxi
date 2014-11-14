@@ -45,7 +45,10 @@
 </header>
 
   <div class="col-md-3 ">
-        <div id="toc" class="bc-sidebar"><ul class="nav"><li class="toc-h2 toc-active"><a href="#toc0">项目说明</a></li><li class="toc-h2"><a href="#toc1">费用说明</a></li><li class="toc-h2"><a href="#toc2">使用教程</a></li><li class="toc-h2"><a href="#toc3">参与人员</a></li></ul></div>
+        <div id="toc" class="bc-sidebar"><ul class="nav"><li class="toc-h2 toc-active"><a href="#toc0">项目说明</a></li><li class="toc-h2"><a href="#toc1">费用说明</a></li>
+        <li class="toc-h2"><a href="#toc2">VPN使用教程</a></li>
+        <li class="toc-h2"><a href="#toc3">UnBlock Youku 使用教程</a></li>
+    <li class="toc-h2"><a href="#toc4">参与人员</a></li></ul></div>
       
 
 	  </div>
@@ -206,9 +209,37 @@
 </ol>
 </blockquote>
 
-
-
-<span id="toc3"></span><h2 id="">参与人员<div align="right"><a href="#"><img src="./openvpn-pic/top.jpg" width="76" height="18"/></a>
+<span id="toc3"></span><h2 id="bootstrap">UnBlock Youku使用教程<div align="right"><a href="#"><img src="./openvpn-pic/top.jpg" width="76" height="18"/></a>
+                </div></h2>
+<p><h4>1、chrome</h4></p>
+<blockquote>
+<ol type="I">
+<li><h4>直接访问土豆、优酷等国内视频网站，提示无法播放</h4><br /><img src="./openvpn-pic/pic-27.PNG"></li>
+<li>
+<h4>下载 UnBlock Youku 插件</h4>
+<blockquote>
+<p><h4><a href="./crx/Unblock-Youku.crx">Unblock-Youku.crx</a></h4></p>
+</blockquote>
+</li>
+<li>
+<h4>打开Chrome浏览器，单击右上角菜单图标，在菜单中点击“设置”<br /><img src="./openvpn-pic/pic-21.PNG">
+</h4></li>
+<li><h4>在设置界面的左半部分选择“扩展程序”</h4><img src="./openvpn-pic/pic-22.PNG"></li>
+<li><h4>把下载的crx插件拖动到窗口内进行安装</h4><img src="./openvpn-pic/pic-23.PNG" width="80%"></li>
+<li><h4>在插件列表内启用UnBlock Youku 插件</h4>
+</li>
+<li><h4>关闭设置界面，点击浏览器右上角新出现的UnBlock Youku 插件小图标<img src="./openvpn-pic/pic-24.PNG" wideth="80%"></h4>
+  <img src="./openvpn-pic/pic-25.PNG"></li>
+<li><h4>在弹出的菜单内选择“普通模式”</h4><img src="./openvpn-pic/pic-26.PNG" wideth="80%"></li>
+<li><h4>再次进入土豆或者优酷播放视频，可以正常播放。</h4><img src="./openvpn-pic/pic-34.PNG" wideth="80%"></li>
+</ol>
+</blockquote>
+<p><h4>1、360<s>安全</s>浏览器(强烈不建议使用该浏览器，建议换用Chrome！<a href="">点此下载安装Chrome</a>)</h4></p>
+<blockquote>
+<ol type="I">
+<li><h4></h4></li>
+</ol></blockquote>
+<span id="toc4"></span><h2 id="">参与人员<div align="right"><a href="#"><img src="./openvpn-pic/top.jpg" width="76" height="18"/></a>
                 </div></h2>
 
 <p>Kaguya</p>
