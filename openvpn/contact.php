@@ -237,7 +237,7 @@
 <li><h4>再次进入土豆或者优酷播放视频，可以正常播放。</h4><img src="./openvpn-pic/pic-34.PNG" wideth="80%"></li>
 </ol>
 </blockquote>
-<p><span id="toc3-1"></span><h4>2、360<s>安全</s>浏览器(强烈不建议使用该浏览器，建议换用Chrome！<a href="">点此下载安装Chrome</a>)</h4></p>
+<p><span id="toc3-2"></span><h4>2、360<s>安全</s>浏览器(强烈不建议使用该浏览器，建议换用Chrome！<a href="">点此下载安装Chrome</a>)</h4></p>
 <blockquote>
 <ol type="I">
 <li>
