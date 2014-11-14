@@ -2,13 +2,13 @@
 
 <head>
 
-    <meta http-equiv="Content-Language" content="zh-tw">
+    <meta http-equiv="Content-Language" content="zh-cn">
 
-    <meta http-equiv="Content-Type" content="text/html; charset=big5">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
     <meta http-equiv="refresh" content="300">
 
-    <title>VPN狀態信息</title>
+    <title>VPN状态信息</title>
 
     <style type="text/css">
 
@@ -174,7 +174,7 @@ $result=mysql_db_query($mysql_database,$sql,$conn);
 
     </table>
 
-    <p align="center" class="Content_style1">本頁面每5分鐘刷新一次</p>
+    <p align="center" class="Content_style1">本页面每5分钟刷新一次</p>
 
 </div>
 
