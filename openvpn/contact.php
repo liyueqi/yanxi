@@ -226,9 +226,9 @@
 </h4></li>
 <li><h4>在设置界面的左半部分选择“扩展程序”</h4><img src="./openvpn-pic/pic-22.PNG"></li>
 <li><h4>把下载的crx插件拖动到窗口内进行安装</h4><img src="./openvpn-pic/pic-23.PNG" width="80%"></li>
-<li><h4>在插件列表内启用UnBlock Youku 插件</h4>
+<li><h4>在插件列表内启用UnBlock Youku 插件</h4><img src="./openvpn-pic/pic-24.PNG" wideth="80%">
 </li>
-<li><h4>关闭设置界面，点击浏览器右上角新出现的UnBlock Youku 插件小图标<img src="./openvpn-pic/pic-24.PNG" wideth="80%"></h4>
+<li><h4>关闭设置界面，点击浏览器右上角新出现的UnBlock Youku 插件小图标</h4>
   <img src="./openvpn-pic/pic-25.PNG"></li>
 <li><h4>在弹出的菜单内选择“普通模式”</h4><img src="./openvpn-pic/pic-26.PNG" wideth="80%"></li>
 <li><h4>再次进入土豆或者优酷播放视频，可以正常播放。</h4><img src="./openvpn-pic/pic-34.PNG" wideth="80%"></li>
