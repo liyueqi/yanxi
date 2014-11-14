@@ -54,7 +54,7 @@
                 <li class="active"><a href="index.php">主页</a></li>
                 <li><a href="reg.php">注册</a></li>
                 <li><a href="try.php">试用</a></li>
-                <li><a href="contact.php">联系我们</a></li>
+                <li><a href="contact.php">关于</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
