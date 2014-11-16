@@ -1,4 +1,4 @@
-<?php 
+ï»¿<?php 
 include 'header.php';
 ?>
 
@@ -105,7 +105,7 @@ include 'header.php';
 
 						<h3 class="page-title">
 
-							×ÊÔ´¼à¿ØÃæ°å <small>Ïà¹ØÍ³¼Æ</small>
+							èµ„æºç›‘æ§é¢æ¿ <small>ç›¸å…³ç»Ÿè®¡</small>
 
 						</h3>
 
@@ -115,13 +115,13 @@ include 'header.php';
 
 								<i class="icon-home"></i>
 
-								<a href="index.html">Ö÷Ò³</a> 
+								<a href="index.html">ä¸»é¡µ</a> 
 
 								<i class="icon-angle-right"></i>
 
 							</li>
 
-							<li><a href="#">×ÊÔ´¼à¿Ø</a></li>
+							<li><a href="#">èµ„æºç›‘æ§</a></li>
 
 							<li class="pull-right no-text-shadow">
 

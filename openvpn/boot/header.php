@@ -1,4 +1,4 @@
-<!--[if !IE]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+﻿<!--[if !IE]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 
 <!-- BEGIN HEAD -->
 
@@ -6,7 +6,7 @@
 
 	<meta charset="utf-8" />
 
-	<title>JellyVPN | �û�����</title>
+	<title>JellyVPN | 用户中心</title>
 
 	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
@@ -228,15 +228,15 @@
 
 						<ul class="dropdown-menu">
 
-							<li><a href="extra_profile.html"><i class="icon-user"></i> �ҵ�����</a></li>
+							<li><a href="extra_profile.html"><i class="icon-user"></i> 我的资料</a></li>
 
 							
 
 							<li class="divider"></li>
 
-							<li><a href="extra_lock.html"><i class="icon-lock"></i> ��ʱ�뿪</a></li>
+							<li><a href="extra_lock.html"><i class="icon-lock"></i> 暂时离开</a></li>
 
-							<li><a href="login.html"><i class="icon-key"></i> ע����½</a></li>
+							<li><a href="login.html"><i class="icon-key"></i> 注销登陆</a></li>
 
 						</ul>
 
@@ -285,7 +285,7 @@
 
 					<i class="icon-home"></i> 
 
-					<span class="title">��Դ���</span>
+					<span class="title">资源监控</span>
 
 					<span class="selected"></span>
 
@@ -299,7 +299,7 @@
 
 					<i class="icon-cogs"></i> 
 
-					<span class="title">�˻���Ϣ</span>
+					<span class="title">账户信息</span>
 
 					<span class="arrow "></span>
 
@@ -311,14 +311,14 @@
 
 							<a href="profile-edit.php">
 
-							��������</a>
+							资料设置</a>
 
 						</li>
                         <li >
 
 							<a href="certificate-current.php">
 
-							��ǰ֤��</a>
+							当前证书</a>
 
 						</li>
 
@@ -334,7 +334,7 @@
 
 					<i class="icon-bookmark-empty"></i> 
 
-					<span class="title">�˻�����</span>
+					<span class="title">账户管理</span>
 
 					<span class="arrow "></span>
 
@@ -346,7 +346,7 @@
 
 							<a href="password-change.php">
 
-							�޸�����</a>
+							修改密码</a>
 
 						</li>
 
@@ -362,7 +362,7 @@
 
 					<i class="icon-table"></i> 
 
-					<span class="title">�ƹ�</span>
+					<span class="title">推广活动</span>
 
 					<span class="arrow "></span>
 
@@ -374,21 +374,21 @@
 
 							<a href="reference-introduction.php">
 
-							�����</a>
+							活动介绍</a>
 
 						</li>
 						<li >
 
 							<a href="reference-invite.php">
 
-							�����û�</a>
+							邀请用户</a>
 
 						</li>
 						<li >
 
 							<a href="reference-invited.php">
 
-							�������û�</a>
+							已邀请用户</a>
 
 						</li>
 
