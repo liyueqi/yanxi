@@ -63,14 +63,40 @@ switch($type){
         {
             $username = $_POST['username'];
             $password = $_POST['password'];
-            $sql = "select * from studentdb where stunum='$username' and pass='$password'";
+            $password = md5($password);
+            $sql = "select count(*) from studentdb where stunum='$username' and pass='$password'";
             $rawresult = $conn->query($sql);
+            $rows = mysql_fetch_array($rawresult);
+            $count = $rows[0];
+            if($count != 0)
+            {
+                $sql = "select * from studentdb where stunum='$username' and pass='$password'";
+                $rawresult = $conn->query($sql);
+                $result = mysql_fetch_array($rawresult);
+                $name = $result['names'];
+                $username = $result['stunum'];
+                $time = date('Y-m-d-H-i-s');
+                $stamp = "wyllovedyjat".$time;
+                $hash = md5($stamp);
+                $arr = array();
+                $arr['username'] = $username;
+                $arr['name'] = $name;
+                $arr['hash'] = $hash;
+                $arr_str = serialize($arr);
+                $sql = "update studentdb set cookie = '$hash' where stunum = '$username'";
+                $result = $conn->query($sql);
+                setcookie("jellystatus",$arr_str,time()+3600,"/");
+                header("location: index.php");
 
+            }else{
+                echo "<script>alert('用户名或密码错误!');</script>";
+            }
         }else{
 
         }
         break;
     case "register":
+
 
         break;
     case "find":
