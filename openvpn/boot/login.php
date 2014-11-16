@@ -76,7 +76,7 @@
 
 				<button class="close" data-dismiss="alert"></button>
 
-				<span>Enter any username and password.</span>
+				<span>请输入用户名（默认为复旦大学学号）和密码.</span>
 
 			</div>
 
@@ -84,7 +84,7 @@
 
 				<!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
 
-				<label class="control-label visible-ie8 visible-ie9">Username</label>
+				<label class="control-label visible-ie8 visible-ie9">用户名（默认为复旦大学学号）</label>
 
 				<div class="controls">
 
@@ -102,7 +102,7 @@
 
 			<div class="control-group">
 
-				<label class="control-label visible-ie8 visible-ie9">Password</label>
+				<label class="control-label visible-ie8 visible-ie9">密码</label>
 
 				<div class="controls">
 
@@ -168,7 +168,7 @@
 
 		<form class="form-vertical forget-form" action="index.html">
 
-			<h3 class="">Forget Password ?</h3>
+			<h3 class="">忘记密码？</h3>
 
 			<p>输入您的学号邮箱以重置密码.</p>
 
