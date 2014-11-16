@@ -126,7 +126,7 @@ if(isset($_POST['']))
 		<!-- BEGIN LOGIN FORM -->
 
 
-		<form class="form-vertical login-form" action="login.php？type=login">
+		<form class="form-vertical" action="login.php？type=login">
 <div >
 			<h3 align="center" class="form-title">登入您的账户</h3>
 </div>
