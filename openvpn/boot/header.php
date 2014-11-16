@@ -1,4 +1,4 @@
-<!--[if !IE]><!--> <html lang="zh-cn" class="no-js"> <!--<![endif]-->
+<!--[if !IE]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 
 <!-- BEGIN HEAD -->
 
