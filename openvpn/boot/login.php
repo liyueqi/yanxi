@@ -12,7 +12,7 @@
 
 	<meta charset="utf-8" />
 
-	<title>Metronic | Login Page</title>
+	<title>JellyVPN | 登陆</title>
 
 	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
@@ -68,7 +68,7 @@
 
 		<!-- BEGIN LOGIN FORM -->
 
-		<form class="form-vertical login-form" action="index.html">
+		<form class="form-vertical login-form" action="login.php">
 <div >
 			<h3 align="center" class="form-title">登入您的账户</h3>
 </div>
@@ -166,7 +166,7 @@
 
 		<!-- BEGIN FORGOT PASSWORD FORM -->
 
-		<form class="form-vertical forget-form" action="index.html">
+		<form class="form-vertical forget-form" action="login.php">
 
 			<h3 class="">忘记密码？</h3>
 
@@ -210,7 +210,7 @@
 
 		<!-- BEGIN REGISTRATION FORM -->
 
-		<form class="form-vertical register-form" action="index.html">
+		<form class="form-vertical register-form" action="login.php">
 
 			<h3 class="">注册</h3>
 

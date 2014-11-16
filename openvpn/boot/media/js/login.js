@@ -22,10 +22,10 @@ var Login = function () {
 
 	            messages: {
 	                username: {
-	                    required: "Username is required."
+	                    required: "请输入用户名（默认为复旦大学学号）"
 	                },
 	                password: {
-	                    required: "Password is required."
+	                    required: "请输入密码."
 	                }
 	            },
 
@@ -147,7 +147,7 @@ var Login = function () {
 
 	            messages: { // custom messages for radio buttons and checkboxes
 	                tnc: {
-	                    required: "Please accept TNC first."
+	                    required: "您必须同意服务条款和隐私政策."
 	                }
 	            },
 
