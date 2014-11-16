@@ -170,7 +170,7 @@
 
 			<h3 class="">Forget Password ?</h3>
 
-			<p>Enter your e-mail address below to reset your password.</p>
+			<p>输入您的学号邮箱以重置密码.</p>
 
 			<div class="control-group">
 
@@ -192,13 +192,13 @@
 
 				<button type="button" id="back-btn" class="btn">
 
-				<i class="m-icon-swapleft"></i> Back
+				<i class="m-icon-swapleft"></i> 返回
 
 				</button>
 
 				<button type="submit" class="btn green pull-right">
 
-				Submit <i class="m-icon-swapright m-icon-white"></i>
+				确定 <i class="m-icon-swapright m-icon-white"></i>
 
 				</button>            
 
@@ -212,13 +212,13 @@
 
 		<form class="form-vertical register-form" action="index.html">
 
-			<h3 class="">Sign Up</h3>
+			<h3 class="">注册</h3>
 
-			<p>Enter your account details below:</p>
+			<p>请输入您的申请信息:</p>
 
 			<div class="control-group">
 
-				<label class="control-label visible-ie8 visible-ie9">Username</label>
+				<label class="control-label visible-ie8 visible-ie9">学号：</label>
 
 				<div class="controls">
 
@@ -226,7 +226,7 @@
 
 						<i class="icon-user"></i>
 
-						<input class="m-wrap placeholder-no-fix" type="text" placeholder="Username" name="username"/>
+						<input class="m-wrap placeholder-no-fix" type="text" placeholder="学号" name="username"/>
 
 					</div>
 
@@ -236,7 +236,7 @@
 
 			<div class="control-group">
 
-				<label class="control-label visible-ie8 visible-ie9">Password</label>
+				<label class="control-label visible-ie8 visible-ie9">密码</label>
 
 				<div class="controls">
 
@@ -244,7 +244,7 @@
 
 						<i class="icon-lock"></i>
 
-						<input class="m-wrap placeholder-no-fix" type="password" id="register_password" placeholder="Password" name="password"/>
+						<input class="m-wrap placeholder-no-fix" type="password" id="register_password" placeholder="密码" name="password"/>
 
 					</div>
 
@@ -254,7 +254,7 @@
 
 			<div class="control-group">
 
-				<label class="control-label visible-ie8 visible-ie9">Re-type Your Password</label>
+				<label class="control-label visible-ie8 visible-ie9">重复您的密码</label>
 
 				<div class="controls">
 
@@ -262,7 +262,7 @@
 
 						<i class="icon-ok"></i>
 
-						<input class="m-wrap placeholder-no-fix" type="password" placeholder="Re-type Your Password" name="rpassword"/>
+						<input class="m-wrap placeholder-no-fix" type="password" placeholder="重复您的密码" name="rpassword"/>
 
 					</div>
 
@@ -274,7 +274,7 @@
 
 				<!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
 
-				<label class="control-label visible-ie8 visible-ie9">Email</label>
+				<label class="control-label visible-ie8 visible-ie9">学号邮箱</label>
 
 				<div class="controls">
 
@@ -282,7 +282,7 @@
 
 						<i class="icon-envelope"></i>
 
-						<input class="m-wrap placeholder-no-fix" type="text" placeholder="Email" name="email"/>
+						<input class="m-wrap placeholder-no-fix" type="text" placeholder="学号邮箱" name="email"/>
 
 					</div>
 
@@ -296,7 +296,7 @@
 
 					<label class="checkbox">
 
-					<input type="checkbox" name="tnc"/> I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+					<input type="checkbox" name="tnc"/> 我已经仔细阅读并完全同意 <a href="#">服务条款</a> 以及 <a href="#">隐私政策</a>
 
 					</label>  
 
@@ -310,13 +310,13 @@
 
 				<button id="register-back-btn" type="button" class="btn">
 
-				<i class="m-icon-swapleft"></i>  Back
+				<i class="m-icon-swapleft"></i>  返回
 
 				</button>
 
 				<button type="submit" id="register-submit-btn" class="btn green pull-right">
 
-				Sign Up <i class="m-icon-swapright m-icon-white"></i>
+				注册 <i class="m-icon-swapright m-icon-white"></i>
 
 				</button>            
 
