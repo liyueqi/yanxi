@@ -454,6 +454,4 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 
 			<!-- END SAMPLE PORTLET CONFIGURATION MODAL FORM-->
 
-			<!-- BEGIN PAGE CONTAINER-->
-
-			
+			<!-- BEGIN PAGE CONTAINER-->	
