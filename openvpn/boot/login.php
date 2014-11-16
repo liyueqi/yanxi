@@ -51,7 +51,38 @@
 </head>
 
 <!-- END HEAD -->
+<?php
+include 'mysql.php';
+$type = $_GET['type'];
+$conn = new mysql();
 
+
+switch($type){
+    case "login":
+        if(isset($_POST['password']))
+        {
+            $username = $_POST['username'];
+            $password = $_POST['password'];
+            $sql = "select * from studentdb where stunum='$username' and pass='$password'";
+            $rawresult = $conn->query($sql);
+
+        }else{
+
+        }
+        break;
+    case "register":
+
+        break;
+    case "find":
+
+        break;
+    default:
+
+
+}
+if(isset($_POST['']))
+
+?>
 <!-- BEGIN BODY -->
 
 <body class="login">
