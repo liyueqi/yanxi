@@ -90,7 +90,7 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 
 				<!-- BEGIN LOGO -->
 
-				<a class="brand" href="index.html">
+				<a class="brand" href="index.php">
 
 				<img src="media/image/logo.png" alt="logo"/>
 
@@ -248,15 +248,15 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 
 						<ul class="dropdown-menu">
 
-							<li><a href="extra_profile.html"><i class="icon-user"></i> 我的资料</a></li>
+							<li><a href="extra_profile.php"><i class="icon-user"></i> 我的资料</a></li>
 
 							
 
 							<li class="divider"></li>
 
-							<li><a href="extra_lock.html"><i class="icon-lock"></i> 暂时离开</a></li>
+							<li><a href="extra_lock.php"><i class="icon-lock"></i> 暂时离开</a></li>
 
-							<li><a href="login.html"><i class="icon-key"></i> 注销登陆</a></li>
+							<li><a href="login.php"><i class="icon-key"></i> 注销登陆</a></li>
 
 						</ul>
 
@@ -301,7 +301,7 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 				</li>
 				<li class="start active ">
 
-					<a href="index.html">
+					<a href="index.php">
 
 					<i class="icon-home"></i> 
 
