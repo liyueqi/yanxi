@@ -46,7 +46,7 @@
       <file leaf-file-name="readcookie.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/boot/readcookie.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="63" selection-start="134" selection-end="134" vertical-scroll-proportion="0.098445594" vertical-offset="0" max-vertical-offset="579">
+            <state line="1" column="26" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0328152" vertical-offset="0" max-vertical-offset="579">
               <folding />
             </state>
           </provider>
@@ -220,7 +220,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="更改" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -437,7 +437,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/boot/readcookie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="63" selection-start="134" selection-end="134" vertical-scroll-proportion="0.098445594" vertical-offset="0" max-vertical-offset="579">
+        <state line="1" column="26" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0328152" vertical-offset="0" max-vertical-offset="579">
           <folding />
         </state>
       </provider>
