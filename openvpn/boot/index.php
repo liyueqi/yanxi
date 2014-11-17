@@ -2526,7 +2526,7 @@ include 'header.php';
 
 		<div class="footer-inner">
 
-			2013 &copy; Metronic by keenthemes.
+
 
 		</div>
 
