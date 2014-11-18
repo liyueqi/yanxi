@@ -151,7 +151,7 @@ include 'header.php';
             	<div>
             </div>
             <div>
-            <button class="btn purple" type="submit">修改密码 <i class="m-icon-swapright m-icon-white"></i></button>
+            <button class="btn green" type="submit">修改密码 <i class="m-icon-swapright m-icon-white"></i></button>&nbsp;<button class="btn blue" type="reset">清空 <i class="m-icon-swapright m-icon-white"></i></button>
             </div>
                </form> 
 			  </div>
