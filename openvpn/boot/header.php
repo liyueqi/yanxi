@@ -24,7 +24,7 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 <?php
 include 'mysql.php';
 $conn = new mysql();
-$cookie =  $_COOKIE["yanxistatus"];
+$cookie =  $_COOKIE["jellystatus"];
 $arr = unserialize($cookie);
 $username = $arr['username'];
 $localhash = $arr['hash'];
@@ -36,7 +36,7 @@ if($localhash !="")
 {
     if($localhash == $hash)
     {
-        
+
     }else{
         echo '<script>alert("您的登录已经过期，请重新登录！");</script>';header("location: login.php");
     }
