@@ -192,7 +192,7 @@ include 'header.php';
 	</div>
 
 	<!-- END CONTAINER -->
-
+</div>
 	<!-- BEGIN FOOTER -->
 
 	<div class="footer">
