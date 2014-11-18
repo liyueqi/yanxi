@@ -274,13 +274,13 @@ if($localhash !="")
 
 						<ul class="dropdown-menu">
 
-							<li><a href="extra_profile.php"><i class="icon-user"></i> 我的资料</a></li>
+							<li><a href="profile-edit.php"><i class="icon-user"></i> 我的资料</a></li>
 
 							
 
 							<li class="divider"></li>
 
-							<li><a href="extra_lock.php"><i class="icon-lock"></i> 暂时离开</a></li>
+							<li><a href="lock.php"><i class="icon-lock"></i> 暂时离开</a></li>
 
 							<li><a href="login.php"><i class="icon-key"></i> 注销登陆</a></li>
 

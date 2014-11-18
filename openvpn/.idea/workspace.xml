@@ -41,10 +41,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/boot/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="12" selection-start="859" selection-end="859" vertical-scroll-proportion="0.328152" vertical-offset="456" max-vertical-offset="9310">
+            <state line="282" column="49" selection-start="5896" selection-end="5896" vertical-scroll-proportion="-10.178572" vertical-offset="5073" max-vertical-offset="9310">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logout.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/boot/logout.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.22970639" vertical-offset="0" max-vertical-offset="579">
               <folding />
             </state>
           </provider>
@@ -107,6 +116,7 @@
         <option value="$PROJECT_DIR$/boot/login.php" />
         <option value="$PROJECT_DIR$/boot/readcookie.php" />
         <option value="$PROJECT_DIR$/boot/header.php" />
+        <option value="$PROJECT_DIR$/boot/logout.php" />
       </list>
     </option>
   </component>
@@ -505,7 +515,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/boot/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="12" selection-start="859" selection-end="859" vertical-scroll-proportion="0.328152" vertical-offset="456" max-vertical-offset="9310">
+        <state line="282" column="49" selection-start="5896" selection-end="5896" vertical-scroll-proportion="-10.178572" vertical-offset="5073" max-vertical-offset="9310">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../admin/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="12" selection-start="0" selection-end="184" vertical-scroll-proportion="0.0656304" vertical-offset="0" max-vertical-offset="579">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.22970639" vertical-offset="0" max-vertical-offset="579">
           <folding />
         </state>
       </provider>
