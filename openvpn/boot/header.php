@@ -282,7 +282,7 @@ if($localhash !="")
 
 							<li><a href="lock.php"><i class="icon-lock"></i> 暂时离开</a></li>
 
-							<li><a href="login.php"><i class="icon-key"></i> 注销登陆</a></li>
+							<li><a href="logout.php"><i class="icon-key"></i> 注销登陆</a></li>
 
 						</ul>
 
