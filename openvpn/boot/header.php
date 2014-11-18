@@ -32,6 +32,7 @@ $sql = "select * from studentdb where stunum='$username'";
 $result=$conn->query($sql);
 $rows = mysql_fetch_array($result);
 $hash = $rows['cookie'];
+$name = $ass['name'];
 if($localhash !="")
 {
     if($localhash == $hash)
@@ -265,7 +266,7 @@ if($localhash !="")
 
 						<img alt="" src="media/image/avatar1_small.jpg" />
 
-						<span class="username">admin</span>
+						<span class="username"><?php echo $name; ?></span>
 
 						<i class="icon-angle-down"></i>
 
