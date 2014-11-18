@@ -70,12 +70,12 @@
 
 		<div class="page-body">
 
-			<img class="page-lock-img" src="media/image/profile.jpg" alt="">
+			<img src="../openvpn-pic/jelly.png" alt="" width="250" height="250" class="page-lock-img">
 
 			<div class="page-lock-info">
 
-				<h1>Bob Nilson</h1>
-				<span><em>Locked</em></span>
+			  <h1>Bob Nilson</h1>
+				<span style="color:#ffffff"><h3><i class="icon-lock"></i>已锁定</h3></span>
 
 				<form class="form-search" action="index.html">
 
