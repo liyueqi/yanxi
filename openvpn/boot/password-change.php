@@ -151,7 +151,28 @@ include 'header.php';
 						<input class="m-wrap placeholder-no-fix" type="password" placeholder="原密码" id="oldpassword"/>
 
 					</div>
+<label class="control-label visible-ie8 visible-ie9">新密码</label>
 
+				<div class="controls">
+
+					<div class="input-icon left">
+
+						<i class="icon-refresh"></i>
+
+						<input class="m-wrap placeholder-no-fix" type="password" placeholder="新密码" id="oldpassword"/>
+
+					</div><label class="control-label visible-ie8 visible-ie9">确认新密码</label>
+
+				<div class="controls">
+
+					<div class="input-icon left">
+
+						<i class="icon-ok"></i>
+
+						<input class="m-wrap placeholder-no-fix" type="password" placeholder="确认新密码" id="oldpassword"/>
+
+					</div>
+					
 				</div>
             </div>
             <div>
