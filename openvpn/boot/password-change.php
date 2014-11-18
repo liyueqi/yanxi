@@ -104,7 +104,7 @@ include 'header.php';
 
 						<h3 class="page-title">
 
-							资源监控面板 <small>相关统计</small>
+							账户管理面板 <small>修改密码</small>
 
 						</h3>
 
@@ -126,7 +126,7 @@ include 'header.php';
 
 								
 
-							</li>
+						  </li>
 
 						</ul>
 
