@@ -32,7 +32,7 @@ $sql = "select * from studentdb where stunum='$username'";
 $result=$conn->query($sql);
 $rows = mysql_fetch_array($result);
 $hash = $rows['cookie'];
-$name = $ass['name'];
+$name = $arr['name'];
 if($localhash !="")
 {
     if($localhash == $hash)
