@@ -148,7 +148,19 @@ include 'header.php';
 			  <div id="change-passwd">
 			<form id="password" method="post" action="password-change.php" onSubmit="return verify();">
             <div>
-            	<div>
+            	<label class="control-label visible-ie8 visible-ie9">原密码</label>
+
+				<div class="controls">
+
+					<div class="input-icon left">
+
+						<i class="icon-lock"></i>
+
+						<input class="m-wrap placeholder-no-fix" type="password" placeholder="原密码" id="oldpassword"/>
+
+					</div>
+
+				</div>
             </div>
             <div>
             <button class="btn green" type="submit">修改密码 <i class="m-icon-swapright m-icon-white"></i></button>&nbsp;<button class="btn blue" type="reset">清空 <i class="m-icon-swapright m-icon-white"></i></button>
