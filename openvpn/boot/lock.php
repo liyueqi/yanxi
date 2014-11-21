@@ -29,24 +29,30 @@
         {
 
         }else{
-            /*
+
             echo '<script>alert("您的登录已经过期，请重新登录！");</script>';header("location: login.php");
-            */
-            }
+        }
 
     }else
     {
-        // echo '<script>alert("您还没有登录，请登陆后操作！");</script>';header("location: login.php");
+         echo '<script>alert("您还没有登录，请登陆后操作！");</script>';header("location: login.php");
+    }
+    if(isset($_POST['password']))
+    {
+
+
+        $sql = "select * from studentdb where stunum='$username' and pass='$passwd'";
+        $result = $conn->query($sql);
+        $rows = mysql_fetch_array($result);
+        if($result == ""){
+            echo '<script>alert("请重新登录！");</script>';header("location: login.php");
+        }else{
+            header("location: index.php");
+        }
+    }else{
+
     }
 
-    $sql = "select * from studentdb where stunum='$username' and pass='$passwd'";
-    $result = $conn->query($sql);
-    $rows = mysql_fetch_array($result);
-    if($result == ""){
-        echo '<script>alert("请重新登录！");</script>';header("location: login.php");
-    }else{
-        header("location: index.php");
-    }
 
     ?>
 
