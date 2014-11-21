@@ -29,12 +29,14 @@
         {
 
         }else{
+            /*
             echo '<script>alert("您的登录已经过期，请重新登录！");</script>';header("location: login.php");
-        }
+            */
+            }
 
     }else
     {
-        echo '<script>alert("您还没有登录，请登陆后操作！");</script>';header("location: login.php");
+        // echo '<script>alert("您还没有登录，请登陆后操作！");</script>';header("location: login.php");
     }
 
     $sql = "select * from studentdb where stunum='$username' and pass='$passwd'";
@@ -112,7 +114,7 @@
 
 			<div class="page-lock-info">
 
-			  <h1>Bob Nilson</h1>
+			  <h1><?php echo $name; ?></h1>
 				<span style="color:#ffffff"><h3><i class="icon-lock"></i>已锁定</h3></span>
 
 				<form class="form-search" action="lock.php">
