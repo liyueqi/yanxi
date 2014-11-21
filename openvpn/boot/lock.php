@@ -44,11 +44,7 @@
         $sql = "select * from studentdb where stunum='$username' and pass='$passwd'";
         $result = $conn->query($sql);
         $rows = mysql_fetch_array($result);
-        if($result == ""){
-            echo '<script>alert("请重新登录！");</script>';header("location: login.php");
-        }else{
-            header("location: index.php");
-        }
+        echo $rows[0]."<br />".$rows[1]."<br />".$rows[2]."<br />".$rows[3]."<br />".$rows[4];
     }else{
 
     }
