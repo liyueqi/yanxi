@@ -119,7 +119,7 @@
 			  <h1><?php echo $name; ?></h1>
 				<span style="color:#ffffff"><h3><i class="icon-lock"></i>已锁定</h3></span>
 
-				<form class="form-search" action="lock.php">
+				<form class="form-search" action="lock.php" method="post">
 
 					<div class="input-append">
 
