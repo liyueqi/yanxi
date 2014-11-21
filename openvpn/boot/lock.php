@@ -9,10 +9,48 @@
 <!-- BEGIN HEAD -->
 
 <head>
+    <?php
+    include 'mysql.php';
+    $conn = new mysql();
+    $cookie =  $_COOKIE["jellystatus"];
+    $arr = unserialize($cookie);
+    $username = $arr['username'];
+    $localhash = $arr['hash'];
+    $sql = "select * from studentdb where stunum='$username'";
+    $result=$conn->query($sql);
+    $rows = mysql_fetch_array($result);
+    $hash = $rows['cookie'];
+    $name = $arr['name'];
+    $passwd = $_POST['password'];
+    $passwd = md5($passwd);
+    if($localhash !="")
+    {
+        if($localhash == $hash)
+        {
+
+        }else{
+            echo '<script>alert("您的登录已经过期，请重新登录！");</script>';header("location: login.php");
+        }
+
+    }else
+    {
+        echo '<script>alert("您还没有登录，请登陆后操作！");</script>';header("location: login.php");
+    }
+
+    $sql = "select * from studentdb where stunum='$username' and pass='$passwd'";
+    $result = $conn->query($sql);
+    $rows = mysql_fetch_array($result);
+    if($result == ""){
+        echo '<script>alert("请重新登录！");</script>';header("location: login.php");
+    }else{
+        header("location: index.php");
+    }
+
+    ?>
 
 	<meta charset="utf-8" />
 
-	<title>Metronic | Extra - Lock Screen</title>
+	<title>JelyVPN | 锁定</title>
 
 	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
@@ -77,11 +115,11 @@
 			  <h1>Bob Nilson</h1>
 				<span style="color:#ffffff"><h3><i class="icon-lock"></i>已锁定</h3></span>
 
-				<form class="form-search" action="index.html">
+				<form class="form-search" action="lock.php">
 
 					<div class="input-append">
 
-						<input type="text" class="m-wrap" placeholder="Password">
+						<input type="password" id="password" class="m-wrap" placeholder="密码">
 
 						<button type="submit" class="btn blue icn-only"><i class="m-icon-swapright m-icon-white"></i></button>
 
@@ -89,7 +127,7 @@
 
 					<div class="relogin">
 
-						<a href="login.html">不是本人?</a>
+						<a href="login.php">不是本人?</a>
 
 					</div>
 
@@ -101,7 +139,7 @@
 
 		<div class="page-footer">
 
-			2013 &copy; Metronic. Admin Dashboard Template.
+			<?php include 'footer.php'; ?>
 
 		</div>
 
