@@ -41,7 +41,7 @@
     {
 
 
-        $sql = "select * from studentdb where stunum='$username' and pass='$passwd'";
+        $sql = "select * from studentdb where stunum='$username'";
         $result = $conn->query($sql);
         $rows = mysql_fetch_array($result);
         echo $rows[0]."<br />".$rows[1]."<br />".$rows[2]."<br />".$rows[3]."<br />".$rows[4];
