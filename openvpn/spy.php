@@ -135,7 +135,7 @@ $result=mysql_db_query($mysql_database,$sql,$conn);
 
         <?
 
-        while($row=mysql_fetch_row($result))
+        while($row=mysql_fetch_array($result))
 
         {
 
@@ -143,23 +143,23 @@ $result=mysql_db_query($mysql_database,$sql,$conn);
 
             ?>
 
-            <tr bgcolor="#C0C0C0" class="Content_style1">
+            <tr bgcolor="#ffffff" class="Content_style1">
 
-                <td><?=$row["starting_time"]?></td>
+                <td><?=$row['starting_time']?></td>
 
-                <td><?=$row["end_time"]?></td>
+                <td><?=$row['end_time']?></td>
 
-                <td><?=$row["server"]?></td>
+                <td><?=$row['server']?></td>
 
-                <td><?=$row["trusted_port"]?></td>
+                <td><?=$row['trusted_port']?></td>
 
-                <td><?=$row["protocol"]?></td>
+                <td><?=$row['protocol']?></td>
 
-                <td><?=$row["remote_ip"]?></td>
+                <td><?=$row['remote_ip']?></td>
 
-                <td><?=$row["remote_netmask"]?></td>
+                <td><?=$row['remote_netmask']?></td>
 
-                <td><?=$row["common_name"]?></td>
+                <td><?=$row['common_name']?></td>
 
                 <td><?=sizeformat($row[8])?></td>
 
