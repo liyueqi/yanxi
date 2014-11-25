@@ -108,27 +108,28 @@ $result=mysql_db_query($mysql_database,$sql,$conn);
 
     <table width="100%"  border="1" cellpadding="1" cellspacing="1">
 
-        <tr class="Title_style2" bgcolor="#808080">
+        <tr class="Title_style2" bgcolor="#FFFFFF">
 
-            <td width="12%"><div align="left"><a starting_time</a></div></td>
+            <td width="12%"><div align="left"><a> 连接时间</a></div></td>
 
-            <td width="12%"><div align="left"><a end_time</a></div></td>
+            <td width="12%"><div align="left"><a> 断开时间</a></div></td>
+			<td width="12%"><div align="left"><a> 服务器名称</a></div></td>
 
-            <td width="8%"><div align="left"><a trusted_ip</a></div></td>
+            
 
-            <td width="10%"><div align="left"><a trusted_port</a></div></td>
+            <td width="10%"><div align="left"><a >客户端口</a></div></td>
 
-            <td width="8%"><div align="left"><a protocol</a></div></td>
+            <td width="8%"><div align="left"><a> protocol</a></div></td>
 
-            <td width="11%"><div align="left"><a remote_ip</a></div></td>
+            <td width="11%"><div align="left"><a> 内网IP</a></div></td>
 
-            <td width="11%"><div align="left"><a remote_netmask</a></div></td>
+            <td width="11%"><div align="left"><a> 掩码</a></div></td>
 
-            <td width="8%"><div align="left"><a common_name</a></div></td>
+            <td width="8%"><div align="left"><a> 用户证书</a></div></td>
 
-            <td width="11%"><div align="left"><a bytes_received</a></div></td>
+            <td width="11%"><div align="left"><a> 上行流量</a></div></td>
 
-            <td width="11%"><div align="left"><a bytes_sent</a></div></td>
+            <td width="11%"><div align="left"><a> 下行流量</a></div></td>
 
         </tr>
 
@@ -144,21 +145,21 @@ $result=mysql_db_query($mysql_database,$sql,$conn);
 
             <tr bgcolor="#C0C0C0" class="Content_style1">
 
-                <td><?=$row[0]?></td>
+                <td><?=$row["starting_time"]?></td>
 
-                <td><?=$row[1]?></td>
+                <td><?=$row["end_time"]?></td>
 
-                <td><?=$row[2]?></td>
+                <td><?=$row["server"]?></td>
 
-                <td><?=$row[3]?></td>
+                <td><?=$row["trusted_port"]?></td>
 
-                <td><?=$row[4]?></td>
+                <td><?=$row["protocol"]?></td>
 
-                <td><?=$row[5]?></td>
+                <td><?=$row["remote_ip"]?></td>
 
-                <td><?=$row[6]?></td>
+                <td><?=$row["remote_netmask"]?></td>
 
-                <td><?=$row[7]?></td>
+                <td><?=$row["common_name"]?></td>
 
                 <td><?=sizeformat($row[8])?></td>
 
@@ -173,8 +174,6 @@ $result=mysql_db_query($mysql_database,$sql,$conn);
         ?>
 
     </table>
-
-    <p align="center" class="Content_style1">本页面每5分钟刷新一次</p>
 
 </div>
 
