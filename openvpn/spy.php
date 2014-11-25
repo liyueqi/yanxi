@@ -119,11 +119,11 @@ $result=mysql_db_query($mysql_database,$sql,$conn);
 
             <td width="10%"><div align="left"><a >客户端口</a></div></td>
 
-            <td width="8%"><div align="left"><a> protocol</a></div></td>
+            
 
             <td width="11%"><div align="left"><a> 内网IP</a></div></td>
 
-            <td width="11%"><div align="left"><a> 掩码</a></div></td>
+            
 
             <td width="8%"><div align="left"><a> 用户证书</a></div></td>
 
@@ -153,11 +153,11 @@ $result=mysql_db_query($mysql_database,$sql,$conn);
 
                 <td><?=$row['trusted_port']?></td>
 
-                <td><?=$row['protocol']?></td>
+                
 
                 <td><?=$row['remote_ip']?></td>
 
-                <td><?=$row['remote_netmask']?></td>
+                
 
                 <td><?=$row['common_name']?></td>
 
