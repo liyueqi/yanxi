@@ -185,7 +185,7 @@ if(isset($name))
 }else{}
 
 $mysql = new Mysql('http://fudanyanxi.sinaapp.com/database/','1136358656');
-$sql = "SELECT *  FROM preuser where status='未处理'";
+$sql = "SELECT *  FROM preuser where status='已通过'";
 $result = $mysql->gets($sql);
 $n = count ($result);
 
@@ -198,12 +198,12 @@ for ($i = 0 ;$i < $n ;$i++ )
     echo "<tr><td>".$result[$p]['id']."</td><td>".$result[$p]['name']."</td><td>".$result[$p]['sex']."</td><td>".$result[$p]['number']."</td><td>".$result[$p]['mail']."</td><td>".$result[$p]['college']."</td><td>".$result[$p]['phone']."</td><td>".$result[$p]['description']."</td><td>".$result[$p]['openid']."</td><td>".$result[$p]['time']."</td><td>".$result[$p]['status']."</td></tr>";
 }
 
-$sql = "SELECT *  FROM preuser where status='已通过'";
+$sql = "SELECT *  FROM preuser where status='未处理'";
 $result = $mysql->gets($sql);
 $n = count ($result);
 for ($i = 0 ;$i < $n ;$i++ )
 
-    
+
     $p = $i;
     echo "<tr><td>".$result[$p]['id']."</td><td>".$result[$p]['name']."</td><td>".$result[$p]['sex']."</td><td>".$result[$p]['number']."</td><td>".$result[$p]['mail']."</td><td>".$result[$p]['college']."</td><td>".$result[$p]['phone']."</td><td>".$result[$p]['description']."</td><td>".$result[$p]['openid']."</td><td>".$result[$p]['time']."</td><td>".$result[$p]['status']."</td></tr>";
 }
