@@ -176,7 +176,11 @@ $result=mysql_db_query($mysql_database,$sql,$conn);
     </table>
 
 </div>
-
+<div id=ipv6_enabled_www_test_logo></div>
+<script language="JavaScript" type="text/javascript">
+    	var Ipv6_Js_Server = (("https:" == document.location.protocol) ? "https://" : "http://");
+	document.write(unescape("%3Cscript src='" + Ipv6_Js_Server + "www.ipv6forum.com/ipv6_enabled/sa/SA.php?id=4893' type='text/javascript'%3E%3C/script%3E"));
+</script>
 </body>
 
 </html>
