@@ -17,6 +17,6 @@ echo "\{\n
 \"enabled\" \: \false\,\n
 \"shareOverLan\" \: false\,\n
 \"isDefault\" \: false\,\n
-\"localPort\" \: 1080\}"\n
+\"localPort\" \: 1080\}\n"
 
 ?>
