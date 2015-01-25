@@ -14,7 +14,7 @@ echo "{\n
 ],\n
 \"index\" : 0,\n
 \"global\" : true,\n
-\"enabled\" : \false,\n
+\"enabled\" : false,\n
 \"shareOverLan\" : false,\n
 \"isDefault\" : false,\n
 \"localPort\" : 1080}\n"
