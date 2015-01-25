@@ -4,19 +4,19 @@ $port = $_GET['port'];
 $passwd = $_GET['passwd'];
 $method = $_GET['method'];
 echo "{\n
-\"configs\" : [\n
+\"configs\" : [
   {\n
-\"server\" : \"$IP\",\n
-\"server_port\" : $port,\n
-\"password\" : \"$passwd\",\n
-\"method\" : \"$method\",\n
-\"remarks\" : \"\"}\n\n
-],\n
-\"index\" : 0,\n
-\"global\" : true,\n
-\"enabled\" : false,\n
-\"shareOverLan\" : false,\n
-\"isDefault\" : false,\n
-\"localPort\" : 1080}\n"
+\"server\" : \"$IP\",
+\"server_port\" : $port,
+\"password\" : \"$passwd\",
+\"method\" : \"$method\",
+\"remarks\" : \"\"}\n
+],
+\"index\" : 0,
+\"global\" : true,
+\"enabled\" : false,
+\"shareOverLan\" : false,
+\"isDefault\" : false,
+\"localPort\" : 1080}"
 
 ?>
