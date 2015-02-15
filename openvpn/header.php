@@ -53,13 +53,6 @@ echo '  <head>
           </div><!--/.nav-collapse -->
         </div>
       </nav>
-    <header class="jumbotron subhead">
-  <div class="container">
-    <h1>Jelly VPN</h1>
-    <p class="lead">一个基于IPv6的openVPN代理</p>
-
-  </div>
-
-</header>  ';
-
+    ';
+//include('logo.php');
 ?>
