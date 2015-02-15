@@ -64,6 +64,29 @@ include('header.php');
             <ol type="I">
             <p><li><h3>双击桌面图标启动客户端程序：<br /><img src="./openvpn-pic/jelly-5.png"></h3></li></p>
             <p><li><h3>根据自身网络环境选择IPv6（内网）/IPv4（外网）：<br /><img src="./openvpn-pic/jelly-6.png"></h3></li></p>
+            <p><li><h3>IPv6下，主界面如图所示：<br /><img src="./openvpn-pic/jelly-7-1.png"></h3></li></p>
+            <p><li><h3>VPN需要有效的证书才能进行连接，所以需要先导入证书，点击箭头所示处，选择从本站获取的证书文件(zip格式)，点击“添加”即可：<br /><img src="./openvpn-pic/jelly-9-1.png"><img src="./openvpn-pic/jelly-10-1.png"></h3></li></p>
+            <p><li><h3>需要使用VPN时，在列表中选择有效证书，点击“连接”即可：<br /><img src="./openvpn-pic/jelly-7-1-1.png"></h3></li></p>
+            <p><li><h3>出现如图所示窗口，显示连接过程详情，可以点击右上角将其关闭，可随时单击右下角图标显示该窗口，也可以点击“断开”以断开VPN连接：<br /><img src="./openvpn-pic/jelly-8-1.png"></h3></li></p>
+            <p><li><h3>在使用VPN时，如果手机和其他设备同时需要上网，可以使用我们提供的Wi-Fi共享组件，点击“Wi-Fi共享”标签页，即可启动Wi-Fi共享组件：<br /><img src="./openvpn-pic/jelly-8-2.png"><img src="./openvpn-pic/jelly-9-2.png"></h3></li></p>
+            <p><li><h3>点击“修改，输入自己喜欢的Wi-Fi名称和密码，再点击“应用”：<br /><img src="./openvpn-pic/jelly-10-2.png"><img src="./openvpn-pic/jelly-11-2.png"></h3></li></p>
+            <p><li><h3>点击“开启热点”即可启动虚拟Wi-Fi，其他设备连接Wi-Fi以后会有显示：<br /><img src="./openvpn-pic/jelly-12-2.png"><img src="./openvpn-pic/jelly-13-2.png"></h3></li></p>
+            <p><li>
+              <h3>此时虽然有了Wi-Fi，但是是无法连接网络的，需要设置共享，单击“共享设置”，“共享服务来自于”选择本地连接2（或者其他名称，就是OpenVPN使用的那块虚拟网卡，具体可以在系统的“网络和共享中心”查看），wifi源选择“无线网络连接2”（或者其他名称，其实是创建的虚拟wifi的那个设备，，具体可以在系统的“网络和共享中心”查看），设置完点击开启共享，即可连接到网络：<br />
+                <img src="./openvpn-pic/jelly-14-2.png"></h3></li></p>
+            <hr>
+            <p><li><h3>IPv4下主要用途为翻墙，在所有网络环境下均可正常使用，主界面如图所示：<br /><img src="./openvpn-pic/jelly-7-2.png"></h3></li></p>
+            <p><li><h3>使用Shadowsocks代理不需要任何额外设置，保证网络畅通即可，点击“启动Shadowsocks代理”即可自动启动代理：<br /><img src="./openvpn-pic/jelly-15-2.png"></h3></li></p>
+            <p><li><h3>鼠标悬停右下角图标，会有如图的显示，表示代理启动成功，若显示“未配置的服务器”，则启动失败，请关闭shadowsocks组件重新启动：<br /><img src="./openvpn-pic/jelly-16-2.png"></h3></li></p>
+            <p><li><h3>右击右下角托盘图标，单击“启动系统代理”选项，即可在浏览器和其他程序访问任意网站：<br /><img src="./openvpn-pic/jelly-17-2.png"></h3></li></p>
+            <p><li><h3>根据需要设置系统代理模式，如果所有网站都需要经过代理，请选择“全局模式”，优势：稳定、安全；若希望只有被墙网站走代理，国内网站直连，则选择“PAC模式”，优势：国内网站速度不会受到影响，可以观看国内的版权视频（优酷、土豆之类的）<br /><img src="./openvpn-pic/jelly-18-2.png"></h3></li></p>
+            <p><li><h3>注意：退出ShadowSocks的时候，请务必取消“启用系统代理选项”，否则退出后浏览器将无法上网！<br /><img src="./openvpn-pic/jelly-17-2.png"></h3></li></p>
+            <p><li><h3>如果有可以独立设置代理的其他程序需要通过代理使用网络，可以双击右下角图标，弹出的窗口中有相关参数：<br />协议：scoks5<br />IP:127.0.0.1<br />端口：1080<br /><img src="./openvpn-pic/jelly-20.png"></h3></li></p>
+            
+            
+            
+            
+            
             </ol>
             </blockquote>
             </section>
