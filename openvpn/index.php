@@ -23,7 +23,7 @@
         <div class="col-lg-4">
           <img class="img-circle" src="./openvpn-pic/zhuji.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           <h2>PHP 虚拟主机</h2>
-          <p><h5>有很多用户想建立自己的个人网站、博客，但是苦于不熟悉架设流程，本项目的目的是提供一个廉价、稳定、简便的网站架设平台，并提供必要的技术支持。<br><br><br><br></h5></p>
+          <p><h5>有很多用户想建立自己的个人网站、博客，但是苦于不熟悉架设流程，本项目的目的是提供一个廉价、稳定、简便的网站架设平台，并提供必要的技术支持。<br><br><br></h5></p>
           <p><a class="btn btn-default" href="#" role="button">详情 »</a></p>
         </div><!-- /.col-lg-4 -->
       </div>
