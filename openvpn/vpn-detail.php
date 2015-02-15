@@ -38,8 +38,34 @@ include('header.php');
 
 </h4>
 </blockquote>
-            
-            
+      <span id="toc2"></span><h2 id="">使用教程<div align="right"><a href="#"><img src="./openvpn-pic/top.jpg" width="76" height="18"/></a></div></h2>
+            <div class="alert alert-info" role="alert"><h3>我们提供的代理服务都可以通过我们的专用客户端实现，所以本教程为专用客户端的使用教程。</h3></div>
+            <p><h3>1、软件安装</h3></p>
+            <blockquote>
+			<ol type="I">
+            <p><li><h3>点击链接下载客户端：<br /><a href="./exe/install.exe">VPN客户端</a></h3></li></p>
+            <p><li><h4>双击运行下载完成的安装程序</h4></li></p>
+            <p><li><h4>点击“我同意”进入下一步：</h4><br><img src="./openvpn-pic/jelly-1.png"></li></p>
+            <p><li><h4>点击“确定”进入下一步以安装OpenVPN程序：</h4><br><img src="./openvpn-pic/jelly-2.png"></li></p>
+            <p><li><h4>点击“Next”进入下一步：</h4><br><img src="./openvpn-pic/pic-2.PNG"></li></p>
+            <p><li><h4>在用户协议界面点击“I Agree”，进入下一步。</h4><img src="./openvpn-pic/pic-3.PNG"></li></p>
+			<p><li><h4>选择组件界面，直接点击“Next”，进入下一步。</h4><img src="./openvpn-pic/pic-4.PNG"></li></p>
+            <p><li><h4>选择您想要安装到的文件夹，一般保持默认即可,点击“Next”，进入下一步。</h4><img src="./openvpn-pic/pic-5.PNG"></li></p>
+            <p><li><h4>进入安装过程，请耐心等待，不要进行任何其他操作。</h4><img src="./openvpn-pic/pic-6.PNG"></li></p>
+            <p><li><h4>如果系统弹出类似下图的提示“您想安装这个软件设备吗”，请勾选“始终信任”并点击“安装”</h4><img src="./openvpn-pic/pic-7.PNG"></li></p>
+            <p><li><h4>安装完成后，直接点击“Next”，进入下一步。</h4><img src="./openvpn-pic/pic-8.PNG"></li></p>
+            <p><li><h4>在完成后，取消“start OpenVPN”和“Show Readme”，直接点击“Next”，进入下一步。</h4><img src="./openvpn-pic/pic-9.PNG"></li></p>
+            <p><li><h4>在安装其他组件界面，点击“确定”，安装其他必备组件。</h4><img src="./openvpn-pic/jelly-3.png"></li></p>
+            <p><li><h4>在完成界面，点击“完成”，完成安装。</h4><img src="./openvpn-pic/jelly-4.png"></li></p>
+            </ol>
+            </blockquote>
+            <p><h3>2、软件使用</h3></p>
+            <blockquote>
+            <ol type="I">
+            <p><li><h3>双击桌面图标启动客户端程序：<br /><img src="./openvpn-pic/jelly-5.png"></h3></li></p>
+            <p><li><h3>根据自身网络环境选择IPv6（内网）/IPv4（外网）：<br /><img src="./openvpn-pic/jelly-6.png"></h3></li></p>
+            </ol>
+            </blockquote>
             </section>
             </article>
         
