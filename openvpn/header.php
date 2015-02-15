@@ -26,14 +26,14 @@ echo '  <head>
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">主页</a></li>
+              <li class="active"><a href="./index.php">主页</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">VPN&代理 <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                   <li><a href="#"></a></li>
-                  <li><a href="#">介绍&使用教程</a></li>
-                  <li><a href="#">试用</a></li>
-                  <li><a href="#">购买</a></li>
+                  <li><a href="./vpn-detail.php">介绍&使用教程</a></li>
+                  <li><a href="./vpn-try.php">试用</a></li>
+                  <li><a href="./vpn-buy.php">购买</a></li>
 
                 </ul>
               </li>
@@ -41,9 +41,9 @@ echo '  <head>
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">虚拟主机空间 <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                   <li><a href="#"></a></li>
-                  <li><a href="#">介绍&使用教程</a></li>
-                  <li><a href="#">试用</a></li>
-                  <li><a href="#">购买</a></li>
+                  <li><a href="./space-detail.php">介绍&使用教程</a></li>
+                  <li><a href="./space-try.php">试用</a></li>
+                  <li><a href="./space-buy.php">购买</a></li>
 
                 </ul>
               </li>
