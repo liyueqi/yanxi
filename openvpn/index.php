@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
 <html>
-  <php?
+  <?php
   include('header.php');
   include ('logo.php');
   ?>
