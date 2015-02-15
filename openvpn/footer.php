@@ -1,7 +1,7 @@
 <?php
 echo '<hr>
 <div align="center">Powered By Kaguya & Xiao </div>
-<div align="center">2014 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan ';
+<div align="center">©2015 Synapse Web Service <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan ';
 echo "id='cnzz_stat_icon_1253526699'%3E%3C/span%3E%3Cscript src=' ";
 echo '" + cnzz_protocol + "s23.cnzz.com/z_stat.php%3Fid%3D1253526699%26show%3Dpic ';
 echo "' type='text/javascript'%3E%3C/script%3E ";
