@@ -13,9 +13,9 @@
       $options = array('http' => array('method'  => 'POST','content' => http_build_query($param)));
       $context  = stream_context_create($options);
       $result = file_get_contents($url, false, $context);
-
+      print_r($param);
       return $result;
     }
   echo send_mail();
-  print_r($param);
+  
 ?>
