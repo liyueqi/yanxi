@@ -37,12 +37,7 @@ include("logo.php");
 </nav>
     
     
-    <div id="in1" style="background: rgba(255, 255, 255, 0.4) !important;width: 70%; height:100%;overflow:hidden;margin:0 auto;opacity: 0.9; ">
-    
-      <p>&nbsp;</p>
-      <p><br />
-      </p>
-      <script>
+    <div id="in1" style="background: rgba(255, 255, 255, 0.4) !important;width: 70%; height:100%;overflow:hidden;margin:0 auto;opacity: 0.9; "><script>
 	  document.getElementById("in1").style.height=document.getElementById("in2").scrollHeight+"px"
           function check()
           {
@@ -194,10 +189,8 @@ include("logo.php");
 
     }
 
-    ?>
-    
-    <p><h2><a name="reg"></a></h2>
-    <h2>注册并获取您的 OpenVPN 配置文件</h2></p>
+    ?><h2><a name="reg"></a></h2>
+    <h2 align="center">注册 Synapse Web Service 账号</h2></p>
     <div align="center"></div>
     <div align="center">
       <table width="380" border="0">
@@ -208,16 +201,23 @@ include("logo.php");
                 <table width="200" border="1" class="table table-bordered table-hover  m10">
                   <tbody>
                     <tr>
-                      <td><h4>注册码：</h4></td>
+                      <td><h4>用户名：</h4></td>
                       <td><input type="text" class="form-control" name="code" onkeyup="showHint(this.value)"></td>
                     </tr>
                     <tr>
-                      <td><h4>有效期：</h4></td>
+                      <td><h4>密码：</h4></td>
+                      <td><label id="exp"></label></td>
+                    </tr>
+                    <tr>
+                      <td><h4>确认密码：</h4></td>
+                      <td><label id="exp"></label></td>
+                    </tr><tr>
+                      <td><h4>邮箱：</h4></td>
                       <td><label id="exp"></label></td>
                     </tr>
                     <tr>
                       <td>&nbsp;</td>
-                      <td><button type="submit" class="btn btn-mid btn-primary">提交</button>
+                      <td><button type="submit" class="btn btn-mid btn-primary">注册</button>
                         &nbsp;
                         <button type="reset" class="btn btn-success">重置</button> </td>
                     </tr>
@@ -228,14 +228,7 @@ include("logo.php");
           </tr>
         </tbody>
       </table>
-      <h4>购买注册码请联系QQ：1136358656 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1136358656&amp;Site=JellyVPN&amp;Menu=yes"><img src="./openvpn-pic/qq.gif" vspace="4" border="0" align="absmiddle" title=""></a><br />或者E-mail： 13307130177@fudan.edu.cn</h4>
-      
-      <h6>&nbsp;</h6>
       <h6><br />
-      </h6>
-      <h6>&nbsp;</h6>
-      <h6><br />
-        <br /><br />
       </h6>
     </div>
     
@@ -244,7 +237,7 @@ include("logo.php");
 <?php
 include("footer.php");
 ?>
-	</body>
+</body>
 	
 	</html>
 
