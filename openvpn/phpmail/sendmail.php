@@ -4,9 +4,9 @@
 	//******************** 配置信息 ********************************
 	$mail = new MySendMail();
 	//$mail->setServer("", "XXXXX@126.com", "XXXXX"); //设置smtp服务器，普通连接方式
-	$mail->setServer("smtp@qq.com", "postmaster@yanlei.me", "dyjwyl919.", 465, true); //设置smtp服务器，到服务器的SSL连接
-	$mail->setFrom("Synapse Web Service"); //设置发件人
-	$mail->setReceiver("1136358656@qq.com"); //设置收件人，多个收件人，调用多次
+	$mail->setServer("smtp@qq.com", "1136358656@qq.com", "dyjwyl919.", 465, true); //设置smtp服务器，到服务器的SSL连接
+	$mail->setFrom("postmaster@yanlei.me"); //设置发件人
+	$mail->setReceiver("13307130177@fudan.edu.cn"); //设置收件人，多个收件人，调用多次
 	//$mail->setCc("XXXX"); //设置抄送，多个抄送，调用多次
 	//$mail->setBcc("XXXXX"); //设置秘密抄送，多个秘密抄送，调用多次
 	//$mail->addAttachment("XXXX"); //添加附件，多个附件，调用多次
