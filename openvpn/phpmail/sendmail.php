@@ -17,5 +17,5 @@
       return $result;
     }
   echo send_mail();
-  var_dump($param);
+  print_r($param);
 ?>
