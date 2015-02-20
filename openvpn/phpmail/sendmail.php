@@ -1,15 +1,15 @@
-<?php
+ï»¿<?php
 header("Content-type: text/html; charset=utf-8"); 
     function send_mail() {
       $url = 'http://sendcloud.sohu.com/webapi/mail.send.json';
-      //²»Í¬ÓÚµÇÂ¼SendCloudÕ¾µãµÄÕÊºÅ£¬ÄúÐèÒªµÇÂ¼ºóÌ¨´´½¨·¢ÐÅ×ÓÕÊºÅ£¬Ê¹ÓÃ×ÓÕÊºÅºÍÃÜÂë²Å¿ÉÒÔ½øÐÐÓÊ¼þµÄ·¢ËÍ¡£
+      //ä¸åŒäºŽç™»å½•SendCloudç«™ç‚¹çš„å¸å·ï¼Œæ‚¨éœ€è¦ç™»å½•åŽå°åˆ›å»ºå‘ä¿¡å­å¸å·ï¼Œä½¿ç”¨å­å¸å·å’Œå¯†ç æ‰å¯ä»¥è¿›è¡Œé‚®ä»¶çš„å‘é€ã€‚
       $param = array('api_user' => 'synapsewebservicemail',
               'api_key' => 'WWhy6msPpXlqf2Fr',
               'from' => 'admin@yanlei.me',
-              'fromname' => 'SendCloud²âÊÔÓÊ¼þ',
+              'fromname' => 'SendCloudæµ‹è¯•é‚®ä»¶',
               'to' => '1136358656@qq.com',
-              'subject' => 'À´×ÔSendCloudµÄµÚÒ»·âÓÊ¼þ£¡',
-              'html' => 'ÄãÌ«°ôÁË£¡ÄãÒÑ³É¹¦µÄ´ÓSendCloud·¢ËÍÁËÒ»·â²âÊÔÓÊ¼þ£¬½ÓÏÂÀ´¿ìµÇÂ¼Ç°Ì¨È¥ÍêÉÆÕË»§ÐÅÏ¢°É£¡');
+              'subject' => 'æ¥è‡ªSendCloudçš„ç¬¬ä¸€å°é‚®ä»¶ï¼',
+              'html' => 'ä½ å¤ªæ£’äº†ï¼ä½ å·²æˆåŠŸçš„ä»ŽSendCloudå‘é€äº†ä¸€å°æµ‹è¯•é‚®ä»¶ï¼ŒæŽ¥ä¸‹æ¥å¿«ç™»å½•å‰å°åŽ»å®Œå–„è´¦æˆ·ä¿¡æ¯å§ï¼');
 
       $options = array('http' => array('method'  => 'POST','content' => http_build_query($param)));
       $context  = stream_context_create($options);
