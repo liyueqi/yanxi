@@ -3,56 +3,45 @@
 
 
 <html>
+<?php
+include("header.php");
+include("logo.php");
+?>
+  
 
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Jelly VPN</title>
-    <style>
-	body {
-		TEXT-ALIGN: center;
- background-image: url(./openvpn-pic/test3.jpg);
- background-size:cover;
-}
-	.post-template.page #in1 div .well h3 {
-	font-family: 微软雅黑;
-}
-    .post-template.page #in1 div .well h3 {
-	font-family: 微软雅黑;
-}
-    #in1 h2 {
-	font-family: 微软雅黑;
-}
-    .post-template.page #in1 div table tbody tr td .navbar-form.navbar-left div .table.table-bordered.table-hover.m10 tbody tr td {
-	font-family: 微软雅黑;
-}
-    .post-template.page #in1 div table tbody tr td .navbar-form.navbar-left div .table.table-bordered.table-hover.m10 tbody tr td h4 {
-	font-family: 微软雅黑;
-}
-    .post-template.page #in1 div table tbody tr td .navbar-form.navbar-left div .table.table-bordered.table-hover.m10 tbody tr td .btn.btn-mid.btn-primary {
-	font-family: 微软雅黑;
-}
-    .post-template.page #in1 div table tbody tr td .navbar-form.navbar-left div .table.table-bordered.table-hover.m10 tbody tr td .btn.btn-success {
-	font-family: 微软雅黑;
-}
-    .post-template.page #in1 div h3 {
-	font-family: 微软雅黑;
-}
-    .post-template.page .navbar.navbar-inverse.navbar-fixed-top {
-	font-family: 微软雅黑;
-}
-    .post-template.page #in1 div h4 {
-	font-family: 微软雅黑;
-}
-    </style>
-	 <link href="https://yanxihanfu.me/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	 <link href="https://yanxihanfu.me/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
-	 <link rel="stylesheet" href="https://yanxihanfu.me/bootstrap/css/bootstrap-theme.min.css">
-	 
-	<script src="https://yanxihanfu.me/bootstrap/js/jquery.min.js"></script>
-	<script src="https://yanxihanfu.me/bootstrap/js/bootstrap.min.js"></script>
-
+      
+	
+	
+    
+<body class="post-template page">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Jelly VPN</a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.php">主页</a></li>
+              <li><a href="#">注册</a></li>
+              <li><a href="try.php">试用</a></li>
+              <li><a href="contact.php">关于</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+</nav>
+    
+    
+    <div id="in1" style="background: rgba(255, 255, 255, 0.4) !important;width: 70%; height:100%;overflow:hidden;margin:0 auto;opacity: 0.9; ">
+    
+      <p>&nbsp;</p>
+      <p><br />
+      </p>
       <script>
 	  document.getElementById("in1").style.height=document.getElementById("in2").scrollHeight+"px"
           function check()
@@ -102,47 +91,7 @@
 
 
           }
-      </script>
-	</head>
-	
-    
-<body class="post-template page">
-<nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Jelly VPN</a>
-          </div>
-          <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="index.php">主页</a></li>
-              <li><a href="#">注册</a></li>
-              <li><a href="try.php">试用</a></li>
-              <li><a href="contact.php">关于</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-</nav>
-    
-    
-    <div id="in1" style="background: rgba(255, 255, 255, 0.4) !important;width: 70%; height:100%;overflow:hidden;margin:0 auto;opacity: 0.9; ">
-    
-      <p>&nbsp;</p>
-      <p><br />
-      <div style="width: 70%;margin:0 auto;opacity: 0.7;">
-      
-        <p>
-        <h3 align="center">本 VPN 走 Pv6 线路， IPv6 下有效，</h3></p>
-        <p align="center"><h3 align="center">服务器位于纽约。</h3></p>
-    
-      </div>
-      </p>
-        
+      </script>  
     <?php
     class mysql
     {
@@ -245,10 +194,6 @@
 
     }
 
-
-
-
-
     ?>
     
     <p><h2><a name="reg"></a></h2>
@@ -293,15 +238,12 @@
         <br /><br />
       </h6>
     </div>
-    <hr>
-<div align="center">Powered By Kaguya & Xiao <br /><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253526699'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s23.cnzz.com/z_stat.php%3Fid%3D1253526699%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
-<div id=ipv6_enabled_www_test_logo></div>
-<script language="JavaScript" type="text/javascript">
-    	var Ipv6_Js_Server = (("https:" == document.location.protocol) ? "https://" : "http://");
-	document.write(unescape("%3Cscript src='" + Ipv6_Js_Server + "www.ipv6forum.com/ipv6_enabled/sa/SA.php?id=4893' type='text/javascript'%3E%3C/script%3E"));
-</script></div> 
-</div>
+    
+</div> 
 
+<?php
+include("footer.php");
+?>
 	</body>
 	
 	</html>
