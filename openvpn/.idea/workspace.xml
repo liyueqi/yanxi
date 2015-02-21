@@ -23,44 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="32" selection-start="2557" selection-end="2557" vertical-scroll-proportion="0.5734024" vertical-offset="618" max-vertical-offset="1197">
-              <folding>
-                <marker date="1423983844219" expanded="true" signature="19:846" placeholder="..." />
-                <marker date="1423983844219" expanded="true" signature="881:2665" placeholder="..." />
-                <marker date="1423983844219" expanded="true" signature="938:2660" placeholder="..." />
-                <marker date="1423983844219" expanded="true" signature="970:2647" placeholder="..." />
-                <marker date="1423983844219" expanded="true" signature="1008:1433" placeholder="..." />
-                <marker date="1423983844219" expanded="true" signature="1129:1347" placeholder="..." />
-                <marker date="1423983844219" expanded="true" signature="1482:2610" placeholder="..." />
-                <marker date="1423983844219" expanded="true" signature="1522:2593" placeholder="..." />
-                <marker date="1423983844219" expanded="true" signature="1615:2050" placeholder="..." />
-                <marker date="1423983844219" expanded="true" signature="1820:2030" placeholder="..." />
-                <marker date="1423983844219" expanded="true" signature="2087:2522" placeholder="..." />
-                <marker date="1423983844219" expanded="true" signature="2292:2502" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logo.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="36" selection-start="42" selection-end="42" vertical-scroll-proportion="-0.6785714" vertical-offset="0" max-vertical-offset="285">
-              <folding>
-                <marker date="1423983762256" expanded="true" signature="45:184" placeholder="..." />
-                <marker date="1423983762256" expanded="true" signature="71:173" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index-test.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index-test.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index-test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="353" selection-end="353" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="950">
+            <state line="21" column="0" selection-start="644" selection-end="644" vertical-scroll-proportion="0.33568904" vertical-offset="209" max-vertical-offset="950">
               <folding />
             </state>
           </provider>
@@ -94,6 +60,7 @@
         <option value="$PROJECT_DIR$/index-test.php" />
         <option value="$PROJECT_DIR$/logo.php" />
         <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/reg-mail.php" />
       </list>
     </option>
   </component>
@@ -227,11 +194,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/boot/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="25" selection-start="3220" selection-end="3220" vertical-scroll-proportion="0.0" vertical-offset="2337" max-vertical-offset="9006" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/boot/readcookie.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="26" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="209" />
@@ -467,40 +429,54 @@
         <state line="97" column="94" selection-start="2919" selection-end="2919" vertical-scroll-proportion="2.7158878" vertical-offset="390" max-vertical-offset="2508" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index-test.php">
+    <entry file="file://$PROJECT_DIR$/reg-mail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="353" selection-end="353" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="950">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="36" selection-start="42" selection-end="42" vertical-scroll-proportion="-0.6785714" vertical-offset="0" max-vertical-offset="285">
+        <state line="219" column="63" selection-start="7678" selection-end="7678" vertical-scroll-proportion="7.1865287" vertical-offset="0" max-vertical-offset="4712">
           <folding>
-            <marker date="1423983762256" expanded="true" signature="45:184" placeholder="..." />
-            <marker date="1423983762256" expanded="true" signature="71:173" placeholder="..." />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1424496864267" expanded="true" signature="-1:-1" placeholder="select count..invitecode..." />
+            <marker date="1424496864267" expanded="true" signature="-1:-1" placeholder="select count..invitecode..." />
+            <marker date="1424496864267" expanded="true" signature="-1:-1" placeholder="select count..invitecode..." />
+            <marker date="1424496864267" expanded="true" signature="-1:-1" placeholder="select * fro..invitecode..." />
+            <marker date="1424496864267" expanded="true" signature="-1:-1" placeholder="update invit..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="32" selection-start="2557" selection-end="2557" vertical-scroll-proportion="0.5734024" vertical-offset="618" max-vertical-offset="1197">
+        <state line="50" column="33" selection-start="2652" selection-end="2652" vertical-scroll-proportion="0.7702936" vertical-offset="504" max-vertical-offset="1197">
           <folding>
-            <marker date="1423983844219" expanded="true" signature="19:846" placeholder="..." />
-            <marker date="1423983844219" expanded="true" signature="881:2665" placeholder="..." />
-            <marker date="1423983844219" expanded="true" signature="938:2660" placeholder="..." />
-            <marker date="1423983844219" expanded="true" signature="970:2647" placeholder="..." />
-            <marker date="1423983844219" expanded="true" signature="1008:1433" placeholder="..." />
-            <marker date="1423983844219" expanded="true" signature="1129:1347" placeholder="..." />
-            <marker date="1423983844219" expanded="true" signature="1482:2610" placeholder="..." />
-            <marker date="1423983844219" expanded="true" signature="1522:2593" placeholder="..." />
-            <marker date="1423983844219" expanded="true" signature="1615:2050" placeholder="..." />
-            <marker date="1423983844219" expanded="true" signature="1820:2030" placeholder="..." />
-            <marker date="1423983844219" expanded="true" signature="2087:2522" placeholder="..." />
-            <marker date="1423983844219" expanded="true" signature="2292:2502" placeholder="..." />
+            <marker date="1423993610497" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423993610497" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423993610497" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423993610497" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423993610497" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423993610497" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423993610497" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423993610497" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423993610497" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423993610497" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423993610497" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423993610497" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="36" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0328152" vertical-offset="0" max-vertical-offset="579">
+          <folding>
+            <marker date="1423983762256" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423983762256" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="644" selection-end="644" vertical-scroll-proportion="0.33568904" vertical-offset="209" max-vertical-offset="950">
+          <folding />
         </state>
       </provider>
     </entry>
