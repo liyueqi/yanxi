@@ -2,7 +2,7 @@
 header("Content-type: text/html; charset=utf-8"); 
     function send_mail() {
       $url = 'http://sendcloud.sohu.com/webapi/mail.send.json';
-      //不同于登录SendCloud站点的帐号，您需要登录后台创建发信子帐号，使用子帐号和密码才可以进行邮件的发送。
+      //使用子帐号和密码才可以进行邮件的发送。
       $param = array('api_user' => 'synapsewebservicemail',
               'api_key' => 'WWhy6msPpXlqf2Fr',
               'from' => 'admin@yanlei.me',
