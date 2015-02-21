@@ -1,3 +1,4 @@
 <?php
-echo "test";
+$arr=array("Volvo");
+echo json_encode($arr);
 ?>
