@@ -202,18 +202,18 @@ include("logo.php");
                   <tbody>
                     <tr>
                       <td><h4>用户名：</h4></td>
-                      <td><input type="text" class="form-control" name="code" onkeyup="showHint(this.value)"></td>
+                      <td><input type="text" class="form-control" name="uid" onkeyup="showHint(this.value)"></td>
                     </tr>
                     <tr>
                       <td><h4>密码：</h4></td>
-                      <td><label id="exp"></label></td>
+                      <td><input type="text" class="form-control" name="passwd" onkeyup="showHint(this.value)"></td>
                     </tr>
                     <tr>
                       <td><h4>确认密码：</h4></td>
-                      <td><label id="exp"></label></td>
+                      <td><input type="text" class="form-control" name="confirm" onkeyup="showHint(this.value)"></td>
                     </tr><tr>
                       <td><h4>邮箱：</h4></td>
-                      <td><label id="exp"></label></td>
+                      <td><input type="text" class="form-control" name="mailbox" onkeyup="showHint(this.value)"></td>
                     </tr>
                     <tr>
                       <td>&nbsp;</td>
