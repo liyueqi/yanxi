@@ -202,7 +202,7 @@ include("logo.php");
                                 <tbody>
                                 <tr>
                                     <td><h4>邮箱：</h4></td>
-                                    <td><input type="text" class="form-control" name="mailbox" onkeyup="showHint(this.value)"><span id="exp"></span></td>
+                                    <td><input type="text" class="form-control" name="mailbox" onblur="showHint(this.value)"><span id="exp"></span></td>
                                 </tr>
                                 <tr>
                                     <td>&nbsp;</td>
