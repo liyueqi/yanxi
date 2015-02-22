@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b3641ed-1d6e-4f39-99fb-c23adabe5828" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="0b3641ed-1d6e-4f39-99fb-c23adabe5828" name="默认的" comment="" />
     <ignored path="yanxi.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +23,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/openvpn/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="63" selection-start="411" selection-end="411" vertical-scroll-proportion="-0.23498233" vertical-offset="285" max-vertical-offset="1710">
+            <state line="8" column="55" selection-start="175" selection-end="175" vertical-scroll-proportion="-0.0" vertical-offset="152" max-vertical-offset="836">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getmail.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openvpn/getmail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="190">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reg-mail.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/openvpn/reg-mail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="147" selection-start="269" selection-end="269" vertical-scroll-proportion="0.4265976" vertical-offset="114" max-vertical-offset="4161">
+              <folding>
+                <marker date="1424582619590" expanded="true" signature="2491:2555" placeholder="select count..invitecode..." />
+                <marker date="1424582619590" expanded="true" signature="2859:2912" placeholder="select count..invitecode..." />
+                <marker date="1424582619590" expanded="true" signature="3353:3406" placeholder="select count..invitecode..." />
+                <marker date="1424582619590" expanded="true" signature="3595:3638" placeholder="select * fro..invitecode..." />
+                <marker date="1424582619590" expanded="true" signature="3860:3943" placeholder="update invit..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,6 +70,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/openvpn/index.php" />
+        <option value="$PROJECT_DIR$/openvpn/reg-mail.php" />
       </list>
     </option>
   </component>
@@ -55,7 +78,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -104,12 +127,16 @@
       <created>1422683629790</created>
       <updated>1422683629790</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ghhh">
+      <created>1424582661883</created>
+      <updated>1424582661900</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="更改" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -118,7 +145,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -155,8 +182,35 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/openvpn/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="63" selection-start="411" selection-end="411" vertical-scroll-proportion="-0.23498233" vertical-offset="285" max-vertical-offset="1710">
+        <state line="8" column="55" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="836">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openvpn/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="55" selection-start="175" selection-end="175" vertical-scroll-proportion="-0.0" vertical-offset="152" max-vertical-offset="836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openvpn/getmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openvpn/reg-mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="147" selection-start="269" selection-end="269" vertical-scroll-proportion="0.4265976" vertical-offset="114" max-vertical-offset="4161">
+          <folding>
+            <marker date="1424582619590" expanded="true" signature="2491:2555" placeholder="select count..invitecode..." />
+            <marker date="1424582619590" expanded="true" signature="2859:2912" placeholder="select count..invitecode..." />
+            <marker date="1424582619590" expanded="true" signature="3353:3406" placeholder="select count..invitecode..." />
+            <marker date="1424582619590" expanded="true" signature="3595:3638" placeholder="select * fro..invitecode..." />
+            <marker date="1424582619590" expanded="true" signature="3860:3943" placeholder="update invit..." />
+          </folding>
         </state>
       </provider>
     </entry>
