@@ -6,6 +6,7 @@
 <?php
 include("header.php");
 include("logo.php");
+include("mysql.php");
 ?>
 
 
@@ -68,101 +69,81 @@ include("logo.php");
         }
     </script>
     <?php
-    class mysql
+
+    if(isset($_POST['mailbox']))
     {
-        public $Conn;
-        private $sql;
-        private $dbStatus;
-        private $RawResult;
-        private $Result;
-        public function __construct(){
-            $this->Conn = mysql_connect("localhost","root","1136358656");
-            mysql_select_db("openvpn") or die(mysql_error());
-        }
-        public function SelectDb($db)
-        {
-            $this->dbStatus = mysql_select_db($db,$this->Conn);
-            mysql_query("set names gb2312",$this->Conn);
-            return $this->dbStatus;
-        }
-        public function query($query)
-        {
-            $this->RawResult = mysql_query($query,$this->Conn);
-            //$this->Result = mysql_fetch_row($this->RawResult);
-            return $this->RawResult;
-        }
-        public function GetConn(){
-            return $this->Conn;
-        }
-    }
-    if(isset($_POST['code']))
-    {
-        $code = $_POST['code'];
+        $mailbox = $_POST['mailbox'];
+        $time = date('Y-m-d-H-i-s');
+
         $conn = new mysql();
-        $sql = "select count(*) from invitecode where code='$code'and status='0'";
+        $sql = sprintf("select count(*) from users where mail='%s'and active='1'",
+            mysql_real_escape_string($mailbox));
         $result = $conn->query($sql);
         $rows = mysql_fetch_array($result);
         $num = $rows[0];
         //echo $num;
-        do{
-            $time = date('Y-m-d H:i:s',time());
-            $timeshot = strtotime($time);
-            $cername = substr(md5($timeshot),0,8);
-            $sql = "select count(*) from invitecode where cert='$cername'";
-            $result = $conn->query($sql);
-            $rows = mysql_fetch_array($result);
-            $count = $rows[0];
-        }while($count != 0);
-        if($num == 0){
-            echo "<script>alert('该注册码无效！'); </script>";
+
+        if($num != 0){
+            echo "<script>alert('该邮箱已经被占用！'); </script>";
 
         }else{
-            do{
-                $time = date('Y-m-d H:i:s',time());
-                $timeshot = strtotime($time);
-                $cername = substr(md5($timeshot),0,8);
-                $sql = "select count(*) from invitecode where cert='$cername'";
-                $result = $conn->query($sql);
-                $rows = mysql_fetch_array($result);
-                $count = $rows[0];
-            }while($count != 0);
-            $sql = "select * from invitecode where code='$code'";
+            $stamp = substr(md5(md5($mailbox.$time)),7,8);
+            $sql = sprintf("select count(*) from users where mail='%s'and active='0'",
+                mysql_real_escape_string($mailbox));
             $result = $conn->query($sql);
             $rows = mysql_fetch_array($result);
-            $type = $rows['exp'];
-            $server = $rows['server'];
-            $node = $rows['node'];
+            $num = $rows[0];
+            if($num==1){
+                $sql = sprintf("update users set mailprefixcode = '%s' where mail = '%s'",
+                    mysql_real_escape_string($stamp),
+                    mysql_real_escape_string($mailbox));
+                    $result = $conn->query($sql);
 
-            $sql = "update invitecode set status='1',regtime='$time',cert='$cername' where code='$code'";
-
-            switch($type){
-                case "1month":
-                    $command = "bash /home/wwwroot/yanxi/openvpn/reg-1.sh $cername $server $node";
-                    $result = shell_exec($command);
-                    break;
-                case "2months":
-                    $command = "bash /home/wwwroot/yanxi/openvpn/reg-2.sh $cername $server $node";
-                    $result = shell_exec($command);
-                    break;
-                case "3months":
-                    $command = "bash /home/wwwroot/yanxi/openvpn/reg-3.sh $cername $server $node";
-                    $result = shell_exec($command);
-                    break;
-                default:
-
+            }else{
+                    $sql = sprintf("insert into users (mailprefixcode,active) values ('%s','0')",
+                    mysql_real_escape_string($stamp)
+                   );
+                $result = $conn->query($sql);
             }
+            $sql = sprintf("select * from users where mail='%s'and active='0'",
+                mysql_real_escape_string($mailbox));
             $result = $conn->query($sql);
+            $rows = mysql_fetch_array($result);
+            $stamp=$rows['mailprefixcode'];
+            $content = "<p>您好，欢迎注册Synapse Web Service账号！</p>
 
+<p>请访问如下链接继续进行注册：</p>
 
+<hr />
+<p><a href=\"https://jelly.yanlei.me/reg.php?sid=$stamp\">https://jelly.yanlei.me/reg.php?sid=$stamp</a></p>
 
+<p>(此链接注册完成后即失效)</p>
 
+<hr />
+<p>祝您使用愉快！</p>
 
+<p>&nbsp;</p>
 
-            $url = "<a href='$cername.zip'>单击此处以下载您的openVPN配置文件</a>";
+<p><span style=\"line-height: 20.7999992370605px;\">Synapse Web Service管理员</span></p>
+            ";
+                $url = 'http://sendcloud.sohu.com/webapi/mail.send.json';
+                //使用子帐号和密码才可以进行邮件的发送。
+                $param = array('api_user' => 'synapsewebservicemail',
+                    'api_key' => 'WWhy6msPpXlqf2Fr',
+                    'from' => 'admin@yanlei.me',
+                    'fromname' => 'SendCloud测试邮件',
+                    'to' => '1136358656@qq.com',
+                    'subject' => '欢迎注册Synapse Web Service!',
+                    'html' => $content);
+
+                $options = array('http' => array('method'  => 'POST','content' => http_build_query($param)));
+                $context  = stream_context_create($options);
+                $result = file_get_contents($url, false, $context);
+
 
 
             echo '<div class="alert alert-success" role="alert">'."
-                <strong>恭喜！</strong> 配置文件生成成功！<br>$url<br /><strong>戳<a href='./contact.php#toc2'>我</a>查看设置和使用教程~~</strong>
+                <strong>注册邮件已经发送到您的邮箱，请点击邮件中的链接完成注册</strong>
                     </div>";
         }
     }else{
