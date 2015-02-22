@@ -54,7 +54,7 @@ include("mysql.php");
                 if (xmlhttp.readyState==4 && xmlhttp.status==200)
                 {
                     a1 =xmlhttp.responseText;
-                    var a2=eval('('+a1+')');
+                    
                     document.getElementById("exp").innerHTML="<h4>"+a1+"</h4>";
 
 
