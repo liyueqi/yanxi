@@ -73,7 +73,7 @@ include("mysql.php");
     if(isset($_POST['mailbox']))
     {
         $mailbox = $_POST['mailbox'];
-        echo $mailbox;
+        //echo $mailbox;
         $time = date('Y-m-d-H-i-s');
 
         $conn = new mysql();
@@ -88,7 +88,8 @@ include("mysql.php");
             echo "<script>alert('该邮箱已经被占用！'); </script>";
 
         }else{
-            $stamp = substr(md5(md5($mailbox.$time)),7,8);
+            $hash = md5(md5($mailbox.$time));
+            $stamp = substr($hash,7,8);
             $sql = sprintf("select count(*) from users where mail='%s'and active='0'",
                 mysql_real_escape_string($mailbox));
             $result = $conn->query($sql);
@@ -101,8 +102,10 @@ include("mysql.php");
                     $result = $conn->query($sql);
 
             }else{
-                    $sql = sprintf("insert into users (mailprefixcode,active) values ('%s','0')",
-                    mysql_real_escape_string($stamp)
+                    $sql = sprintf("insert into users (hash,mail,mailprefixcode,active) values ('%s','%s','%s','0')",
+                        mysql_real_escape_string($hash),
+                        mysql_real_escape_string($mailbox),
+                        mysql_real_escape_string($stamp)
                    );
                 $result = $conn->query($sql);
             }
