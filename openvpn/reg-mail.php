@@ -157,7 +157,7 @@ include("mysql.php");
         <table width="380" border="0">
             <tbody>
             <tr>
-                <td width="374"><form class="navbar-form navbar-left" name="myform" action="reg-mail.php.php" method="post" onsubmit="return check();">
+                <td width="374"><form class="navbar-form navbar-left" name="myform" action="reg-mail.php" method="post" onsubmit="return check();">
                         <div align="center">
                             <table width="200" border="1" class="table table-bordered table-hover  m10">
                                 <tbody>
