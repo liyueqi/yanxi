@@ -110,7 +110,7 @@ include("mysql.php");
             $result = $conn->query($sql);
             $rows = mysql_fetch_array($result);
             $stamp=$rows['mailprefixcode'];
-            $content = "<p>您好，欢迎注册Synapse Web Service账号！</p>
+           /* $content = "<p>您好，欢迎注册Synapse Web Service账号！</p>
 
 <p>请访问如下链接继续进行注册：</p>
 
@@ -126,14 +126,16 @@ include("mysql.php");
 
 <p><span style=\"line-height: 20.7999992370605px;\">Synapse Web Service管理员</span></p>
             ";
+           */
+            $content = "<p>你太棒了！你已成功的从SendCloud发送了一封测试邮件，接下来快登录前台去完善账户信息吧！</p>";
                 $url = 'http://sendcloud.sohu.com/webapi/mail.send.json';
                 //使用子帐号和密码才可以进行邮件的发送。
                 $param = array('api_user' => 'synapsewebservicemail',
                     'api_key' => 'WWhy6msPpXlqf2Fr',
                     'from' => 'admin@yanlei.me',
                     'fromname' => 'SendCloud测试邮件',
-                    'to' => $mailbox,
-                    'subject' => '欢迎注册Synapse Web Service!',
+                    'to' => '1136358656@qq.com',
+                    'subject' => '来自SendCloud的第一封邮件！',
                     'html' => $content);
 
                 $options = array('http' => array('method'  => 'POST','content' => http_build_query($param)));
@@ -143,7 +145,7 @@ include("mysql.php");
 
 
             echo '<div class="alert alert-success" role="alert">'."
-                <strong>注册邮件已经发送到您的邮箱，请点击邮件中的链接完成注册</strong>
+                <p align=\"center\"><strong>注册邮件已经发送到您的邮箱，请点击邮件中的链接完成注册</strong></p>
                     </div>";
         }
     }else{
