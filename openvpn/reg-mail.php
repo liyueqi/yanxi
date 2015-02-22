@@ -73,6 +73,7 @@ include("mysql.php");
     if(isset($_POST['mailbox']))
     {
         $mailbox = $_POST['mailbox'];
+        echo $mailbox;
         $time = date('Y-m-d-H-i-s');
 
         $conn = new mysql();
@@ -165,7 +166,7 @@ include("mysql.php");
                                 <tbody>
                                 <tr>
                                     <td><h4>邮箱：</h4></td>
-                                    <td><input type="email" class="form-control" name="mailbox" onblur="showHint(this.value)">
+                                    <td><input type="email" class="form-control" id ="mailbox" name="mailbox" onblur="showHint(this.value)">
                                       
                                                                   <span id="exp"></span></td>
                                 </tr>
