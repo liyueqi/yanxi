@@ -132,7 +132,7 @@ include("mysql.php");
                     'api_key' => 'WWhy6msPpXlqf2Fr',
                     'from' => 'admin@yanlei.me',
                     'fromname' => 'SendCloud测试邮件',
-                    'to' => '1136358656@qq.com',
+                    'to' => $mailbox,
                     'subject' => '欢迎注册Synapse Web Service!',
                     'html' => $content);
 
@@ -157,7 +157,7 @@ include("mysql.php");
         <table width="380" border="0">
             <tbody>
             <tr>
-                <td width="374"><form class="navbar-form navbar-left" name="myform" action="reg.php" method="post" onsubmit="return check();">
+                <td width="374"><form class="navbar-form navbar-left" name="myform" action="reg-mail.php.php" method="post" onsubmit="return check();">
                         <div align="center">
                             <table width="200" border="1" class="table table-bordered table-hover  m10">
                                 <tbody>
