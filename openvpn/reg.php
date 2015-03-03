@@ -110,7 +110,8 @@ include("mysql.php");
                     var_dump($rows);
 
                     if($active = "1"){
-                        echo "<script>alert('该邮箱已经被注册！'); </script>";
+                        echo $rows['active_'];
+                        echo "<script>alert(\'该邮箱已经被注册！$active '); </script>";
                     }else{
                         if($ban=1){
                             echo "<script>alert('该邮箱已经被禁用！'); </script>";
