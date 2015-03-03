@@ -79,14 +79,13 @@
       <file leaf-file-name="reg.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/openvpn/reg.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="80" selection-start="4411" selection-end="4411" vertical-scroll-proportion="0.3091537" vertical-offset="2766" max-vertical-offset="3876">
+            <state line="118" column="48" selection-start="3798" selection-end="3798" vertical-scroll-proportion="0.5388601" vertical-offset="1892" max-vertical-offset="3971">
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1425408569360" expanded="true" signature="2116:2168" placeholder="select count..users..." />
-                <marker date="1425408569360" expanded="true" signature="2218:2282" placeholder="select count..invitecode..." />
-                <marker date="1425408569360" expanded="true" signature="2587:2632" placeholder="select * fro..users..." />
-                <marker date="1425408569360" expanded="true" signature="3271:3368" placeholder="update users..." />
-                <marker date="1425408569360" expanded="true" signature="3628:3711" placeholder="update invit..." />
+                <element signature="e#3425#4562#0" expanded="false" />
+                <marker date="1425408880592" expanded="true" signature="2231:2283" placeholder="select count..users..." />
+                <marker date="1425408880592" expanded="true" signature="2782:2827" placeholder="select * fro..users..." />
+                <marker date="1425408880592" expanded="true" signature="3586:3683" placeholder="update users..." />
               </folding>
             </state>
           </provider>
@@ -238,7 +237,11 @@
       <created>1425408508563</created>
       <updated>1425408508563</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="gh">
+      <created>1425408577348</created>
+      <updated>1425408577348</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -335,11 +338,10 @@
         <state line="74" column="4" selection-start="1912" selection-end="1912" vertical-scroll-proportion="0.0" vertical-offset="1406" max-vertical-offset="4370">
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1425408569360" expanded="true" signature="2116:2168" placeholder="select count..users..." />
-            <marker date="1425408569360" expanded="true" signature="2218:2282" placeholder="select count..invitecode..." />
-            <marker date="1425408569360" expanded="true" signature="2587:2632" placeholder="select * fro..users..." />
-            <marker date="1425408569360" expanded="true" signature="3271:3368" placeholder="update users..." />
-            <marker date="1425408569360" expanded="true" signature="3628:3711" placeholder="update invit..." />
+            <element signature="e#3425#4562#0" expanded="false" />
+            <marker date="1425408880592" expanded="true" signature="2231:2283" placeholder="select count..users..." />
+            <marker date="1425408880592" expanded="true" signature="2782:2827" placeholder="select * fro..users..." />
+            <marker date="1425408880592" expanded="true" signature="3586:3683" placeholder="update users..." />
           </folding>
         </state>
       </provider>
@@ -489,14 +491,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/reg.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="80" selection-start="4411" selection-end="4411" vertical-scroll-proportion="0.3091537" vertical-offset="2766" max-vertical-offset="3876">
+        <state line="118" column="48" selection-start="3798" selection-end="3798" vertical-scroll-proportion="0.5388601" vertical-offset="1892" max-vertical-offset="3971">
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1425408569360" expanded="true" signature="2116:2168" placeholder="select count..users..." />
-            <marker date="1425408569360" expanded="true" signature="2218:2282" placeholder="select count..invitecode..." />
-            <marker date="1425408569360" expanded="true" signature="2587:2632" placeholder="select * fro..users..." />
-            <marker date="1425408569360" expanded="true" signature="3271:3368" placeholder="update users..." />
-            <marker date="1425408569360" expanded="true" signature="3628:3711" placeholder="update invit..." />
+            <element signature="e#3425#4562#0" expanded="false" />
+            <marker date="1425408880592" expanded="true" signature="2231:2283" placeholder="select count..users..." />
+            <marker date="1425408880592" expanded="true" signature="2782:2827" placeholder="select * fro..users..." />
+            <marker date="1425408880592" expanded="true" signature="3586:3683" placeholder="update users..." />
           </folding>
         </state>
       </provider>

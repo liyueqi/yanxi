@@ -74,60 +74,67 @@ include("mysql.php");
 
     if(isset($_GET['sid']))
     {
-        $code = $_GET['sid'];
-        $uid = $_POST['uid'];
-        $passwd = $_POST['passwd'];
+        if(isset($_POST['passwd'])){
+            if(isset($_POST['uid'])){
+                $code = $_GET['sid'];
+                $uid = $_POST['uid'];
+                $passwd = $_POST['passwd'];
 
-        $conn = new mysql();
-        $sql = sprintf("select count(*) from users where mailprefixcode='%s'",
-            mysql_real_escape_string($sid));//"select count(*) from invitecode where code='$code'and status='0'";
-        $result = $conn->query($sql);
-        $rows = mysql_fetch_array($result);
-        $num = $rows[0];
-        //echo $num;
-        $time = date('Y-m-d H:i:s',time());
+                $conn = new mysql();
+                $sql = sprintf("select count(*) from users where mailprefixcode='%s'",
+                    mysql_real_escape_string($sid));//"select count(*) from invitecode where code='$code'and status='0'";
+                $result = $conn->query($sql);
+                $rows = mysql_fetch_array($result);
+                $num = $rows[0];
+                //echo $num;
+                $time = date('Y-m-d H:i:s',time());
 
 
 
 
 
-        if($num == 0){
-            echo "<script>alert('该注册链接无效！'); </script>";
+                if($num == 0){
+                    echo "<script>alert('该注册链接无效！'); </script>";
 
-        }else{
-
-            $sql = sprintf("select * from users where mailprefixcode='%s'",
-                mysql_real_escape_string($sid));
-            $result = $conn->query($sql);
-            $rows = mysql_fetch_array($result);
-            $mailbox = $rows['mail'];
-            $active = $rows['active'];
-            $ban = $rows['ban'];
-            $hash = $rows['hash'];
-            $passwd = md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5($passwd)))))))))));
-
-            if($active = "1"){
-                echo "<script>alert('该邮箱已经被注册！'); </script>";
-            }else{
-                if($ban=1){
-                    echo "<script>alert('该邮箱已经被禁用！'); </script>";
                 }else{
-                    $sql = sprintf("update users set id='%s',password='%s',regtime='%s',usergroup='standard',active=1 where hash='%s'",
-                        mysql_real_escape_string($uid),
-                        mysql_real_escape_string($passwd),
-                        mysql_real_escape_string($time),
-                        mysql_real_escape_string($hash));
-                        //"update invitecode set status='1',regtime='$time',cert='$cername' where code='$code'";
+
+                    $sql = sprintf("select * from users where mailprefixcode='%s'",
+                        mysql_real_escape_string($sid));
                     $result = $conn->query($sql);
-                    $status = 1;
-                    //$url = "<a href='$cername.zip'>单击此处以下载您的openVPN配置文件</a>";
+                    $rows = mysql_fetch_array($result);
+                    $mailbox = $rows['mail'];
+                    $active = $rows['active'];
+                    $ban = $rows['ban'];
+                    $hash = $rows['hash'];
+                    $passwd = md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5($passwd)))))))))));
+
+                    if($active = "1"){
+                        echo "<script>alert('该邮箱已经被注册！'); </script>";
+                    }else{
+                        if($ban=1){
+                            echo "<script>alert('该邮箱已经被禁用！'); </script>";
+                        }else{
+                            $sql = sprintf("update users set id='%s',password='%s',regtime='%s',usergroup='standard',active=1 where hash='%s'",
+                                mysql_real_escape_string($uid),
+                                mysql_real_escape_string($passwd),
+                                mysql_real_escape_string($time),
+                                mysql_real_escape_string($hash));
+                            //"update invitecode set status='1',regtime='$time',cert='$cername' where code='$code'";
+                            $result = $conn->query($sql);
+                            $status = 1;
+                            //$url = "<a href='$cername.zip'>单击此处以下载您的openVPN配置文件</a>";
 
 
-                    echo '<div class="alert alert-success" role="alert">'."
-                <strong>恭喜， 账号注册成功！</strong>
-                    </div>";
+                                                    echo '<div class="alert alert-success" role="alert">'."
+                                                    <strong>恭喜， 账号注册成功！</strong>
+                                                            </div>";
 
-                }
+                                                }
+                         }
+
+
+                        }
+
 
             }
 
