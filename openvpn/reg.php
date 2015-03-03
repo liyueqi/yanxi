@@ -6,7 +6,7 @@ include("logo.php");
 include("mysql.php");
 ?>
 
-<body >
+
 
     <div id="in1" style="background: rgba(255, 255, 255, 0.4) !important;width: 70%; height:100%;overflow:hidden;margin:0 auto;opacity: 0.9; "><script>
 	  document.getElementById("in1").style.height=document.getElementById("in2").scrollHeight+"px"
