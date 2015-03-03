@@ -107,6 +107,7 @@ include("mysql.php");
                     $ban = $rows['ban'];
                     $hash = $rows['hash'];
                     $passwd = md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5($passwd)))))))))));
+                    var_dump($rows);
 
                     if($active = 1){
                         echo "<script>alert('该邮箱已经被注册！'); </script>";
