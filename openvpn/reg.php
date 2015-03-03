@@ -114,7 +114,7 @@ include("mysql.php");
                         if($ban=1){
                             echo "<script>alert('该邮箱已经被禁用！'); </script>";
                         }else{
-                            $sql = sprintf("update users set id='%s',password='%s',regtime='%s',usergroup='standard',active=1 where hash='%s'",
+                            $sql = sprintf("update users set id='%s',password='%s',regtime='%s',usergroup='standard',active_=1 where hash='%s'",
                                 mysql_real_escape_string($uid),
                                 mysql_real_escape_string($passwd),
                                 mysql_real_escape_string($time),
