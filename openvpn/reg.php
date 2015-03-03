@@ -86,7 +86,7 @@ include("mysql.php");
                 $result = $conn->query($sql);
                 $rows = mysql_fetch_array($result);
                 $num = $rows[0];
-                echo $num;
+                //echo $num;
                 $time = date('Y-m-d H:i:s',time());
 
 
@@ -94,12 +94,12 @@ include("mysql.php");
 
 
                 if($num == 0){
-                    echo "<script>alert('该注册链接无效！'); </script>";
+                    echo "<script>alert('该注册链接无效'); </script>";
 
                 }else{
 
                     $sql = sprintf("select * from users where mailprefixcode='%s'",
-                        mysql_real_escape_string($sid));
+                        mysql_real_escape_string($code));
                     $result = $conn->query($sql);
                     $rows = mysql_fetch_array($result);
                     $mailbox = $rows['mail'];
@@ -160,7 +160,7 @@ include("mysql.php");
       <table width="380" border="0">
         <tbody>
           <tr>
-            <td width="374"><form class="navbar-form navbar-left" name="myform"  method="post" onsubmit="return check();">
+            <td width="374"><form class="navbar-form navbar-left" name="myform" action="reg.php?sid=<?php echo $code ?>" method="post" onsubmit="return check();">
               <div align="center">
                 <table width="200" border="1" class="table table-bordered table-hover  m10">
                   <tbody>
