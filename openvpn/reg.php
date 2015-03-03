@@ -20,7 +20,7 @@ include("mysql.php");
               		else{
 							if(document.myform.confirm.value==document.myform.passwd.value)
 							{return true;}
-              				else{alert("密码不能为空.");return false;}
+              				else{alert("两次输入的密码不一致！");return false;}
 						
 						}
 				  
@@ -56,7 +56,7 @@ include("mysql.php");
                   if (xmlhttp.readyState==4 && xmlhttp.status==200)
                   {
                       a1 =xmlhttp.responseText;
-                      var a2=eval('('+a1+')');
+                      //var a2=eval('('+a1+')');
                       document.getElementById("exp").innerHTML="<h4><strong>"+a2.exp+"</strong></h4>";
 
 
@@ -72,75 +72,75 @@ include("mysql.php");
       </script>  
     <?php
 
-    if(isset($_POST['code']))
+    if(isset($_GET['sid']))
     {
-        $code = $_POST['code'];
+        $code = $_GET['sid'];
+        $uid = $_POST['uid'];
+        $passwd = $_POST['passwd'];
+
         $conn = new mysql();
-        $sql = "select count(*) from invitecode where code='$code'and status='0'";
+        $sql = sprintf("select count(*) from users where mailprefixcode='%s'",
+            mysql_real_escape_string($sid));//"select count(*) from invitecode where code='$code'and status='0'";
         $result = $conn->query($sql);
         $rows = mysql_fetch_array($result);
         $num = $rows[0];
         //echo $num;
-        do{
         $time = date('Y-m-d H:i:s',time());
-        $timeshot = strtotime($time);
-        $cername = substr(md5($timeshot),0,8);
-        $sql = "select count(*) from invitecode where cert='$cername'";
-        $result = $conn->query($sql);
-        $rows = mysql_fetch_array($result);
-        $count = $rows[0];
-        }while($count != 0);
+
+
+
+
+
         if($num == 0){
-            echo "<script>alert('该注册码无效！'); </script>";
+            echo "<script>alert('该注册链接无效！'); </script>";
 
         }else{
-            do{
-                $time = date('Y-m-d H:i:s',time());
-                $timeshot = strtotime($time);
-                $cername = substr(md5($timeshot),0,8);
-                $sql = "select count(*) from invitecode where cert='$cername'";
-                $result = $conn->query($sql);
-                $rows = mysql_fetch_array($result);
-                $count = $rows[0];
-            }while($count != 0);
-            $sql = "select * from invitecode where code='$code'";
+
+            $sql = sprintf("select * from users where mailprefixcode='%s'",
+                mysql_real_escape_string($sid));
             $result = $conn->query($sql);
             $rows = mysql_fetch_array($result);
-            $type = $rows['exp'];
-            $server = $rows['server'];
-            $node = $rows['node'];
+            $mailbox = $rows['mail'];
+            $active = $rows['active'];
+            $ban = $rows['ban'];
+            $hash = $rows['hash'];
+            $passwd = md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5($passwd)))))))))));
 
-            $sql = "update invitecode set status='1',regtime='$time',cert='$cername' where code='$code'";
+            if($active = "1"){
+                echo "<script>alert('该邮箱已经被注册！'); </script>";
+            }else{
+                if($ban=1){
+                    echo "<script>alert('该邮箱已经被禁用！'); </script>";
+                }else{
+                    $sql = sprintf("update users set id='%s',password='%s',regtime='%s',usergroup='standard',active=1 where hash='%s'",
+                        mysql_real_escape_string($uid),
+                        mysql_real_escape_string($passwd),
+                        mysql_real_escape_string($time),
+                        mysql_real_escape_string($hash));
+                        //"update invitecode set status='1',regtime='$time',cert='$cername' where code='$code'";
+                    $result = $conn->query($sql);
+                    $status = 1;
+                    //$url = "<a href='$cername.zip'>单击此处以下载您的openVPN配置文件</a>";
 
-            switch($type){
-                case "1month":
-                    $command = "bash /home/wwwroot/yanxi/openvpn/reg-1.sh $cername $server $node";
-                    $result = shell_exec($command);
-                    break;
-                case "2months":
-                    $command = "bash /home/wwwroot/yanxi/openvpn/reg-2.sh $cername $server $node";
-                    $result = shell_exec($command);
-                    break;
-                case "3months":
-                    $command = "bash /home/wwwroot/yanxi/openvpn/reg-3.sh $cername $server $node";
-                    $result = shell_exec($command);
-                    break;
-                default:
+
+                    echo '<div class="alert alert-success" role="alert">'."
+                <strong>恭喜， 账号注册成功！</strong>
+                    </div>";
+
+                }
 
             }
-            $result = $conn->query($sql);
+
+
+
+
 
 
 
 
             
 
-            $url = "<a href='$cername.zip'>单击此处以下载您的openVPN配置文件</a>";
 
-
-            echo '<div class="alert alert-success" role="alert">'."
-                <strong>恭喜！</strong> 配置文件生成成功！<br>$url<br /><strong>戳<a href='./contact.php#toc2'>我</a>查看设置和使用教程~~</strong>
-                    </div>";
         }
     }else{
 
