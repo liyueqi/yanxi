@@ -79,13 +79,13 @@
       <file leaf-file-name="reg.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/openvpn/reg.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="48" selection-start="3798" selection-end="3798" vertical-scroll-proportion="0.5388601" vertical-offset="1892" max-vertical-offset="3971">
+            <state line="96" column="45" selection-start="2699" selection-end="2699" vertical-scroll-proportion="0.5716753" vertical-offset="1493" max-vertical-offset="3971">
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#3425#4562#0" expanded="false" />
-                <marker date="1425408880592" expanded="true" signature="2231:2283" placeholder="select count..users..." />
-                <marker date="1425408880592" expanded="true" signature="2782:2827" placeholder="select * fro..users..." />
-                <marker date="1425408880592" expanded="true" signature="3586:3683" placeholder="update users..." />
+                <element signature="e#3423#4560#0" expanded="false" />
+                <marker date="1425409162424" expanded="true" signature="2231:2283" placeholder="select count..users..." />
+                <marker date="1425409162424" expanded="true" signature="2780:2825" placeholder="select * fro..users..." />
+                <marker date="1425409162424" expanded="true" signature="3584:3681" placeholder="update users..." />
               </folding>
             </state>
           </provider>
@@ -159,6 +159,10 @@
     <property name="last_opened_file_path" value="E:/SAE/admin" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="web-ide.project.structure" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -241,7 +245,11 @@
       <created>1425408577348</created>
       <updated>1425408577348</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="gh">
+      <created>1425408886496</created>
+      <updated>1425408886496</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -338,10 +346,10 @@
         <state line="74" column="4" selection-start="1912" selection-end="1912" vertical-scroll-proportion="0.0" vertical-offset="1406" max-vertical-offset="4370">
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3425#4562#0" expanded="false" />
-            <marker date="1425408880592" expanded="true" signature="2231:2283" placeholder="select count..users..." />
-            <marker date="1425408880592" expanded="true" signature="2782:2827" placeholder="select * fro..users..." />
-            <marker date="1425408880592" expanded="true" signature="3586:3683" placeholder="update users..." />
+            <element signature="e#3423#4560#0" expanded="false" />
+            <marker date="1425409162424" expanded="true" signature="2231:2283" placeholder="select count..users..." />
+            <marker date="1425409162424" expanded="true" signature="2780:2825" placeholder="select * fro..users..." />
+            <marker date="1425409162424" expanded="true" signature="3584:3681" placeholder="update users..." />
           </folding>
         </state>
       </provider>
@@ -491,13 +499,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/reg.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="48" selection-start="3798" selection-end="3798" vertical-scroll-proportion="0.5388601" vertical-offset="1892" max-vertical-offset="3971">
+        <state line="96" column="45" selection-start="2699" selection-end="2699" vertical-scroll-proportion="0.5716753" vertical-offset="1493" max-vertical-offset="3971">
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3425#4562#0" expanded="false" />
-            <marker date="1425408880592" expanded="true" signature="2231:2283" placeholder="select count..users..." />
-            <marker date="1425408880592" expanded="true" signature="2782:2827" placeholder="select * fro..users..." />
-            <marker date="1425408880592" expanded="true" signature="3586:3683" placeholder="update users..." />
+            <element signature="e#3423#4560#0" expanded="false" />
+            <marker date="1425409162424" expanded="true" signature="2231:2283" placeholder="select count..users..." />
+            <marker date="1425409162424" expanded="true" signature="2780:2825" placeholder="select * fro..users..." />
+            <marker date="1425409162424" expanded="true" signature="3584:3681" placeholder="update users..." />
           </folding>
         </state>
       </provider>

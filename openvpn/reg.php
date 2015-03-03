@@ -86,7 +86,7 @@ include("mysql.php");
                 $result = $conn->query($sql);
                 $rows = mysql_fetch_array($result);
                 $num = $rows[0];
-                //echo $num;
+                echo $num;
                 $time = date('Y-m-d H:i:s',time());
 
 
