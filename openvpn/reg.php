@@ -103,15 +103,15 @@ include("mysql.php");
                     $result = $conn->query($sql);
                     $rows = mysql_fetch_array($result);
                     $mailbox = $rows['mail'];
-                    $active = $rows['active_'];
+                    $actives = $rows['active_'];
                     $ban = $rows['ban'];
                     $hash = $rows['hash'];
                     $passwd = md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5($passwd)))))))))));
                     var_dump($rows);
 
-                    if($active = "1"){
-                        echo $rows['active_'];
-                        echo "<script>alert(\'该邮箱已经被注册！$active '); </script>";
+                    if($actives = "1"){
+                        //echo $rows['active_'];
+                        echo "<script>alert(\'该邮箱已经被注册！$actives '); </script>";
                     }else{
                         if($ban=1){
                             echo "<script>alert('该邮箱已经被禁用！'); </script>";
