@@ -1,51 +1,34 @@
 ﻿<!DOCTYPE html>
-
-
-
 <html>
 <?php
 include("header.php");
 include("logo.php");
+include("mysql.php");
 ?>
-  
 
-      
-	
-	
-    
 <body class="post-template page">
-<nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Jelly VPN</a>
-          </div>
-          <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="index.php">主页</a></li>
-              <li><a href="#">注册</a></li>
-              <li><a href="try.php">试用</a></li>
-              <li><a href="contact.php">关于</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-</nav>
-    
-    
+
     <div id="in1" style="background: rgba(255, 255, 255, 0.4) !important;width: 70%; height:100%;overflow:hidden;margin:0 auto;opacity: 0.9; "><script>
 	  document.getElementById("in1").style.height=document.getElementById("in2").scrollHeight+"px"
           function check()
           {
-              if(document.myform.code.value=="")
-              {alert("注册码不能为空.");return false;}
+              if(document.myform.uid.value=="")
+              {alert("用户名不能为空.");return false;}
               else{
-                  return true;}
-                      }
+				  	if(document.myform.passwd.value=="")
+              		{alert("密码不能为空.");return false;}
+              		else{
+							if(document.myform.confirm.value==document.myform.passwd.value)
+							{return true;}
+              				else{alert("密码不能为空.");return false;}
+						
+						}
+				  
+				  
+				  
+				  }
+                  
+          }
 
           function showHint(str)
           {
@@ -80,7 +63,7 @@ include("logo.php");
                   }
               }
 
-              xmlhttp.open("GET","getinfo.php?id="+str,true);
+              xmlhttp.open("GET","getinfo.php?uid="+str,true);
 
               xmlhttp.send();
 
@@ -202,18 +185,15 @@ include("logo.php");
                   <tbody>
                     <tr>
                       <td><h4>用户名：</h4></td>
-                      <td><input type="text" class="form-control" name="uid" onkeyup="showHint(this.value)"></td>
+                      <td><input type="text" class="form-control" name="uid" onkeyup="showHint(this.value)"><span id="exp"></span></td>
                     </tr>
                     <tr>
                       <td><h4>密码：</h4></td>
-                      <td><input type="text" class="form-control" name="passwd" onkeyup="showHint(this.value)"></td>
+                      <td><input type="text" class="form-control" name="passwd"></td>
                     </tr>
                     <tr>
                       <td><h4>确认密码：</h4></td>
-                      <td><input type="text" class="form-control" name="confirm" onkeyup="showHint(this.value)"></td>
-                    </tr><tr>
-                      <td><h4>邮箱：</h4></td>
-                      <td><input type="text" class="form-control" name="mailbox" onkeyup="showHint(this.value)"></td>
+                      <td><input type="text" class="form-control" name="confirm" ></td>
                     </tr>
                     <tr>
                       <td>&nbsp;</td>
