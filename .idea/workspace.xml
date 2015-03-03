@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b3641ed-1d6e-4f39-99fb-c23adabe5828" name="默认的" comment="" />
+    <list default="true" id="0b3641ed-1d6e-4f39-99fb-c23adabe5828" name="默认的" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openvpn/reg-mail.php" afterPath="$PROJECT_DIR$/openvpn/reg-mail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="yanxi.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,8 +38,26 @@
       <file leaf-file-name="getmail.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/openvpn/getmail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="190">
-              <folding />
+            <state line="8" column="27" selection-start="324" selection-end="324" vertical-scroll-proportion="-3.7142856" vertical-offset="48" max-vertical-offset="627">
+              <folding>
+                <marker date="1424594098268" expanded="true" signature="124:180" placeholder="select count..users..." />
+                <marker date="1424594098268" expanded="true" signature="232:294" placeholder="select count..users..." />
+                <marker date="1424594098268" expanded="true" signature="470:530" placeholder="..." />
+                <marker date="1424594098268" expanded="true" signature="470:537" placeholder="..." />
+                <marker date="1424594098268" expanded="true" signature="470:626" placeholder="..." />
+                <marker date="1424594098268" expanded="true" signature="540:618" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getinfo.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openvpn/getinfo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="28" selection-start="753" selection-end="753" vertical-scroll-proportion="-9.142858" vertical-offset="219" max-vertical-offset="798">
+              <folding>
+                <marker date="1422683490236" expanded="true" signature="837:879" placeholder="SELECT * FRO..invitecode..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,14 +65,36 @@
       <file leaf-file-name="reg-mail.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/openvpn/reg-mail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="147" selection-start="269" selection-end="269" vertical-scroll-proportion="0.4265976" vertical-offset="114" max-vertical-offset="4161">
+            <state line="147" column="30" selection-start="3985" selection-end="3985" vertical-scroll-proportion="0.36614853" vertical-offset="2581" max-vertical-offset="4218">
               <folding>
-                <marker date="1424582619590" expanded="true" signature="2491:2555" placeholder="select count..invitecode..." />
-                <marker date="1424582619590" expanded="true" signature="2859:2912" placeholder="select count..invitecode..." />
-                <marker date="1424582619590" expanded="true" signature="3353:3406" placeholder="select count..invitecode..." />
-                <marker date="1424582619590" expanded="true" signature="3595:3638" placeholder="select * fro..invitecode..." />
-                <marker date="1424582619590" expanded="true" signature="3860:3943" placeholder="update invit..." />
+                <marker date="1425401461865" expanded="true" signature="1697:1753" placeholder="select count..users..." />
+                <marker date="1425401461865" expanded="true" signature="2145:2201" placeholder="select count..users..." />
+                <marker date="1425401461865" expanded="true" signature="2433:2601" placeholder="update users..." />
+                <marker date="1425401461865" expanded="true" signature="2433:2489" placeholder="update users..." />
+                <marker date="1425401461865" expanded="true" signature="2709:2788" placeholder="insert into ..." />
+                <marker date="1425401461865" expanded="true" signature="3075:3124" placeholder="select * fro..users..." />
+                <marker date="1425401461865" expanded="true" signature="3595:3627" placeholder="..." />
+                <marker date="1425401461865" expanded="true" signature="3972:4004" placeholder="..." />
+                <marker date="1425401461865" expanded="true" signature="5188:5232" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="send.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openvpn/phpmail/send.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="5" selection-start="61" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="513">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openvpn/mysql.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="16" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="665">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,6 +113,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/openvpn/index.php" />
+        <option value="$PROJECT_DIR$/openvpn/phpmail/send.php" />
+        <option value="$PROJECT_DIR$/openvpn/getmail.php" />
         <option value="$PROJECT_DIR$/openvpn/reg-mail.php" />
       </list>
     </option>
@@ -114,9 +159,40 @@
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="false">C:\Users\WYL\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0b3641ed-1d6e-4f39-99fb-c23adabe5828" name="默认的" comment="" />
@@ -145,7 +221,6 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -154,6 +229,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -182,8 +258,129 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/openvpn/index.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="55" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openvpn/boot/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="24" selection-start="1909" selection-end="1909" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="9006">
+          <folding>
+            <marker date="1422683488660" expanded="true" signature="-1:-1" placeholder="select count..studentdb..." />
+            <marker date="1422683488660" expanded="true" signature="-1:-1" placeholder="select * fro..studentdb..." />
+            <marker date="1422683488660" expanded="true" signature="-1:-1" placeholder="update stude..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openvpn/getmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="77" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="627">
+          <folding>
+            <marker date="1424594098268" expanded="true" signature="124:180" placeholder="select count..users..." />
+            <marker date="1424594098268" expanded="true" signature="232:294" placeholder="select count..users..." />
+            <marker date="1424594098268" expanded="true" signature="470:530" placeholder="..." />
+            <marker date="1424594098268" expanded="true" signature="470:537" placeholder="..." />
+            <marker date="1424594098268" expanded="true" signature="470:626" placeholder="..." />
+            <marker date="1424594098268" expanded="true" signature="540:618" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openvpn/reg-mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="62" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="3914">
+          <folding>
+            <marker date="1425401461865" expanded="true" signature="1697:1753" placeholder="select count..users..." />
+            <marker date="1425401461865" expanded="true" signature="2145:2201" placeholder="select count..users..." />
+            <marker date="1425401461865" expanded="true" signature="2433:2601" placeholder="update users..." />
+            <marker date="1425401461865" expanded="true" signature="2433:2489" placeholder="update users..." />
+            <marker date="1425401461865" expanded="true" signature="2709:2788" placeholder="insert into ..." />
+            <marker date="1425401461865" expanded="true" signature="3075:3124" placeholder="select * fro..users..." />
+            <marker date="1425401461865" expanded="true" signature="3595:3627" placeholder="..." />
+            <marker date="1425401461865" expanded="true" signature="3972:4004" placeholder="..." />
+            <marker date="1425401461865" expanded="true" signature="5188:5232" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openvpn/phpmail/send.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="5" selection-start="61" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openvpn/mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="16" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openvpn/index.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="55" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="836">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openvpn/logo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="11" selection-start="187" selection-end="187" vertical-scroll-proportion="0.2625216" vertical-offset="0" max-vertical-offset="579" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openvpn/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="4" selection-start="10" selection-end="10" vertical-scroll-proportion="-1.0345423" vertical-offset="618" max-vertical-offset="1197" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openvpn/phpmail/send.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="5" selection-start="61" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openvpn/mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="16" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openvpn/getmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="27" selection-start="324" selection-end="324" vertical-scroll-proportion="-3.7142856" vertical-offset="48" max-vertical-offset="627">
+          <folding>
+            <marker date="1424594098268" expanded="true" signature="124:180" placeholder="select count..users..." />
+            <marker date="1424594098268" expanded="true" signature="232:294" placeholder="select count..users..." />
+            <marker date="1424594098268" expanded="true" signature="470:530" placeholder="..." />
+            <marker date="1424594098268" expanded="true" signature="470:537" placeholder="..." />
+            <marker date="1424594098268" expanded="true" signature="470:626" placeholder="..." />
+            <marker date="1424594098268" expanded="true" signature="540:618" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openvpn/getinfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="28" selection-start="753" selection-end="753" vertical-scroll-proportion="-9.142858" vertical-offset="219" max-vertical-offset="798">
+          <folding>
+            <marker date="1422683490236" expanded="true" signature="837:879" placeholder="SELECT * FRO..invitecode..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openvpn/boot/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="24" selection-start="1909" selection-end="1909" vertical-scroll-proportion="0.33568904" vertical-offset="1140" max-vertical-offset="9006">
+          <folding>
+            <marker date="1422683488660" expanded="true" signature="-1:-1" placeholder="select count..studentdb..." />
+            <marker date="1422683488660" expanded="true" signature="-1:-1" placeholder="select * fro..studentdb..." />
+            <marker date="1422683488660" expanded="true" signature="-1:-1" placeholder="update stude..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -194,22 +391,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openvpn/getmail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/reg-mail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="147" selection-start="269" selection-end="269" vertical-scroll-proportion="0.4265976" vertical-offset="114" max-vertical-offset="4161">
+        <state line="147" column="30" selection-start="3985" selection-end="3985" vertical-scroll-proportion="0.36614853" vertical-offset="2581" max-vertical-offset="4218">
           <folding>
-            <marker date="1424582619590" expanded="true" signature="2491:2555" placeholder="select count..invitecode..." />
-            <marker date="1424582619590" expanded="true" signature="2859:2912" placeholder="select count..invitecode..." />
-            <marker date="1424582619590" expanded="true" signature="3353:3406" placeholder="select count..invitecode..." />
-            <marker date="1424582619590" expanded="true" signature="3595:3638" placeholder="select * fro..invitecode..." />
-            <marker date="1424582619590" expanded="true" signature="3860:3943" placeholder="update invit..." />
+            <marker date="1425401461865" expanded="true" signature="1697:1753" placeholder="select count..users..." />
+            <marker date="1425401461865" expanded="true" signature="2145:2201" placeholder="select count..users..." />
+            <marker date="1425401461865" expanded="true" signature="2433:2601" placeholder="update users..." />
+            <marker date="1425401461865" expanded="true" signature="2433:2489" placeholder="update users..." />
+            <marker date="1425401461865" expanded="true" signature="2709:2788" placeholder="insert into ..." />
+            <marker date="1425401461865" expanded="true" signature="3075:3124" placeholder="select * fro..users..." />
+            <marker date="1425401461865" expanded="true" signature="3595:3627" placeholder="..." />
+            <marker date="1425401461865" expanded="true" signature="3972:4004" placeholder="..." />
+            <marker date="1425401461865" expanded="true" signature="5188:5232" placeholder="..." />
           </folding>
         </state>
       </provider>

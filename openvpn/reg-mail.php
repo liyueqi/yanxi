@@ -131,15 +131,31 @@ include("mysql.php");
 <p><span style=\"line-height: 20.7999992370605px;\">Synapse Web Service管理员</span></p>
             ";
            */
-            $content = "<p>你太棒了！你已成功的从SendCloud发送了一封测试邮件，接下来快登录前台去完善账户信息吧！</p>";
+            $content = "<p>您好，欢迎注册Synapse Web Service账号！</p>
+
+<p>请访问如下链接继续进行注册：</p>
+
+<hr />
+<p><a href=\"https://jelly.yanlei.me/reg.php?sid=$stamp\">https://jelly.yanlei.me/reg.php?sid=$stamp</a></p>
+
+<p>(此链接注册完成后即失效)</p>
+
+<hr />
+<p>祝您使用愉快！</p>
+
+<p>&nbsp;</p>
+
+<p><span style=\"line-height: 20.7999992370605px;\">Synapse Web Service管理员</span></p>
+
+<p>&nbsp;</p>";
                 $url = 'http://sendcloud.sohu.com/webapi/mail.send.json';
                 //使用子帐号和密码才可以进行邮件的发送。
                 $param = array('api_user' => 'synapsewebservicemail',
                     'api_key' => 'WWhy6msPpXlqf2Fr',
                     'from' => 'admin@yanlei.me',
-                    'fromname' => 'SendCloud测试邮件',
-                    'to' => '1136358656@qq.com',
-                    'subject' => '来自SendCloud的第一封邮件！',
+                    'fromname' => 'Synapse注册',
+                    'to' => $mailbox,
+                    'subject' => '欢迎注册Synapse Web Service!',
                     'html' => $content);
 
                 $options = array('http' => array('method'  => 'POST','content' => http_build_query($param)));
