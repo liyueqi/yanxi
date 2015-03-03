@@ -109,7 +109,7 @@ include("mysql.php");
                     $passwd = md5(md5(md5(md5(md5(md5(md5(md5(md5(md5(md5($passwd)))))))))));
 
                     if($active = 1){
-                        echo "<script>alert('该邮箱已经被注册！'); </script>";
+                        echo "<script>alert('该邮箱已经被注册！$mailbox  $active'); </script>";
                     }else{
                         if($ban=1){
                             echo "<script>alert('该邮箱已经被禁用！'); </script>";
