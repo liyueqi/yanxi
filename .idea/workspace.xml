@@ -51,13 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getinfo.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/openvpn/getinfo.php">
+      <file leaf-file-name="send.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openvpn/phpmail/send.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="28" selection-start="753" selection-end="753" vertical-scroll-proportion="-9.142858" vertical-offset="219" max-vertical-offset="798">
-              <folding>
-                <marker date="1422683490236" expanded="true" signature="837:879" placeholder="SELECT * FRO..invitecode..." />
-              </folding>
+            <state line="18" column="5" selection-start="61" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="513">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -65,27 +63,15 @@
       <file leaf-file-name="reg-mail.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/openvpn/reg-mail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="147" column="30" selection-start="3985" selection-end="3985" vertical-scroll-proportion="0.36614853" vertical-offset="2581" max-vertical-offset="4218">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4237">
               <folding>
-                <marker date="1425401461865" expanded="true" signature="1697:1753" placeholder="select count..users..." />
-                <marker date="1425401461865" expanded="true" signature="2145:2201" placeholder="select count..users..." />
-                <marker date="1425401461865" expanded="true" signature="2433:2601" placeholder="update users..." />
-                <marker date="1425401461865" expanded="true" signature="2433:2489" placeholder="update users..." />
-                <marker date="1425401461865" expanded="true" signature="2709:2788" placeholder="insert into ..." />
-                <marker date="1425401461865" expanded="true" signature="3075:3124" placeholder="select * fro..users..." />
-                <marker date="1425401461865" expanded="true" signature="3595:3627" placeholder="..." />
-                <marker date="1425401461865" expanded="true" signature="3972:4004" placeholder="..." />
-                <marker date="1425401461865" expanded="true" signature="5188:5232" placeholder="..." />
+                <marker date="1425401739874" expanded="true" signature="1697:1753" placeholder="select count..users..." />
+                <marker date="1425401739874" expanded="true" signature="2145:2201" placeholder="select count..users..." />
+                <marker date="1425401739874" expanded="true" signature="2433:2489" placeholder="update users..." />
+                <marker date="1425401739874" expanded="true" signature="2709:2788" placeholder="insert into ..." />
+                <marker date="1425401739874" expanded="true" signature="3075:3124" placeholder="select * fro..users..." />
+                <marker date="1425401739874" expanded="true" signature="3973:4005" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="send.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/openvpn/phpmail/send.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="5" selection-start="61" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="513">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -207,7 +193,11 @@
       <created>1424582661883</created>
       <updated>1424582661900</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ghhh">
+      <created>1425401497217</created>
+      <updated>1425401497217</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -221,6 +211,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -229,7 +220,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -292,15 +282,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="57" column="62" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="3914">
           <folding>
-            <marker date="1425401461865" expanded="true" signature="1697:1753" placeholder="select count..users..." />
-            <marker date="1425401461865" expanded="true" signature="2145:2201" placeholder="select count..users..." />
-            <marker date="1425401461865" expanded="true" signature="2433:2601" placeholder="update users..." />
-            <marker date="1425401461865" expanded="true" signature="2433:2489" placeholder="update users..." />
-            <marker date="1425401461865" expanded="true" signature="2709:2788" placeholder="insert into ..." />
-            <marker date="1425401461865" expanded="true" signature="3075:3124" placeholder="select * fro..users..." />
-            <marker date="1425401461865" expanded="true" signature="3595:3627" placeholder="..." />
-            <marker date="1425401461865" expanded="true" signature="3972:4004" placeholder="..." />
-            <marker date="1425401461865" expanded="true" signature="5188:5232" placeholder="..." />
+            <marker date="1425401739874" expanded="true" signature="1697:1753" placeholder="select count..users..." />
+            <marker date="1425401739874" expanded="true" signature="2145:2201" placeholder="select count..users..." />
+            <marker date="1425401739874" expanded="true" signature="2433:2489" placeholder="update users..." />
+            <marker date="1425401739874" expanded="true" signature="2709:2788" placeholder="insert into ..." />
+            <marker date="1425401739874" expanded="true" signature="3075:3124" placeholder="select * fro..users..." />
+            <marker date="1425401739874" expanded="true" signature="3973:4005" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -350,29 +337,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openvpn/getmail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="27" selection-start="324" selection-end="324" vertical-scroll-proportion="-3.7142856" vertical-offset="48" max-vertical-offset="627">
-          <folding>
-            <marker date="1424594098268" expanded="true" signature="124:180" placeholder="select count..users..." />
-            <marker date="1424594098268" expanded="true" signature="232:294" placeholder="select count..users..." />
-            <marker date="1424594098268" expanded="true" signature="470:530" placeholder="..." />
-            <marker date="1424594098268" expanded="true" signature="470:537" placeholder="..." />
-            <marker date="1424594098268" expanded="true" signature="470:626" placeholder="..." />
-            <marker date="1424594098268" expanded="true" signature="540:618" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openvpn/getinfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="28" selection-start="753" selection-end="753" vertical-scroll-proportion="-9.142858" vertical-offset="219" max-vertical-offset="798">
-          <folding>
-            <marker date="1422683490236" expanded="true" signature="837:879" placeholder="SELECT * FRO..invitecode..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/boot/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="70" column="24" selection-start="1909" selection-end="1909" vertical-scroll-proportion="0.33568904" vertical-offset="1140" max-vertical-offset="9006">
@@ -391,19 +355,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/openvpn/getinfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="28" selection-start="753" selection-end="753" vertical-scroll-proportion="0.44214162" vertical-offset="219" max-vertical-offset="798">
+          <folding>
+            <marker date="1422683490236" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..invitecode..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openvpn/getmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="27" selection-start="324" selection-end="324" vertical-scroll-proportion="-3.7142856" vertical-offset="48" max-vertical-offset="627">
+          <folding>
+            <marker date="1424594098268" expanded="true" signature="124:180" placeholder="select count..users..." />
+            <marker date="1424594098268" expanded="true" signature="232:294" placeholder="select count..users..." />
+            <marker date="1424594098268" expanded="true" signature="470:530" placeholder="..." />
+            <marker date="1424594098268" expanded="true" signature="470:537" placeholder="..." />
+            <marker date="1424594098268" expanded="true" signature="470:626" placeholder="..." />
+            <marker date="1424594098268" expanded="true" signature="540:618" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/reg-mail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="30" selection-start="3985" selection-end="3985" vertical-scroll-proportion="0.36614853" vertical-offset="2581" max-vertical-offset="4218">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4237">
           <folding>
-            <marker date="1425401461865" expanded="true" signature="1697:1753" placeholder="select count..users..." />
-            <marker date="1425401461865" expanded="true" signature="2145:2201" placeholder="select count..users..." />
-            <marker date="1425401461865" expanded="true" signature="2433:2601" placeholder="update users..." />
-            <marker date="1425401461865" expanded="true" signature="2433:2489" placeholder="update users..." />
-            <marker date="1425401461865" expanded="true" signature="2709:2788" placeholder="insert into ..." />
-            <marker date="1425401461865" expanded="true" signature="3075:3124" placeholder="select * fro..users..." />
-            <marker date="1425401461865" expanded="true" signature="3595:3627" placeholder="..." />
-            <marker date="1425401461865" expanded="true" signature="3972:4004" placeholder="..." />
-            <marker date="1425401461865" expanded="true" signature="5188:5232" placeholder="..." />
+            <marker date="1425401739874" expanded="true" signature="1697:1753" placeholder="select count..users..." />
+            <marker date="1425401739874" expanded="true" signature="2145:2201" placeholder="select count..users..." />
+            <marker date="1425401739874" expanded="true" signature="2433:2489" placeholder="update users..." />
+            <marker date="1425401739874" expanded="true" signature="2709:2788" placeholder="insert into ..." />
+            <marker date="1425401739874" expanded="true" signature="3075:3124" placeholder="select * fro..users..." />
+            <marker date="1425401739874" expanded="true" signature="3973:4005" placeholder="..." />
           </folding>
         </state>
       </provider>
