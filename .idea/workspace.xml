@@ -79,18 +79,18 @@
       <file leaf-file-name="reg.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/openvpn/reg.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="162" column="80" selection-start="4982" selection-end="4982" vertical-scroll-proportion="0.21070811" vertical-offset="2918" max-vertical-offset="3971">
+            <state line="82" column="36" selection-start="2198" selection-end="2198" vertical-scroll-proportion="0.22970639" vertical-offset="1425" max-vertical-offset="3971">
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#3425#4562#0" expanded="false" />
-                <marker date="1425409719328" expanded="true" signature="2231:2283" placeholder="select count..users..." />
-                <marker date="1425409719328" expanded="true" signature="2781:2826" placeholder="select * fro..users..." />
-                <marker date="1425409719328" expanded="true" signature="3586:3683" placeholder="update users..." />
-                <marker date="1425409719328" expanded="true" signature="5177:5286" placeholder="..." />
-                <marker date="1425409719328" expanded="true" signature="5202:5286" placeholder="..." />
-                <marker date="1425409719328" expanded="true" signature="5434:5517" placeholder="..." />
-                <marker date="1425409719328" expanded="true" signature="5615:5700" placeholder="..." />
-                <marker date="1425409719328" expanded="true" signature="5800:5878" placeholder="..." />
+                <element signature="e#3426#4563#0" expanded="false" />
+                <marker date="1425409945801" expanded="true" signature="2231:2283" placeholder="select count..users..." />
+                <marker date="1425409945801" expanded="true" signature="2782:2827" placeholder="select * fro..users..." />
+                <marker date="1425409945801" expanded="true" signature="3587:3684" placeholder="update users..." />
+                <marker date="1425409945801" expanded="true" signature="5178:5287" placeholder="..." />
+                <marker date="1425409945801" expanded="true" signature="5203:5287" placeholder="..." />
+                <marker date="1425409945801" expanded="true" signature="5435:5518" placeholder="..." />
+                <marker date="1425409945801" expanded="true" signature="5616:5701" placeholder="..." />
+                <marker date="1425409945801" expanded="true" signature="5801:5879" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -262,7 +262,11 @@
       <created>1425409537700</created>
       <updated>1425409537700</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="gh">
+      <created>1425409727846</created>
+      <updated>1425409727846</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -359,15 +363,15 @@
         <state line="74" column="4" selection-start="1912" selection-end="1912" vertical-scroll-proportion="0.0" vertical-offset="1406" max-vertical-offset="4370">
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3425#4562#0" expanded="false" />
-            <marker date="1425409719328" expanded="true" signature="2231:2283" placeholder="select count..users..." />
-            <marker date="1425409719328" expanded="true" signature="2781:2826" placeholder="select * fro..users..." />
-            <marker date="1425409719328" expanded="true" signature="3586:3683" placeholder="update users..." />
-            <marker date="1425409719328" expanded="true" signature="5177:5286" placeholder="..." />
-            <marker date="1425409719328" expanded="true" signature="5202:5286" placeholder="..." />
-            <marker date="1425409719328" expanded="true" signature="5434:5517" placeholder="..." />
-            <marker date="1425409719328" expanded="true" signature="5615:5700" placeholder="..." />
-            <marker date="1425409719328" expanded="true" signature="5800:5878" placeholder="..." />
+            <element signature="e#3426#4563#0" expanded="false" />
+            <marker date="1425409945801" expanded="true" signature="2231:2283" placeholder="select count..users..." />
+            <marker date="1425409945801" expanded="true" signature="2782:2827" placeholder="select * fro..users..." />
+            <marker date="1425409945801" expanded="true" signature="3587:3684" placeholder="update users..." />
+            <marker date="1425409945801" expanded="true" signature="5178:5287" placeholder="..." />
+            <marker date="1425409945801" expanded="true" signature="5203:5287" placeholder="..." />
+            <marker date="1425409945801" expanded="true" signature="5435:5518" placeholder="..." />
+            <marker date="1425409945801" expanded="true" signature="5616:5701" placeholder="..." />
+            <marker date="1425409945801" expanded="true" signature="5801:5879" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -517,18 +521,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/reg.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="80" selection-start="4982" selection-end="4982" vertical-scroll-proportion="0.21070811" vertical-offset="2918" max-vertical-offset="3971">
+        <state line="82" column="36" selection-start="2198" selection-end="2198" vertical-scroll-proportion="0.22970639" vertical-offset="1425" max-vertical-offset="3971">
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3425#4562#0" expanded="false" />
-            <marker date="1425409719328" expanded="true" signature="2231:2283" placeholder="select count..users..." />
-            <marker date="1425409719328" expanded="true" signature="2781:2826" placeholder="select * fro..users..." />
-            <marker date="1425409719328" expanded="true" signature="3586:3683" placeholder="update users..." />
-            <marker date="1425409719328" expanded="true" signature="5177:5286" placeholder="..." />
-            <marker date="1425409719328" expanded="true" signature="5202:5286" placeholder="..." />
-            <marker date="1425409719328" expanded="true" signature="5434:5517" placeholder="..." />
-            <marker date="1425409719328" expanded="true" signature="5615:5700" placeholder="..." />
-            <marker date="1425409719328" expanded="true" signature="5800:5878" placeholder="..." />
+            <element signature="e#3426#4563#0" expanded="false" />
+            <marker date="1425409945801" expanded="true" signature="2231:2283" placeholder="select count..users..." />
+            <marker date="1425409945801" expanded="true" signature="2782:2827" placeholder="select * fro..users..." />
+            <marker date="1425409945801" expanded="true" signature="3587:3684" placeholder="update users..." />
+            <marker date="1425409945801" expanded="true" signature="5178:5287" placeholder="..." />
+            <marker date="1425409945801" expanded="true" signature="5203:5287" placeholder="..." />
+            <marker date="1425409945801" expanded="true" signature="5435:5518" placeholder="..." />
+            <marker date="1425409945801" expanded="true" signature="5616:5701" placeholder="..." />
+            <marker date="1425409945801" expanded="true" signature="5801:5879" placeholder="..." />
           </folding>
         </state>
       </provider>

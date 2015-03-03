@@ -82,7 +82,7 @@ include("mysql.php");
 
                 $conn = new mysql();
                 $sql = sprintf("select count(*) from users where mailprefixcode='%s'",
-                    mysql_real_escape_string($sid));//"select count(*) from invitecode where code='$code'and status='0'";
+                    mysql_real_escape_string($code));//"select count(*) from invitecode where code='$code'and status='0'";
                 $result = $conn->query($sql);
                 $rows = mysql_fetch_array($result);
                 $num = $rows[0];
