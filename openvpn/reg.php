@@ -212,7 +212,8 @@ include("mysql.php");
       </h6>
     </div>
     
-</div> 
+</div>
+
 
 <?php
 include("footer.php");
