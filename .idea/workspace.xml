@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b3641ed-1d6e-4f39-99fb-c23adabe5828" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openvpn/reg.php" afterPath="$PROJECT_DIR$/openvpn/reg.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yanxi.iws" />
@@ -79,7 +78,7 @@
       <file leaf-file-name="reg.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/openvpn/reg.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="112" column="26" selection-start="3371" selection-end="3371" vertical-scroll-proportion="0.2625216" vertical-offset="1976" max-vertical-offset="4047">
+            <state line="116" column="73" selection-start="3610" selection-end="3610" vertical-scroll-proportion="0.098445594" vertical-offset="2147" max-vertical-offset="4047">
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <marker date="1425411090695" expanded="true" signature="2231:2283" placeholder="select count..users..." />
@@ -297,12 +296,16 @@
       <created>1425410946618</created>
       <updated>1425410946618</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="gh">
+      <created>1425411095589</created>
+      <updated>1425411095589</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="更改" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -551,7 +554,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/reg.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="26" selection-start="3371" selection-end="3371" vertical-scroll-proportion="0.2625216" vertical-offset="1976" max-vertical-offset="4047">
+        <state line="116" column="73" selection-start="3610" selection-end="3610" vertical-scroll-proportion="0.098445594" vertical-offset="2147" max-vertical-offset="4047">
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1425411090695" expanded="true" signature="2231:2283" placeholder="select count..users..." />
