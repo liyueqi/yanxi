@@ -9,8 +9,8 @@ echo '<header class="jumbotron masthead">
 	<input type="hidden" value="1136358656@qq.com" name="optEmail">
 	<input type="hidden" value="2.0" name="payAmount">
 	<input type="hidden" name="title" placeholder="付款说明" value="Donations - Synapse for Hasi">
-	<input type="hidden" name="memo" placeholder="付款说明" value="窝嗦兹瓷！">
-	<a class="btn btn-lg btn-primary btn-shadow" href="./download/synapse.zip" target="_blank" role="button">下载客户端</a>
+	<input type="hidden" name="memo" placeholder="付款说明" value="Hasi！">
+	<!--<a class="btn btn-lg btn-primary btn-shadow" href="./download/synapse.zip" target="_blank" role="button">下载客户端</a>-->
 	<a class="btn btn-lg btn-primary btn-shadow" href="javascript:javascript:document.alipay_form.submit();" target="_blank" role="button">我来捐助</a> 
 </form>
 	
