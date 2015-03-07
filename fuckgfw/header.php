@@ -4,9 +4,9 @@ echo '  <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Jelly VPN</title>
-	 <link href="https://cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://static.bootcss.com/www/assets/css/site.min.css?v3" rel="stylesheet">
+	 <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./font-awesome.min.css" rel="stylesheet">
+    <link href="./css/site.min.css?v3" rel="stylesheet">
 	</head>
 	<body class="post-template page">
     <nav class="navbar navbar-inverse navbar-fixed-top">
