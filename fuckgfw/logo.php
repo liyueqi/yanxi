@@ -7,6 +7,9 @@ echo '<header class="jumbotron masthead">
 	<p class="masthead-button-links">
           <a class="btn btn-lg btn-primary btn-shadow" href="./download/synapse.zip" target="_blank" role="button">下载客户端</a>
         </p>
+	<p class="masthead-button-links">
+          <a class="btn btn-lg btn-info btn-shadow" href="./download/synapse.zip" target="_blank" role="button">我来捐助</a>
+        </p>	
   </div>
 
 </header>';

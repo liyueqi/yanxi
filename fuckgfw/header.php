@@ -18,7 +18,7 @@ echo '  <head>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Synapse Web Service</a>
+            <a class="navbar-brand" href="#">Synapse for Hasi</a>
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -27,9 +27,9 @@ echo '  <head>
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">VPN&代理 <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                   <li><a href="#"></a></li>
-                  <li><a href="./vpn-detail.php">介绍&使用教程</a></li>
-                  <li><a href="./vpn-try.php">试用</a></li>
-                  <li><a href="./vpn-buy.php">购买</a></li>
+                  <li><a href="./about.php">介绍</a></li>
+                  <li><a href="./donate-list.php">捐助名单</a></li>
+                  
 
                 </ul>
               </li>
