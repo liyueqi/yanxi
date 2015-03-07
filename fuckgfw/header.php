@@ -11,6 +11,8 @@ echo '  <head>
 	<script src="https://yanxihanfu.me/bootstrap/js/jquery.min.js"></script>
 	<script src="https://yanxihanfu.me/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://yanxihanfu.me/bootstrap/js/site.min.js"></script>
+	<link href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="http://static.bootcss.com/www/assets/css/site.min.css?v3" rel="stylesheet">
 	</head>
 	<body class="post-template page">
     <nav class="navbar navbar-inverse navbar-fixed-top">
