@@ -24,10 +24,8 @@ echo '  <head>
             <ul class="nav navbar-nav">
               <li class="active"><a href="./index.php">主页</a></li>
 			  <li><a href="#"></a></li>
-                  <li><a href="./about.php">介绍</a></li>
-                  <li><a href="./donate-list.php">捐助名单</a></li>
-              
-              
+              <li><a href="./about.php">介绍</a></li>
+              <li><a href="./donate-list.php">捐助名单</a></li>  
             </ul>
           </div><!--/.nav-collapse -->
         </div>
