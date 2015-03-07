@@ -23,28 +23,11 @@ echo '  <head>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <li class="active"><a href="./index.php">主页</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">VPN&代理 <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#"></a></li>
+			  <li><a href="#"></a></li>
                   <li><a href="./about.php">介绍</a></li>
                   <li><a href="./donate-list.php">捐助名单</a></li>
-                  
-
-                </ul>
-              </li>
-               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">虚拟主机空间 <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#"></a></li>
-                  <li><a href="./space-detail.php">介绍&使用教程</a></li>
-                  <li><a href="./space-try.php">试用</a></li>
-                  <li><a href="./space-buy.php">购买</a></li>
-
-                </ul>
-              </li>
-
-              <li><a href="contact.php">关于</a></li>
+              
+              
             </ul>
           </div><!--/.nav-collapse -->
         </div>
