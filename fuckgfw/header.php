@@ -7,7 +7,7 @@ echo '  <head>
 	 <link href="https://yanxihanfu.me/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	 <link href="https://yanxihanfu.me/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
 	 <link rel="stylesheet" href="https://yanxihanfu.me/bootstrap/css/bootstrap-theme.min.css">
-     <link href="https://yanxihanfu.me/bootstrap/css/site.min.css?v3" rel="stylesheet">
+     
 	<script src="https://yanxihanfu.me/bootstrap/js/jquery.min.js"></script>
 	<script src="https://yanxihanfu.me/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://yanxihanfu.me/bootstrap/js/site.min.js"></script>
