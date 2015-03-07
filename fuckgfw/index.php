@@ -10,12 +10,12 @@
 try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"c17fbea04f64a9440a66226487c09cff",petok:"1479a96fe9bae74a95956d8bcddf4483f70e52e1-1425738916-1800",zone:"shadowsocks.cn",rocket:"a",apps:{}}];document.write('<script type="text/javascript" src="//edge.yunjiasu.com/cdn-cgi/nexp/dok3v=919620257c/cloudflare.min.js"><'+'\/script>');}}catch(e){};
 //]]>
 </script>
-<link rel="stylesheet" href="./app.css">
+<link rel="stylesheet" href="./css.css">
 <link rel="shortcut icon" href="./favicon.ico">
 <link rel="apple-touch-icon" href="./apple-touch-icon.png">
 <link rel="apple-touch-icon" sizes="72x72" href="./apple-touch-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="114x114" href="./apple-touch-icon-114x114.png"><style type="text/css"></style>
-<link href="./css" rel="stylesheet" type="text/css"><script type="text/rocketscript" data-rocketsrc="./spzjz.js"></script>
+<link href="./css" rel="stylesheet" type="text/css"><script type="text/rocketscript" data-rocketsrc="./rocket.js"></script>
 </head>
 <body style="zoom: 1;"><div id="wrap" class="boxed">
 <header>
