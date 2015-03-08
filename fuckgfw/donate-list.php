@@ -5,8 +5,10 @@
   include('header.php');
   
   ?>
+  <head>
+  <style type="text/css"> .divcss5{margin:0 auto;width:80%;height:150px;border:1px solid #000} </style></head>
 <div align="center"><p><h3>非常感谢蛤丝们对我的支持，我会把这个项目继续发展，完善的~~</h3></p></div>
-<div align="center"><table class="table table-striped table-bordered table-hover" >
+<div align="center" class="divcss5"><table class="table table-striped table-bordered table-hover" >
 <tr>
 <th>捐助者</th><th>数额</th><th>日期</th>
 </tr>
