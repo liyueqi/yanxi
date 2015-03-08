@@ -48,7 +48,7 @@ include('header.php');
             <p><h3>1、软件安装</h3></p>
             <blockquote>
 			<ol type="I">
-            <p><li><h3>点击链接下载客户端：<br /><a href="./exe/install.exe">VPN客户端</a></h3></li></p>
+            <p><li><h3>点击链接下载客户端：<br /><a href="./exe/setup.exe">VPN客户端</a></h3></li></p>
             <p><li><h4>双击运行下载完成的安装程序</h4></li></p>
             <p><li><h4>点击“我同意”进入下一步：</h4><br><img src="./openvpn-pic/jelly-1.png"></li></p>
             <p><li><h4>点击“确定”进入下一步以安装OpenVPN程序：</h4><br><img src="./openvpn-pic/jelly-2.png"></li></p>
