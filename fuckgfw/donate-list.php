@@ -6,10 +6,7 @@
   ?>
   <head>
   <style type="text/css"> .divcss5{margin:0 auto;width:70%;height:150px;border:0px solid #000} 
-  td
-{
-    text-align:center;
-}</style></head>
+  td{text-align:center;}th{text-align:center;}</style></head>
 <div align="center"><p><h3>非常感谢蛤丝们对我的支持，我会把这个项目继续发展，完善的~~</h3></p></div>
 <div align="center" class="divcss5"><table class="table table-striped table-bordered table-hover" align="center">
 <tr>
