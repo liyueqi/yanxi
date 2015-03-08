@@ -3,7 +3,6 @@
 
   <?php
   include('header.php');
-  
   ?>
   <head>
   <style type="text/css"> .divcss5{margin:0 auto;width:80%;height:150px;border:1px solid #000} </style></head>
