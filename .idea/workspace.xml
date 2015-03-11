@@ -35,19 +35,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wx_sample.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.091/wx_sample.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="29" selection-start="112" selection-end="112" vertical-scroll-proportion="-3.392857" vertical-offset="0" max-vertical-offset="608">
-              <folding>
-                <element signature="n#responseMsg#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
-                <element signature="n#checkSignature#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
-                <marker date="1403594218158" expanded="true" signature="1115:1374" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -270,7 +257,11 @@
       <created>1426090229503</created>
       <updated>1426090229503</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="gh">
+      <created>1426090534909</created>
+      <updated>1426090534909</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -598,11 +589,11 @@
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.091/wx_sample.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="29" selection-start="112" selection-end="112" vertical-scroll-proportion="-3.392857" vertical-offset="0" max-vertical-offset="608">
+        <state line="7" column="29" selection-start="112" selection-end="112" vertical-scroll-proportion="0.164076" vertical-offset="0" max-vertical-offset="608">
           <folding>
             <element signature="n#responseMsg#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
             <element signature="n#checkSignature#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
-            <marker date="1403594218158" expanded="true" signature="1115:1374" placeholder="..." />
+            <marker date="1403594218158" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
