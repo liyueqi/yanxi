@@ -1,6 +1,6 @@
 <?php
-if(isset($_POST['signatrue'])){
-    echo $_POST['echostr'];
+if(isset($_GET['signatrue'])){
+    echo $_GET['echostr'];
 }else{
 
 

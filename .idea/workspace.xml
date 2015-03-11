@@ -29,8 +29,21 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/weixintest/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="0.1312608" vertical-offset="0" max-vertical-offset="579">
+            <state line="1" column="30" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0328152" vertical-offset="0" max-vertical-offset="579">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wx_sample.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.091/wx_sample.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="29" selection-start="112" selection-end="112" vertical-scroll-proportion="-3.392857" vertical-offset="0" max-vertical-offset="608">
+              <folding>
+                <element signature="n#responseMsg#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
+                <element signature="n#checkSignature#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
+                <marker date="1403594218158" expanded="true" signature="1115:1374" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -253,7 +266,11 @@
       <created>1426090030538</created>
       <updated>1426090030538</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="gh">
+      <created>1426090229503</created>
+      <updated>1426090229503</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -579,9 +596,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.091/wx_sample.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="29" selection-start="112" selection-end="112" vertical-scroll-proportion="-3.392857" vertical-offset="0" max-vertical-offset="608">
+          <folding>
+            <element signature="n#responseMsg#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
+            <element signature="n#checkSignature#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
+            <marker date="1403594218158" expanded="true" signature="1115:1374" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/weixintest/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="0.1312608" vertical-offset="0" max-vertical-offset="579">
+        <state line="1" column="30" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0328152" vertical-offset="0" max-vertical-offset="579">
           <folding />
         </state>
       </provider>
