@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST['signatrue'])){
-    return true;
+    return $_POST['signatrue'];
 }else{
 
 

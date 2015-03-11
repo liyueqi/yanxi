@@ -29,7 +29,7 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/weixintest/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="4" selection-start="67" selection-end="67" vertical-scroll-proportion="0.164076" vertical-offset="0" max-vertical-offset="579">
+            <state line="2" column="30" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0656304" vertical-offset="0" max-vertical-offset="579">
               <folding />
             </state>
           </provider>
@@ -241,7 +241,11 @@
       <created>1426089403797</created>
       <updated>1426089403797</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="gh">
+      <created>1426089874316</created>
+      <updated>1426089874316</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -569,7 +573,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/weixintest/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="67" selection-end="67" vertical-scroll-proportion="0.164076" vertical-offset="0" max-vertical-offset="579">
+        <state line="2" column="30" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0656304" vertical-offset="0" max-vertical-offset="579">
           <folding />
         </state>
       </provider>
