@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b3641ed-1d6e-4f39-99fb-c23adabe5828" name="默认的" comment="">
+    <list default="true" id="0b3641ed-1d6e-4f39-99fb-c23adabe5828" name="默认的" comment="默认的">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fuckgfw/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixintest/index.php" afterPath="$PROJECT_DIR$/weixintest/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yanxi.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,19 +29,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/weixintest/index.php">
+      <file leaf-file-name="zhegeshiweixinjiekou.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../xiao/zhegeshiweixinjiekou.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.164076" vertical-offset="0" max-vertical-offset="579">
+            <state vertical-scroll-proportion="-1.3571428" vertical-offset="0" max-vertical-offset="247">
+              <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wx_sample.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.049/wx_sample.php">
+      <file leaf-file-name="test.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fuckgfw/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="114">
+            <state vertical-scroll-proportion="0.0328152" vertical-offset="0" max-vertical-offset="579">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -55,17 +60,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/openvpn/index.php" />
-        <option value="$PROJECT_DIR$/openvpn/phpmail/send.php" />
-        <option value="$PROJECT_DIR$/openvpn/getmail.php" />
-        <option value="$PROJECT_DIR$/openvpn/reg-mail.php" />
-        <option value="$PROJECT_DIR$/openvpn/reg.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa0.049/wx_sample.php" />
-        <option value="$PROJECT_DIR$/weixintest/index.php" />
+        <option value="$PROJECT_DIR$/fuckgfw/test.php" />
+        <option value="$PROJECT_DIR$/../../xiao/zhegeshiweixinjiekou.php" />
       </list>
     </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -81,14 +84,20 @@
     <OptionsSetting value="true" id="更新" />
     <OptionsSetting value="true" id="状态" />
     <OptionsSetting value="true" id="编辑" />
-    <ConfirmationsSetting value="0" id="添加" />
-    <ConfirmationsSetting value="0" id="移除" />
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -102,13 +111,14 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="E:/SAE/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fuckgfw/test.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="options.lastSelected" value="web-ide.project.structure" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -118,7 +128,7 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
@@ -127,183 +137,242 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
     <configuration useDefault="false">C:\Users\WYL\AppData\Roaming\Subversion</configuration>
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0b3641ed-1d6e-4f39-99fb-c23adabe5828" name="默认的" comment="" />
       <created>1415961824491</created>
+      <option name="number" value="Default" />
       <updated>1415961824491</updated>
     </task>
     <task id="LOCAL-00001" summary="ghhh">
       <created>1422683629790</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
       <updated>1422683629790</updated>
     </task>
     <task id="LOCAL-00002" summary="ghhh">
       <created>1424582661883</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
       <updated>1424582661900</updated>
     </task>
     <task id="LOCAL-00003" summary="ghhh">
       <created>1425401497217</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
       <updated>1425401497217</updated>
     </task>
     <task id="LOCAL-00004" summary="gh">
       <created>1425401757215</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
       <updated>1425401757215</updated>
     </task>
     <task id="LOCAL-00005" summary="gh">
       <created>1425404250725</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
       <updated>1425404250725</updated>
     </task>
     <task id="LOCAL-00006" summary="gh">
       <created>1425404527215</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
       <updated>1425404527215</updated>
     </task>
     <task id="LOCAL-00007" summary="gh">
       <created>1425405031421</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
       <updated>1425405031421</updated>
     </task>
     <task id="LOCAL-00008" summary="gh">
       <created>1425405650952</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
       <updated>1425405650952</updated>
     </task>
     <task id="LOCAL-00009" summary="gh">
       <created>1425408508563</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
       <updated>1425408508563</updated>
     </task>
     <task id="LOCAL-00010" summary="gh">
       <created>1425408577348</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
       <updated>1425408577348</updated>
     </task>
     <task id="LOCAL-00011" summary="gh">
       <created>1425408886496</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
       <updated>1425408886496</updated>
     </task>
     <task id="LOCAL-00012" summary="gh">
       <created>1425409171444</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
       <updated>1425409171444</updated>
     </task>
     <task id="LOCAL-00013" summary="gh">
       <created>1425409537700</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
       <updated>1425409537700</updated>
     </task>
     <task id="LOCAL-00014" summary="gh">
       <created>1425409727846</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
       <updated>1425409727846</updated>
     </task>
     <task id="LOCAL-00015" summary="gh">
       <created>1425409956345</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
       <updated>1425409956345</updated>
     </task>
     <task id="LOCAL-00016" summary="gh">
       <created>1425410088526</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
       <updated>1425410088526</updated>
     </task>
     <task id="LOCAL-00017" summary="gh">
       <created>1425410220155</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
       <updated>1425410220155</updated>
     </task>
     <task id="LOCAL-00018" summary="gh">
       <created>1425410418957</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
       <updated>1425410418957</updated>
     </task>
     <task id="LOCAL-00019" summary="gh">
       <created>1425410443166</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
       <updated>1425410443166</updated>
     </task>
     <task id="LOCAL-00020" summary="gh">
       <created>1425410612716</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
       <updated>1425410612716</updated>
     </task>
     <task id="LOCAL-00021" summary="gh">
       <created>1425410731890</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
       <updated>1425410731890</updated>
     </task>
     <task id="LOCAL-00022" summary="gh">
       <created>1425410946618</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
       <updated>1425410946618</updated>
     </task>
     <task id="LOCAL-00023" summary="gh">
       <created>1425411095589</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
       <updated>1425411095589</updated>
     </task>
     <task id="LOCAL-00024" summary="gh">
       <created>1426089389312</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
       <updated>1426089389312</updated>
     </task>
     <task id="LOCAL-00025" summary="gh">
       <created>1426089403797</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
       <updated>1426089403797</updated>
     </task>
     <task id="LOCAL-00026" summary="gh">
       <created>1426089874316</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
       <updated>1426089874316</updated>
     </task>
     <task id="LOCAL-00027" summary="gh">
       <created>1426089990767</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
       <updated>1426089990767</updated>
     </task>
     <task id="LOCAL-00028" summary="gh">
       <created>1426090030538</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
       <updated>1426090030538</updated>
     </task>
     <task id="LOCAL-00029" summary="gh">
       <created>1426090229503</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
       <updated>1426090229503</updated>
     </task>
     <task id="LOCAL-00030" summary="gh">
       <created>1426090534909</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
       <updated>1426090534909</updated>
     </task>
     <task id="LOCAL-00031" summary="gh">
       <created>1426090867017</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
       <updated>1426090867017</updated>
     </task>
     <task id="LOCAL-00032" summary="gh">
       <created>1426090977770</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
       <updated>1426090977770</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="gh">
+      <created>1426091102519</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1426091102519</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="更改" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="更改" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -311,6 +380,9 @@
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
@@ -327,298 +399,277 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/openvpn/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="55" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="836">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="836">
+          <caret line="8" column="55" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/getmail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="27" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="627">
-          <folding>
-            <marker date="1424594098268" expanded="true" signature="-1:-1" placeholder="select count..users..." />
-            <marker date="1424594098268" expanded="true" signature="-1:-1" placeholder="select count..users..." />
-            <marker date="1424594098268" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424594098268" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424594098268" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424594098268" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="627">
+          <caret line="8" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/phpmail/send.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="52" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="513">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="513">
+          <caret line="5" column="52" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/reg-mail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="57" selection-start="1681" selection-end="1804" vertical-scroll-proportion="0.0" vertical-offset="1330" max-vertical-offset="4237">
-          <folding>
-            <marker date="1425401739874" expanded="true" signature="-1:-1" placeholder="select count..users..." />
-            <marker date="1425401739874" expanded="true" signature="-1:-1" placeholder="select count..users..." />
-            <marker date="1425401739874" expanded="true" signature="-1:-1" placeholder="update users..." />
-            <marker date="1425401739874" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-            <marker date="1425401739874" expanded="true" signature="-1:-1" placeholder="select * fro..users..." />
-            <marker date="1425401739874" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="1330" max-vertical-offset="4237">
+          <caret line="79" column="57" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/reg.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="73" selection-start="3610" selection-end="3610" vertical-scroll-proportion="0.0" vertical-offset="2147" max-vertical-offset="4047">
-          <folding>
-            <marker date="1425411090695" expanded="true" signature="-1:-1" placeholder="select count..users..." />
-            <marker date="1425411090695" expanded="true" signature="-1:-1" placeholder="select * fro..users..." />
-            <marker date="1425411090695" expanded="true" signature="-1:-1" placeholder="update users..." />
-            <marker date="1425411090695" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425411090695" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425411090695" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425411090695" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425411090695" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="2147" max-vertical-offset="4047">
+          <caret line="116" column="73" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/mysql.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="665">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="665">
+          <caret line="4" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="55" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="836">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="836">
+          <caret line="8" column="55" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/getmail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="27" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="627">
-          <folding>
-            <marker date="1424594098268" expanded="true" signature="-1:-1" placeholder="select count..users..." />
-            <marker date="1424594098268" expanded="true" signature="-1:-1" placeholder="select count..users..." />
-            <marker date="1424594098268" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424594098268" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424594098268" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424594098268" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="627">
+          <caret line="8" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/phpmail/send.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="5" selection-start="61" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="513">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="513">
+          <caret line="18" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/reg-mail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="4237">
-          <folding>
-            <marker date="1425401739874" expanded="true" signature="-1:-1" placeholder="select count..users..." />
-            <marker date="1425401739874" expanded="true" signature="-1:-1" placeholder="select count..users..." />
-            <marker date="1425401739874" expanded="true" signature="-1:-1" placeholder="update users..." />
-            <marker date="1425401739874" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-            <marker date="1425401739874" expanded="true" signature="-1:-1" placeholder="select * fro..users..." />
-            <marker date="1425401739874" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="4237">
+          <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/reg.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="4" selection-start="1912" selection-end="1912" vertical-scroll-proportion="0.0" vertical-offset="1406" max-vertical-offset="4370">
-          <folding>
-            <marker date="1425411090695" expanded="true" signature="-1:-1" placeholder="select count..users..." />
-            <marker date="1425411090695" expanded="true" signature="-1:-1" placeholder="select * fro..users..." />
-            <marker date="1425411090695" expanded="true" signature="-1:-1" placeholder="update users..." />
-            <marker date="1425411090695" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425411090695" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425411090695" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425411090695" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425411090695" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="1406" max-vertical-offset="4370">
+          <caret line="74" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/mysql.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="665">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="665">
+          <caret line="4" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="55" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="836">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="836">
+          <caret line="8" column="55" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/boot/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="24" selection-start="1909" selection-end="1909" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="9006" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="9006">
+          <caret line="70" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/getmail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="77" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="627">
-          <folding>
-            <marker date="1424594098268" expanded="true" signature="-1:-1" placeholder="select count..users..." />
-            <marker date="1424594098268" expanded="true" signature="-1:-1" placeholder="select count..users..." />
-            <marker date="1424594098268" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424594098268" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424594098268" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424594098268" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="627">
+          <caret line="7" column="77" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/reg-mail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="62" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="3914">
-          <folding>
-            <marker date="1425401739874" expanded="true" signature="-1:-1" placeholder="select count..users..." />
-            <marker date="1425401739874" expanded="true" signature="-1:-1" placeholder="select count..users..." />
-            <marker date="1425401739874" expanded="true" signature="-1:-1" placeholder="update users..." />
-            <marker date="1425401739874" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-            <marker date="1425401739874" expanded="true" signature="-1:-1" placeholder="select * fro..users..." />
-            <marker date="1425401739874" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="3914">
+          <caret line="57" column="62" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/phpmail/send.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="5" selection-start="61" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="513">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="513">
+          <caret line="18" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/mysql.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="665">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="665">
+          <caret line="4" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="55" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="836">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="836">
+          <caret line="8" column="55" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/logo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="11" selection-start="187" selection-end="187" vertical-scroll-proportion="0.2625216" vertical-offset="0" max-vertical-offset="579" />
+        <state vertical-scroll-proportion="0.2625216" vertical-offset="0" max-vertical-offset="579">
+          <caret line="8" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="4" selection-start="10" selection-end="10" vertical-scroll-proportion="-1.0345423" vertical-offset="618" max-vertical-offset="1197" />
+        <state vertical-scroll-proportion="-1.0345423" vertical-offset="618" max-vertical-offset="1197">
+          <caret line="1" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/boot/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="24" selection-start="1909" selection-end="1909" vertical-scroll-proportion="0.33568904" vertical-offset="1140" max-vertical-offset="9006" />
+        <state vertical-scroll-proportion="0.33568904" vertical-offset="1140" max-vertical-offset="9006">
+          <caret line="70" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="55" selection-start="175" selection-end="175" vertical-scroll-proportion="-0.0" vertical-offset="152" max-vertical-offset="836">
-          <folding />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="152" max-vertical-offset="836">
+          <caret line="8" column="55" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/getinfo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="28" selection-start="753" selection-end="753" vertical-scroll-proportion="0.44214162" vertical-offset="219" max-vertical-offset="798" />
+        <state vertical-scroll-proportion="0.44214162" vertical-offset="219" max-vertical-offset="798">
+          <caret line="25" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/getmail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="27" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="627">
-          <folding>
-            <marker date="1424594098268" expanded="true" signature="-1:-1" placeholder="select count..users..." />
-            <marker date="1424594098268" expanded="true" signature="-1:-1" placeholder="select count..users..." />
-            <marker date="1424594098268" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424594098268" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424594098268" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424594098268" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="627">
+          <caret line="8" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/mysql.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="665">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="665">
+          <caret line="4" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/phpmail/send.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="52" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="513">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openvpn/reg-mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="57" selection-start="1681" selection-end="1804" vertical-scroll-proportion="0.0" vertical-offset="1330" max-vertical-offset="4237">
-          <folding>
-            <marker date="1425401739874" expanded="true" signature="-1:-1" placeholder="select count..users..." />
-            <marker date="1425401739874" expanded="true" signature="-1:-1" placeholder="select count..users..." />
-            <marker date="1425401739874" expanded="true" signature="-1:-1" placeholder="update users..." />
-            <marker date="1425401739874" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-            <marker date="1425401739874" expanded="true" signature="-1:-1" placeholder="select * fro..users..." />
-            <marker date="1425401739874" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="513">
+          <caret line="5" column="52" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openvpn/reg.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="126" selection-start="3768" selection-end="3768" vertical-scroll-proportion="-9.5" vertical-offset="1976" max-vertical-offset="4047">
-          <folding>
-            <marker date="1425411090695" expanded="true" signature="-1:-1" placeholder="select count..users..." />
-            <marker date="1425411090695" expanded="true" signature="-1:-1" placeholder="select * fro..users..." />
-            <marker date="1425411090695" expanded="true" signature="-1:-1" placeholder="update users..." />
-            <marker date="1425411090695" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425411090695" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425411090695" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425411090695" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425411090695" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.049/wx_sample.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1748">
-          <folding />
+        <state vertical-scroll-proportion="-9.5" vertical-offset="1976" max-vertical-offset="4047">
+          <caret line="118" column="126" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weixintest/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.164076" vertical-offset="0" max-vertical-offset="579">
+        <state vertical-scroll-proportion="0.2614841" vertical-offset="1277" max-vertical-offset="1919">
+          <caret line="75" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openvpn/reg-mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.328152" vertical-offset="1330" max-vertical-offset="4237">
+          <caret line="80" column="36" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/SAE/yanxi/1/gettest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2242">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/SAE/yanxi/1/wxindex.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46996465" vertical-offset="171" max-vertical-offset="1634">
+          <caret line="37" column="61" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/SAE/yanxi/1/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.189046" vertical-offset="0" max-vertical-offset="3553">
+          <caret line="95" column="71" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuckgfw/donate-list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.328152" vertical-offset="0" max-vertical-offset="950">
+          <caret line="10" column="113" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/SAE/yanxi/1/weixin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24911661" vertical-offset="334" max-vertical-offset="8341">
+          <caret line="137" column="39" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuckgfw/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1312608" vertical-offset="0" max-vertical-offset="579">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../xiao/zhegeshiweixinjiekou.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3571428" vertical-offset="0" max-vertical-offset="247">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuckgfw/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0328152" vertical-offset="0" max-vertical-offset="579">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
 </project>
-
