@@ -16,10 +16,10 @@
         return $cip;
     }
     //echo GetIP();
-    if(isset($_POST['version'])){
+    if(isset($_GET['version'])){
         //$hash = $_POST['hash'];
-        $mac = $_POST['mac'];
-        $version = $_POST['version'];
+        $mac = $_GET['mac'];
+        $version = $_GET['version'];
         $ip = GetIP();
         $time = date('Y-m-d H:i:s',time());
         $hash = md5($mac.$time);
