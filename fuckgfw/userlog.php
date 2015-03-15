@@ -27,13 +27,15 @@
         echo $ip;
         echo $version;
         echo $time;
-        $sql = sprintf("insert into hasilog (hash,mac,ip,time,version) VALUES ('%s','%s','%s','%s','%s')",
+        $sql = "insert into hasilog (hash,mac,ip,time,version) VALUES ('$hash','$mac','$ip','$time','$version')";
+            /*sprintf("",
             mysql_real_escape_string($hash),
             mysql_real_escape_string($mac),
             mysql_real_escape_string($ip),
             mysql_real_escape_string($time),
             mysql_real_escape_string($version)
             );
+            */
         $rawResult=mysql_query($sql,dbConn());
 
 
