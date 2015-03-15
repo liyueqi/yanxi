@@ -1,5 +1,5 @@
 <?php
-    //include("dbConn.php");
+    include("dbConn.php");
     function GetIP(){
         if(!empty($_SERVER["HTTP_CLIENT_IP"])){
             $cip = $_SERVER["HTTP_CLIENT_IP"];
@@ -15,7 +15,7 @@
         }
         return $cip;
     }
-    echo $ip;
+    echo GetIP();
     if(isset($_POST['hash'])){
         //$hash = $_POST['hash'];
         $mac = $_POST['mac'];
