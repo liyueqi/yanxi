@@ -15,16 +15,28 @@
         }
         return $cip;
     }
-    echo GetIP();
-    if(isset($_POST['hash'])){
+    //echo GetIP();
+    if(isset($_POST['version'])){
         //$hash = $_POST['hash'];
         $mac = $_POST['mac'];
-        $ip = $_POST['ip'];
+        $version = $_POST['version'];
+        $ip = GetIP();
         $time = date('Y-m-d H:i:s',time());
-        $sql = sprintf("insert ");
+        $hash = md5($mac.$time);
+        $sql = sprintf("insert into hasilog (hash,mac,ip,time,version) VALUES ('%s','%s','%s','%s','%s')",
+            mysql_real_escape_string($hash),
+            mysql_real_escape_string($mac),
+            mysql_real_escape_string($ip),
+            mysql_real_escape_string($time),
+            mysql_real_escape_string($version)
+            );
+        $rawResult=mysql_query($sql,dbConn());
 
 
 
+    }else{
+        header('HTTP/1.1 401 Unauthorized');
+        header('status: 401 Unauthorized');
     }
 
 ?>
