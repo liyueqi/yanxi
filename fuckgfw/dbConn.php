@@ -1,5 +1,5 @@
 <?php
-include("./Config/config.php");
+include("./config/config.php");
 function dbConn()
 {
     if(!isset($__con))
