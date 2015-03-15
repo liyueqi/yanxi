@@ -29,6 +29,7 @@
         echo $version;
         echo $time;
         */
+        
         $sql = "insert into hasilog (hash,mac,ip,time,version) VALUES ('$hash','$mac','$ip','$time','$version')";
             /*sprintf("",
             mysql_real_escape_string($hash),
