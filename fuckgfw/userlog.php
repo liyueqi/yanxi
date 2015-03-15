@@ -37,6 +37,7 @@
     }else{
         header('HTTP/1.1 401 Unauthorized');
         header('status: 401 Unauthorized');
+        echo "401 Unauthorized";
     }
 
 ?>
