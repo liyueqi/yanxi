@@ -1,5 +1,5 @@
 <?php
-echo "<div align="center">友情链接：&nbsp;&nbsp;&nbsp;<a href="http://laohasi.com/" target="_blank">老蛤丝--蛤丝论坛</></div>";
+echo "<div align=\"center\">友情链接：&nbsp;&nbsp;&nbsp;<a href=\"http://laohasi.com/\" target=\"_blank\">老蛤丝--蛤丝论坛</></div>";
 echo '<hr>
 <div align="center">Powered By Kaguya</div>
 <div align="center">©2015 Synapse Web Service ';
