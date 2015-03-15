@@ -10,7 +10,7 @@ echo '<header class="jumbotron masthead">
 	<input type="hidden" value="2.0" name="payAmount">
 	<input type="hidden" name="title" placeholder="付款说明" value="Donations - Synapse for Hasi">
 	<input type="hidden" name="memo" placeholder="付款说明" value="Hasi!">
-	<a class="btn btn-lg btn-primary btn-shadow" href="./download/synapse.zip" target="_blank" role="button">下载客户端(Beta 0.7)</a>
+	<a class="btn btn-lg btn-primary btn-shadow" href="./download/synapse.zip" target="_blank" role="button">下载客户端(Beta 0.9.0)2015.03.15更新</a>
 	<a class="btn btn-lg btn-primary btn-shadow" href="javascript:javascript:document.alipay_form.submit();" target="_blank" role="button">我来捐助</a> 
 </form>
 	
