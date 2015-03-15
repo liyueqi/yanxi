@@ -23,10 +23,12 @@
         $ip = GetIP();
         $time = date('Y-m-d H:i:s',time());
         $hash = md5($mac.$time);
+        /*
         echo $hash;
         echo $ip;
         echo $version;
         echo $time;
+        */
         $sql = "insert into hasilog (hash,mac,ip,time,version) VALUES ('$hash','$mac','$ip','$time','$version')";
             /*sprintf("",
             mysql_real_escape_string($hash),
