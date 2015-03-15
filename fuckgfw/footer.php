@@ -1,5 +1,5 @@
 <?php
-echo "<br /><hr>"
+echo "<br /><hr>";
 echo "<h4><div align=\"center\">友情链接：&nbsp;&nbsp;&nbsp;<a href=\"http://laohasi.com/\" target=\"_blank\">老蛤丝--蛤丝论坛</a></div></h4>";
 echo '<hr>
 <div align="center">Powered By Kaguya</div>
