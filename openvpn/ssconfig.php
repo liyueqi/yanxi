@@ -5,7 +5,7 @@ $passwd = $_GET['passwd'];
 $method = $_GET['method'];
 $IP = "162.243.133.125";
 $port = "80";
-$passwd = "kaguya";
+$passwd = "kaguya01";
 $method = "rc4-md5";
 echo "{\n
 \"configs\" : [
