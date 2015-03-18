@@ -5,7 +5,7 @@ echo '  <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Synapse for Hasi</title>
 	 <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <link href="./font-awesome.min.css" rel="stylesheet">
+    <link href="./css/font-awesome.min.css" rel="stylesheet">
     <link href="./css/site.min.css?v3" rel="stylesheet">
 	</head>
 	<body class="post-template page">
