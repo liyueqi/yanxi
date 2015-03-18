@@ -6,7 +6,7 @@ $method = $_GET['method'];
 $IP = "162.243.133.125";
 $port = "80";
 $passwd = "kaguya01";
-$method = "aes-cfb-128";
+$method = "aes-128-cfb";
 echo "{\n
 \"configs\" : [
   {\n
