@@ -13,6 +13,9 @@
 <th>捐助者</th><th>数额</th><th>日期</th>
 </tr>
 <tr>
+<td>19*****m</td><td>10.00</td><td>2015/03/31</td>
+</tr>
+<tr>
 <td>anonymous</td><td>3.00</td><td>2015/03/29</td>
 </tr>
 <tr>
