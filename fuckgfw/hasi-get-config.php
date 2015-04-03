@@ -17,7 +17,7 @@ if(isset($_POST['ver']))
     $sql = sprintf("select count(*) from hasi_user where mac='%s'",mysql_real_escape_string($mac));
     $rawResult = mysql_query($sql,$conn);
     $result = mysql_fetch_array($rawResult);
-    var_dump($result);
+    //var_dump($result);
     $Des = new Des();
     if($result[0]==0)
     {
