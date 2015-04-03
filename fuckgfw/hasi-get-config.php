@@ -6,7 +6,9 @@
  * Time: 上午2:45
  */
 require_once("./dbConn.php");
+require_once("./des.php");
 $conn = dbConn();
+$key = "e537bfa04fef8b9e6b29e66a61620ef6";
 if(isset($_POST['ver']))
 {
     $mac = $_POST['mac'];
@@ -14,6 +16,7 @@ if(isset($_POST['ver']))
     $sql = sprintf("select count(*) from hasi-user where mac='%s'",mysql_real_escape_string($mac));
     $rawResult = mysql_query($sql,$conn);
     $result = mysql_fetch_array($rawResult);
+    $Des = new Des();
     if($result[0]==0)
     {
         $sql = "select count(*) from hasi-user ";
@@ -36,7 +39,9 @@ if(isset($_POST['ver']))
         $hash = md5($mac.$time);
         $sql = "insert into hasi-user (hash,mac,node,firsttime,lasttime) VALUES ('$hash','$mac','$server','$time','$time')";
         $result = mysql_query($sql);
-        echo getConfig($mac,$server);
+        $config= getConfig($mac,$server);
+        $encode = $Des->encrypt($config,$key,true);
+        echo $encode;
     }else
     {
         $sql = "select * from hasi-user";
@@ -46,7 +51,9 @@ if(isset($_POST['ver']))
         $server = $result['node'];
         $sql = "update hasi-user set lasttime='$time' where mac='$mac'";
         $result = mysql_query($sql,$conn);
-        echo getConfig($mac,$server);
+        $config= getConfig($mac,$server);
+        $encode = $Des->encrypt($config,$key,true);
+        echo $encode;
     }
 
 }else{
@@ -56,9 +63,37 @@ if(isset($_POST['ver']))
 
 function getConfig($mac,$node)
 {
-    $configJson = "";
+    $conn = dbConn();
+    $sql = sprintf("select * from hasi_user where mac='%s'",mysql_real_escape_string($mac));
+    $rawResult = mysql_query($sql,$conn);
+    $result = mysql_fetch_array($rawResult);
+    if($result['node']==$node)
+    {
+        $sql = sprintf("select * from ssserver where id=%d",$node);
+        $rawResult = mysql_query($sql,$conn);
+        $config = mysql_fetch_array($rawResult);
+        $configJson = sprintf("{\n
+    \"configs\" : [
+    {\n
+    \"server\" : \"%s\",
+    \"server_port\" : %d,
+    \"password\" : \"%s\",
+    \"method\" : \"%s\",
+    \"remarks\" : \"\"}\n
+    ],
+    \"index\" : 0,
+    \"global\" : true,
+    \"enabled\" : false,
+    \"shareOverLan\" : false,
+    \"isDefault\" : false,
+    \"localPort\" : 1080}",$config['ip'],$config['port'],$config['password'],$config['method']);
+
+    }else{return 0;}
+
 
     return $configJson;
 }
+
+
 
 ?>
