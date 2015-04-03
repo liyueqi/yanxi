@@ -12,7 +12,7 @@ $key = "e537bfa04fef8b9e6b29e66a61620ef6";
 if(isset($_POST['ver']))
 {
     $mac = $_POST['mac'];
-    echo $mac;
+    //echo $mac;
     $time = date('Y-m-d-H-i-s');
     $sql = sprintf("select count(*) from hasi_user where mac='%s'",mysql_real_escape_string($mac));
     $rawResult = mysql_query($sql,$conn);
