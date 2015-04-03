@@ -14,7 +14,7 @@ if(isset($_POST['ver']))
     $mac = $_POST['mac'];
     echo $mac;
     $time = date('Y-m-d-H-i-s');
-    $sql = sprintf("select count(*) from hasi-user where mac='%s'",mysql_real_escape_string($mac));
+    $sql = sprintf("select count(*) from hasi_user where mac='%s'",mysql_real_escape_string($mac));
     $rawResult = mysql_query($sql,$conn);
     $result = mysql_fetch_array($rawResult);
     var_dump($result);
@@ -39,19 +39,19 @@ if(isset($_POST['ver']))
         }
         $server = $least['server'];
         $hash = md5($mac.$time);
-        $sql = "insert into hasi-user (hash,mac,node,firsttime,lasttime) VALUES ('$hash','$mac','$server','$time','$time')";
+        $sql = "insert into hasi_user (hash,mac,node,firsttime,lasttime) VALUES ('$hash','$mac','$server','$time','$time')";
         $result = mysql_query($sql);
         $config= getConfig($mac,$server);
         $encode = $Des->encrypt($config,$key,true);
         echo $encode;
     }else
     {
-        $sql = "select * from hasi-user";
+        $sql = "select * from hasi_user";
         $rawResult = mysql_query($sql,$conn);
         $result = mysql_fetch_array($rawResult);
         $mac = $result['mac'];
         $server = $result['node'];
-        $sql = "update hasi-user set lasttime='$time' where mac='$mac'";
+        $sql = "update hasi_user set lasttime='$time' where mac='$mac'";
         $result = mysql_query($sql,$conn);
         $config= getConfig($mac,$server);
         $encode = $Des->encrypt($config,$key,true);
