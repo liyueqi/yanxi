@@ -42,7 +42,7 @@ if(isset($_POST['ver']))
         $sql = "insert into hasi_user (hash,mac,node,firsttime,lasttime) VALUES ('$hash','$mac','$server','$time','$time')";
         $result = mysql_query($sql);
         $config= getConfig($mac,$server);
-        $encode = $Des->encrypt($config,$key,true);
+        $encode = $Des->encrypt($config,$key,false);
         echo $encode;
     }else
     {
@@ -54,7 +54,7 @@ if(isset($_POST['ver']))
         $sql = "update hasi_user set lasttime='$time' where mac='$mac'";
         $result = mysql_query($sql,$conn);
         $config= getConfig($mac,$server);
-        $encode = $Des->encrypt($config,$key,true);
+        $encode = $Des->encrypt($config,$key,false);
         echo $encode;
     }
 
