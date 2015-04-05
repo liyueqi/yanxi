@@ -6,9 +6,9 @@
  * Time: 上午2:45
  */
 require_once("./dbConn.php");
-//require_once("./des.php");
+require_once("./rc4.php");
 $conn = dbConn();
-//$key = "e537bfa04fef8b9e6b29e66a61620ef6";
+$key = "e537bfa04fef8b9e6b29e66a61620ef6";
 if(isset($_POST['ver']))
 {
     $mac = $_POST['mac'];
@@ -43,7 +43,7 @@ if(isset($_POST['ver']))
         $sql = "insert into hasi_user (hash,mac,node,firsttime,lasttime) VALUES ('$hash','$mac','$server','$time','$time')";
         $result = mysql_query($sql);
         $config= getConfig($mac,$server);
-        $encode = $Des->encrypt($config,$key,true);
+        $encode = base64_encode(rc4($key,$config));
         echo $encode;
     }else
     {
@@ -55,7 +55,7 @@ if(isset($_POST['ver']))
         $sql = "update hasi_user set lasttime='$time' where mac='$mac'";
         $result = mysql_query($sql,$conn);
         $config= getConfig($mac,$server);
-        $encode = base64_encode($config);
+        $encode = base64_encode(rc4($key,$config));
         echo $encode;
     }
 
