@@ -7,7 +7,8 @@
 $str = "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqeweeeeeeeeeeeeeeeeee";
 $key = "8fe5fc78a95fbde89b7fa300be95fb47";
 $encode = rc4($key,$str);
-echo $encode;
+$decode = rc4($key,$encode);
+echo $str."|".$encode."|".$decode;
 function rc4 ($pwd, $data)//$pwd密钥　$data需加密字符串
 {
     $key[] ="";

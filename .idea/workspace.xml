@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b3641ed-1d6e-4f39-99fb-c23adabe5828" name="默认的" comment="new begining">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fuckgfw/hasi-get-config.php" afterPath="$PROJECT_DIR$/fuckgfw/hasi-get-config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fuckgfw/testdes.php" afterPath="$PROJECT_DIR$/fuckgfw/testdes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -75,8 +74,8 @@
       <file leaf-file-name="testdes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fuckgfw/testdes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25996533" vertical-offset="0" max-vertical-offset="825">
-              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.25996533" vertical-offset="0" max-vertical-offset="840">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -531,7 +530,13 @@
       <option name="project" value="LOCAL" />
       <updated>1428218305195</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="new begining">
+      <created>1428218940736</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1428218940736</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -963,8 +968,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fuckgfw/testdes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25996533" vertical-offset="0" max-vertical-offset="825">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.25996533" vertical-offset="0" max-vertical-offset="840">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding />
         </state>
       </provider>
