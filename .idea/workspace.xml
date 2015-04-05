@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b3641ed-1d6e-4f39-99fb-c23adabe5828" name="默认的" comment="new begining">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fuckgfw/testdes.php" afterPath="$PROJECT_DIR$/fuckgfw/testdes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yanxi.iws" />
@@ -48,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hasi-get-config.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="hasi-get-config.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fuckgfw/hasi-get-config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="1170">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.2542373" vertical-offset="0" max-vertical-offset="1170">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
               <folding>
                 <element signature="n#getConfig#0;n#!!top" expanded="false" />
                 <marker date="1428219474571" expanded="true" signature="327:372" placeholder="select count..hasi_user..." />
@@ -80,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testdes.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testdes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fuckgfw/testdes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25996533" vertical-offset="0" max-vertical-offset="577">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="330">
+              <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
               <folding>
                 <element signature="n#rc4#0;n#!!top" expanded="false" />
               </folding>
@@ -568,7 +567,13 @@
       <option name="project" value="LOCAL" />
       <updated>1428219529138</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="new begining">
+      <created>1428219715860</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1428219715860</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -961,22 +966,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fuckgfw/hasi-get-config.php">
+    <entry file="file://$PROJECT_DIR$/fuckgfw/testdes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="1170">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="330">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
           <folding>
-            <element signature="n#getConfig#0;n#!!top" expanded="false" />
-            <marker date="1428219474571" expanded="true" signature="327:372" placeholder="select count..hasi_user..." />
-            <marker date="1428219474571" expanded="true" signature="427:472" placeholder="select count..hasi..." />
-            <marker date="1428219474571" expanded="true" signature="587:617" placeholder="select count..hasi..." />
-            <marker date="1428219474571" expanded="true" signature="854:886" placeholder="select * fro..ssserver..." />
-            <marker date="1428219474571" expanded="true" signature="1244:1350" placeholder="insert into ..." />
-            <marker date="1428219474571" expanded="true" signature="1538:1561" placeholder="select * fro..hasi_user..." />
-            <marker date="1428219474571" expanded="true" signature="1741:1795" placeholder="update hasi_..." />
-            <marker date="1428219474571" expanded="true" signature="1814:1868" placeholder="update hasi-..." />
-            <marker date="1428219474571" expanded="true" signature="2153:2191" placeholder="select * fro..hasi_user..." />
-            <marker date="1428219474571" expanded="true" signature="2374:2408" placeholder="select * fro..ssserver..." />
+            <element signature="n#rc4#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -989,12 +984,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fuckgfw/testdes.php">
+    <entry file="file://$PROJECT_DIR$/fuckgfw/hasi-get-config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25996533" vertical-offset="0" max-vertical-offset="577">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.2542373" vertical-offset="0" max-vertical-offset="1170">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
-            <element signature="n#rc4#0;n#!!top" expanded="false" />
+            <element signature="n#getConfig#0;n#!!top" expanded="false" />
+            <marker date="1428219474571" expanded="true" signature="327:372" placeholder="select count..hasi_user..." />
+            <marker date="1428219474571" expanded="true" signature="427:472" placeholder="select count..hasi..." />
+            <marker date="1428219474571" expanded="true" signature="587:617" placeholder="select count..hasi..." />
+            <marker date="1428219474571" expanded="true" signature="854:886" placeholder="select * fro..ssserver..." />
+            <marker date="1428219474571" expanded="true" signature="1244:1350" placeholder="insert into ..." />
+            <marker date="1428219474571" expanded="true" signature="1538:1561" placeholder="select * fro..hasi_user..." />
+            <marker date="1428219474571" expanded="true" signature="1741:1795" placeholder="update hasi_..." />
+            <marker date="1428219474571" expanded="true" signature="1814:1868" placeholder="update hasi-..." />
+            <marker date="1428219474571" expanded="true" signature="2153:2191" placeholder="select * fro..hasi_user..." />
+            <marker date="1428219474571" expanded="true" signature="2374:2408" placeholder="select * fro..ssserver..." />
           </folding>
         </state>
       </provider>
