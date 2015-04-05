@@ -60,9 +60,9 @@ if(isset($_POST['ver']))
     }
 
 }else{
-    //header('HTTP/1.1 404 Not Found');
-    //header('status: 404 Not Found');
-    echo "ver not set!";
+    header('HTTP/1.1 404 Not Found');
+    header('status: 404 Not Found');
+    //echo "ver not set!";
 }
 
 function getConfig($mac,$node)
