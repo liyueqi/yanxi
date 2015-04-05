@@ -28,6 +28,7 @@ if(isset($_POST['ver']))
         $least['num'] = 0;
         $least['server'] = 1;
         for($i=1;$i<$num+1;$i++)
+
         {
             $sql = "select * from ssserver where id=$i";
             $rawResult = mysql_query($sql,$conn);
