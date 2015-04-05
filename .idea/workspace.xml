@@ -74,7 +74,7 @@
       <file leaf-file-name="testdes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fuckgfw/testdes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19410746" vertical-offset="38" max-vertical-offset="855">
+            <state vertical-scroll-proportion="0.19410746" vertical-offset="38" max-vertical-offset="870">
               <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding />
             </state>
@@ -542,7 +542,13 @@
       <option name="project" value="LOCAL" />
       <updated>1428218995865</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="new begining">
+      <created>1428219120542</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1428219120542</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="ToolWindowManager">
