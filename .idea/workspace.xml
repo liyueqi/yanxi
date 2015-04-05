@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b3641ed-1d6e-4f39-99fb-c23adabe5828" name="默认的" comment="new begining">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fuckgfw/testdes.php" afterPath="$PROJECT_DIR$/fuckgfw/testdes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openvpn/ssconfig.php" afterPath="$PROJECT_DIR$/openvpn/ssconfig.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yanxi.iws" />
@@ -31,18 +31,18 @@
       <file leaf-file-name="donate-list.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fuckgfw/donate-list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1200">
-              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1245">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ssconfig.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ssconfig.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/openvpn/ssconfig.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="480">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.20338982" vertical-offset="0" max-vertical-offset="590">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -51,34 +51,29 @@
       <file leaf-file-name="hasi-get-config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fuckgfw/hasi-get-config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="385" max-vertical-offset="975">
-              <caret line="42" column="33" selection-start-line="42" selection-start-column="8" selection-end-line="43" selection-end-column="21" />
+            <state vertical-scroll-proportion="-7.5" vertical-offset="390" max-vertical-offset="1560">
+              <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
               <folding>
                 <element signature="e#6#85#0#PHP" expanded="false" />
-                <element signature="e#1920#2002#0#PHP" expanded="false" />
-                <element signature="n#getConfig#0;n#!!top" expanded="false" />
-                <marker date="1428063431339" expanded="true" signature="310:355" placeholder="select count..hasi..." />
-                <marker date="1428063431339" expanded="true" signature="543:573" placeholder="select count..hasi..." />
-                <marker date="1428063431339" expanded="true" signature="809:841" placeholder="select * fro..ssserver..." />
-                <marker date="1428063431339" expanded="true" signature="809:842" placeholder="select * fro..ssserver..." />
-                <marker date="1428063431339" expanded="true" signature="1199:1280" placeholder="insert into ..." />
-                <marker date="1428063431339" expanded="true" signature="1199:1305" placeholder="insert into ..." />
-                <marker date="1428063431339" expanded="true" signature="1493:1516" placeholder="select * fro..hasi..." />
-                <marker date="1428063431339" expanded="true" signature="1696:1726" placeholder="update hasi-..." />
-                <marker date="1428063431339" expanded="true" signature="1696:1733" placeholder="update hasi-..." />
-                <marker date="1428063431339" expanded="true" signature="1696:1740" placeholder="update hasi-..." />
-                <marker date="1428063431339" expanded="true" signature="1696:1750" placeholder="update hasi-..." />
-                <marker date="1428063431339" expanded="true" signature="2079:2117" placeholder="select * fro..hasi_user..." />
-                <marker date="1428063431339" expanded="true" signature="2300:2334" placeholder="select * fro..ssserver..." />
+                <marker date="1428216772687" expanded="true" signature="327:372" placeholder="select count..hasi_user..." />
+                <marker date="1428216772687" expanded="true" signature="427:472" placeholder="select count..hasi..." />
+                <marker date="1428216772687" expanded="true" signature="585:615" placeholder="select count..hasi..." />
+                <marker date="1428216772687" expanded="true" signature="852:884" placeholder="select * fro..ssserver..." />
+                <marker date="1428216772687" expanded="true" signature="1242:1348" placeholder="insert into ..." />
+                <marker date="1428216772687" expanded="true" signature="1536:1559" placeholder="select * fro..hasi_user..." />
+                <marker date="1428216772687" expanded="true" signature="1739:1793" placeholder="update hasi_..." />
+                <marker date="1428216772687" expanded="true" signature="1812:1866" placeholder="update hasi-..." />
+                <marker date="1428216772687" expanded="true" signature="2151:2189" placeholder="select * fro..hasi_user..." />
+                <marker date="1428216772687" expanded="true" signature="2372:2406" placeholder="select * fro..ssserver..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testdes.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testdes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fuckgfw/testdes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10398614" vertical-offset="0" max-vertical-offset="577">
+            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="225">
               <caret line="4" column="85" selection-start-line="4" selection-start-column="85" selection-end-line="4" selection-end-column="85" />
               <folding />
             </state>
@@ -88,8 +83,8 @@
       <file leaf-file-name="des.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fuckgfw/des.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1035" max-vertical-offset="2790">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="660">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -125,10 +120,10 @@
         <option value="$PROJECT_DIR$/fuckgfw/userlog.php" />
         <option value="$PROJECT_DIR$/fuckgfw/logo.php" />
         <option value="$PROJECT_DIR$/../../xiao-master/zhegeshiweixinjiekou.php" />
-        <option value="$PROJECT_DIR$/openvpn/ssconfig.php" />
         <option value="$PROJECT_DIR$/fuckgfw/des.php" />
-        <option value="$PROJECT_DIR$/fuckgfw/hasi-get-config.php" />
         <option value="$PROJECT_DIR$/fuckgfw/testdes.php" />
+        <option value="$PROJECT_DIR$/fuckgfw/hasi-get-config.php" />
+        <option value="$PROJECT_DIR$/openvpn/ssconfig.php" />
       </list>
     </option>
   </component>
@@ -176,7 +171,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -225,6 +219,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -516,7 +511,19 @@
       <option name="project" value="LOCAL" />
       <updated>1428063985334</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="new begining">
+      <created>1428216595245</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1428216595245</updated>
+    </task>
+    <task id="LOCAL-00039" summary="new begining">
+      <created>1428216774745</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1428216774745</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -874,8 +881,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fuckgfw/donate-list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1200">
-          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1245">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -911,49 +918,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fuckgfw/des.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1035" max-vertical-offset="2790">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="660">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openvpn/ssconfig.php">
+    <entry file="file://$PROJECT_DIR$/fuckgfw/testdes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="480">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="225">
+          <caret line="4" column="85" selection-start-line="4" selection-start-column="85" selection-end-line="4" selection-end-column="85" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fuckgfw/hasi-get-config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="385" max-vertical-offset="975">
-          <caret line="42" column="33" selection-start-line="42" selection-start-column="8" selection-end-line="43" selection-end-column="21" />
+        <state vertical-scroll-proportion="-7.5" vertical-offset="390" max-vertical-offset="1560">
+          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
           <folding>
             <element signature="e#6#85#0#PHP" expanded="false" />
-            <element signature="e#1920#2002#0#PHP" expanded="false" />
-            <element signature="n#getConfig#0;n#!!top" expanded="false" />
-            <marker date="1428063431339" expanded="true" signature="310:355" placeholder="select count..hasi..." />
-            <marker date="1428063431339" expanded="true" signature="543:573" placeholder="select count..hasi..." />
-            <marker date="1428063431339" expanded="true" signature="809:841" placeholder="select * fro..ssserver..." />
-            <marker date="1428063431339" expanded="true" signature="809:842" placeholder="select * fro..ssserver..." />
-            <marker date="1428063431339" expanded="true" signature="1199:1280" placeholder="insert into ..." />
-            <marker date="1428063431339" expanded="true" signature="1199:1305" placeholder="insert into ..." />
-            <marker date="1428063431339" expanded="true" signature="1493:1516" placeholder="select * fro..hasi..." />
-            <marker date="1428063431339" expanded="true" signature="1696:1726" placeholder="update hasi-..." />
-            <marker date="1428063431339" expanded="true" signature="1696:1733" placeholder="update hasi-..." />
-            <marker date="1428063431339" expanded="true" signature="1696:1740" placeholder="update hasi-..." />
-            <marker date="1428063431339" expanded="true" signature="1696:1750" placeholder="update hasi-..." />
-            <marker date="1428063431339" expanded="true" signature="2079:2117" placeholder="select * fro..hasi_user..." />
-            <marker date="1428063431339" expanded="true" signature="2300:2334" placeholder="select * fro..ssserver..." />
+            <marker date="1428216772687" expanded="true" signature="327:372" placeholder="select count..hasi_user..." />
+            <marker date="1428216772687" expanded="true" signature="427:472" placeholder="select count..hasi..." />
+            <marker date="1428216772687" expanded="true" signature="585:615" placeholder="select count..hasi..." />
+            <marker date="1428216772687" expanded="true" signature="852:884" placeholder="select * fro..ssserver..." />
+            <marker date="1428216772687" expanded="true" signature="1242:1348" placeholder="insert into ..." />
+            <marker date="1428216772687" expanded="true" signature="1536:1559" placeholder="select * fro..hasi_user..." />
+            <marker date="1428216772687" expanded="true" signature="1739:1793" placeholder="update hasi_..." />
+            <marker date="1428216772687" expanded="true" signature="1812:1866" placeholder="update hasi-..." />
+            <marker date="1428216772687" expanded="true" signature="2151:2189" placeholder="select * fro..hasi_user..." />
+            <marker date="1428216772687" expanded="true" signature="2372:2406" placeholder="select * fro..ssserver..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fuckgfw/testdes.php">
+    <entry file="file://$PROJECT_DIR$/openvpn/ssconfig.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10398614" vertical-offset="0" max-vertical-offset="577">
-          <caret line="4" column="85" selection-start-line="4" selection-start-column="85" selection-end-line="4" selection-end-column="85" />
+        <state vertical-scroll-proportion="0.20338982" vertical-offset="0" max-vertical-offset="590">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding />
         </state>
       </provider>
