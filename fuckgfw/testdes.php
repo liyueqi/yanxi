@@ -8,7 +8,7 @@ $str = "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqeweeeeeeeeeeeeeeeeee";
 $key = "8fe5fc78a95fbde89b7fa300be95fb47";
 $encode = rc4($key,$str);
 $x = base64_encode($encode);
-$y = base64_decode($decode);
+$y = base64_decode($x);
 $decode = rc4($key,$encode);
 echo $str."|".$x."|".$y."|".$decode;
 function rc4 ($pwd, $data)//$pwd密钥　$data需加密字符串
