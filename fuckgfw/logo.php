@@ -3,7 +3,7 @@ $img= "./images/282f729c837fe16209eefe7e9eeecd7b.jpg";
 echo "
 <style>
 .jumbotron{
-	background:url($img);
+	background:url($img) no-repeat;
 }
 </style>
 <div align='center' class=\"jumbotron\">
