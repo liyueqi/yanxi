@@ -1,9 +1,9 @@
 <?php
-$dir = dirname(__FILE__);
-$dirCss1 = $dir."/bootstrap/css/bootstrap.css";
-$dirCss2= $dir."/bootstrap/css/bootstrap-theme.css";
-$dirJs = $dir."/bootstrap/js/bootstrap.js";
-$dirJquery = $dir."/bootstrap/js/jquery.js";
+//$dir = dirname(__FILE__);
+$dirCss1 = "./bootstrap/css/bootstrap.css";
+$dirCss2= "./bootstrap/css/bootstrap-theme.css";
+$dirJs = "./bootstrap/js/bootstrap.js";
+$dirJquery = "./bootstrap/js/jquery.js";
 echo "  <head>
     <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />
     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
