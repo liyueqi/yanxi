@@ -11,7 +11,7 @@ echo "  <head>
 	<title>Synapse for Hasi</title>
 	 <link href=\"\" rel=\"stylesheet\">
     <link href=\"$dirCss1\" rel=\"stylesheet\">
-    <link href=\"$dirCss2\" rel=\"stylesheet\">
+
     <script src=\"$dirJquery\"></script>
     <script src=\"$dirJs\"></script>
 	</head>

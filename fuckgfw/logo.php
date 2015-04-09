@@ -6,7 +6,7 @@ echo "
 	background:url($img);
 }
 </style>
-<div class=\"jumbotron\">
+<div align='center' class=\"jumbotron\">
 
   <div class=\"container\">
     <h1>Synapse for Hasi</h1>
