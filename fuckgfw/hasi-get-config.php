@@ -40,6 +40,13 @@ if(isset($_POST['ver']))
         }
         $server = $least['server'];
         $hash = md5($mac.$time);
+        $sql = "select * from ssserver where id=$server";
+        $numRaw = mysql_query($sql,$conn);
+        $num =mysql_fetch_array($numRaw);
+        $usernum = $num['usernum'];
+        $usernum = $usernum +1;
+        $sql = "update ssserver set usrnum=$usernum where id=$server";
+        $result = mysql_query($sql,$conn);
         $sql = "insert into hasi_user (hash,mac,node,firsttime,lasttime) VALUES ('$hash','$mac','$server','$time','$time')";
         $result = mysql_query($sql);
         $config= getConfig($mac,$server);
