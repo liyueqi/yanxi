@@ -1,5 +1,5 @@
 <?php
-$img= "./images/bb396a0fd9f9d72aba05b3e2d02a2834359bbb66.jpg";
+$img= "./images/20090403_142651_296_u.jpg";
 echo "
 <style>
 .jumbotron{
