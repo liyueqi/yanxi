@@ -24,7 +24,7 @@ if(isset($_POST['ver']))
         $sql = "select count(*) from hasi-user ";
         $rawNum = mysql_query($sql,$conn);
         $numArray = mysql_fetch_array($rawNum);
-        $num = $numArray[0];
+        $num = $numArray[1];
         $sql = "select * from ssserver where id=1";
             $rawResult = mysql_query($sql,$conn);
             $result = mysql_fetch_array($rawResult);
@@ -38,7 +38,7 @@ if(isset($_POST['ver']))
             $sql = "select * from ssserver where id=$i";
             $rawResult = mysql_query($sql,$conn);
             $result = mysql_fetch_array($rawResult);
-            if($result['usernum']<$least['num']){
+            if($result['usernum'] < $least['num']){
                 $least['num'] = $result['usernum'];
                 $least['server'] = $i;
             }
