@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b3641ed-1d6e-4f39-99fb-c23adabe5828" name="默认的" comment="add bootstrap v3">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fuckgfw/header.php" afterPath="$PROJECT_DIR$/fuckgfw/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fuckgfw/images/bb396a0fd9f9d72aba05b3e2d02a2834359bbb66.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fuckgfw/logo.php" afterPath="$PROJECT_DIR$/fuckgfw/logo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yanxi.iws" />
@@ -64,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fuckgfw/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33898306" vertical-offset="0" max-vertical-offset="705">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state vertical-scroll-proportion="-5.2083335" vertical-offset="115" max-vertical-offset="705">
+              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
               <folding>
                 <marker date="1428580964333" expanded="true" signature="221:663" placeholder="..." />
                 <marker date="1428580964333" expanded="true" signature="221:665" placeholder="..." />
@@ -81,6 +82,34 @@
                 <marker date="1428580964333" expanded="true" signature="991:1217" placeholder="..." />
                 <marker date="1428580964333" expanded="true" signature="1355:1588" placeholder="..." />
                 <marker date="1428580964333" expanded="true" signature="1397:1571" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fuckgfw/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="300">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logo.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fuckgfw/logo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.115830116" vertical-offset="0" max-vertical-offset="518">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+              <folding>
+                <marker date="1428582172028" expanded="true" signature="82:128" placeholder="..." />
+                <marker date="1428582172028" expanded="true" signature="94:120" placeholder="{...}" />
+                <marker date="1428582172028" expanded="true" signature="154:1212" placeholder="..." />
+                <marker date="1428582172028" expanded="true" signature="154:1217" placeholder="..." />
+                <marker date="1428582172028" expanded="true" signature="183:1210" placeholder="..." />
+                <marker date="1428582172028" expanded="true" signature="462:492" placeholder="..." />
+                <marker date="1428582172028" expanded="true" signature="589:1194" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -119,10 +148,10 @@
         <option value="$PROJECT_DIR$/fuckgfw/rc4.php" />
         <option value="$PROJECT_DIR$/fuckgfw/testdes.php" />
         <option value="$PROJECT_DIR$/fuckgfw/update.php" />
-        <option value="$PROJECT_DIR$/fuckgfw/logo.php" />
         <option value="$PROJECT_DIR$/fuckgfw/hasi-get-config.php" />
         <option value="$PROJECT_DIR$/fuckgfw/donate-list.php" />
         <option value="$PROJECT_DIR$/fuckgfw/header.php" />
+        <option value="$PROJECT_DIR$/fuckgfw/logo.php" />
       </list>
     </option>
   </component>
@@ -217,46 +246,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yanxi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yanxi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fuckgfw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yanxi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yanxi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fuckgfw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -327,12 +316,6 @@
       <created>1415961824491</created>
       <option name="number" value="Default" />
       <updated>1415961824491</updated>
-    </task>
-    <task id="LOCAL-00009" summary="gh">
-      <created>1425408508563</created>
-      <option name="number" value="00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1425408508563</updated>
     </task>
     <task id="LOCAL-00010" summary="gh">
       <created>1425408577348</created>
@@ -622,15 +605,21 @@
       <option name="project" value="LOCAL" />
       <updated>1428580866870</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="add bootstrap v3">
+      <created>1428580968499</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1428580968500</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="22" width="1368" height="747" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -986,24 +975,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fuckgfw/logo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="435">
-          <caret line="14" column="103" selection-start-line="14" selection-start-column="103" selection-end-line="14" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fuckgfw/rc4.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18644068" vertical-offset="115" max-vertical-offset="765">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fuckgfw/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10169491" vertical-offset="0" max-vertical-offset="590">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1056,8 +1031,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fuckgfw/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33898306" vertical-offset="0" max-vertical-offset="705">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        <state vertical-scroll-proportion="-5.2083335" vertical-offset="115" max-vertical-offset="705">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
           <folding>
             <marker date="1428580964333" expanded="true" signature="221:663" placeholder="..." />
             <marker date="1428580964333" expanded="true" signature="221:665" placeholder="..." />
@@ -1070,6 +1045,30 @@
             <marker date="1428580964333" expanded="true" signature="991:1217" placeholder="..." />
             <marker date="1428580964333" expanded="true" signature="1355:1588" placeholder="..." />
             <marker date="1428580964333" expanded="true" signature="1397:1571" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuckgfw/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="300">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuckgfw/logo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.115830116" vertical-offset="0" max-vertical-offset="518">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <marker date="1428582172028" expanded="true" signature="82:128" placeholder="..." />
+            <marker date="1428582172028" expanded="true" signature="94:120" placeholder="{...}" />
+            <marker date="1428582172028" expanded="true" signature="154:1212" placeholder="..." />
+            <marker date="1428582172028" expanded="true" signature="154:1217" placeholder="..." />
+            <marker date="1428582172028" expanded="true" signature="183:1210" placeholder="..." />
+            <marker date="1428582172028" expanded="true" signature="462:492" placeholder="..." />
+            <marker date="1428582172028" expanded="true" signature="589:1194" placeholder="..." />
           </folding>
         </state>
       </provider>
