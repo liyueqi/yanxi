@@ -23,7 +23,8 @@ if(isset($_POST['ver']))
     {
         $sql = "select count(*) from hasi-user ";
         $rawNum = mysql_query($sql,$conn);
-        $num = mysql_fetch_array($rawNum);
+        $numArray = mysql_fetch_array($rawNum);
+        $num = $numArray[0];
         $least = array();
         $least['num'] = 0;
         $least['server'] = 1;
