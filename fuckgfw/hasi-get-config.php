@@ -25,9 +25,13 @@ if(isset($_POST['ver']))
         $rawNum = mysql_query($sql,$conn);
         $numArray = mysql_fetch_array($rawNum);
         $num = $numArray[0];
-        $least = array();
-        $least['num'] = 0;
-        $least['server'] = 1;
+        $sql = "select * from ssserver where id=1";
+            $rawResult = mysql_query($sql,$conn);
+            $result = mysql_fetch_array($rawResult);
+            $least = array();
+        $least['num'] = $result['usernum'];
+        $least['server'] =1;
+        
         for($i=1;$i<$num+1;$i++)
 
         {
