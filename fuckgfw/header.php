@@ -10,7 +10,7 @@ echo "  <head>
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
 	<title>Synapse for Hasi</title>
 	 <link href=\"\" rel=\"stylesheet\">
-    <link href=\"$dirCss1.\" rel=\"stylesheet\">
+    <link href=\"$dirCss1\" rel=\"stylesheet\">
     <link href=\"$dirCss2\" rel=\"stylesheet\">
     <script src=\"$dirJquery\"></script>
     <script src=\"$dirJs\"></script>
