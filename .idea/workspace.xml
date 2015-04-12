@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b3641ed-1d6e-4f39-99fb-c23adabe5828" name="默认的" comment="testing get config&#10;3&#10;fix hasi_user to ssserver">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fuckgfw/hasi-get-config.php" afterPath="$PROJECT_DIR$/fuckgfw/hasi-get-config.php" />
+    <list default="true" id="0b3641ed-1d6e-4f39-99fb-c23adabe5828" name="默认的" comment="TEST PASS">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fuckgfw/bootstrap/images/shadowsocks.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fuckgfw/bootstrap/images/test.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fuckgfw/bootstrap/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yanxi.iws" />
@@ -27,104 +29,7 @@
     <favorites_list name="yanxi" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="donate-list.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fuckgfw/donate-list.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1335">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hasi-get-config.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fuckgfw/hasi-get-config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9206349" vertical-offset="1452" max-vertical-offset="1890">
-              <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-              <folding>
-                <marker date="1428825785574" expanded="true" signature="329:374" placeholder="select count..hasi_user..." />
-                <marker date="1428825785574" expanded="true" signature="589:610" placeholder="select count..hasi..." />
-                <marker date="1428825785574" expanded="true" signature="589:618" placeholder="select count..ssserver..." />
-                <marker date="1428825785574" expanded="true" signature="789:822" placeholder="select * fro..ssserver..." />
-                <marker date="1428825785574" expanded="true" signature="1124:1156" placeholder="select * fro..ssserver..." />
-                <marker date="1428825785574" expanded="true" signature="1599:1631" placeholder="select * fro..ssserver..." />
-                <marker date="1428825785574" expanded="true" signature="1810:1855" placeholder="update ssser..." />
-                <marker date="1428825785574" expanded="true" signature="1810:1856" placeholder="update ssser..." />
-                <marker date="1428825785574" expanded="true" signature="1833:1838" placeholder="update ssser..." />
-                <marker date="1428825785574" expanded="true" signature="1833:1839" placeholder="update ssser..." />
-                <marker date="1428825785574" expanded="true" signature="1925:2031" placeholder="insert into ..." />
-                <marker date="1428825785574" expanded="true" signature="2209:2232" placeholder="select * fro..hasi_user..." />
-                <marker date="1428825785574" expanded="true" signature="2412:2466" placeholder="update hasi_..." />
-                <marker date="1428825785574" expanded="true" signature="2812:2850" placeholder="select * fro..hasi_user..." />
-                <marker date="1428825785574" expanded="true" signature="3033:3067" placeholder="select * fro..ssserver..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fuckgfw/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="705">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-              <folding>
-                <marker date="1428582710903" expanded="true" signature="221:616" placeholder="..." />
-                <marker date="1428582710903" expanded="true" signature="221:618" placeholder="..." />
-                <marker date="1428582710903" expanded="true" signature="221:645" placeholder="..." />
-                <marker date="1428582710903" expanded="true" signature="682:1596" placeholder="..." />
-                <marker date="1428582710903" expanded="true" signature="682:1624" placeholder="..." />
-                <marker date="1428582710903" expanded="true" signature="741:1591" placeholder="..." />
-                <marker date="1428582710903" expanded="true" signature="775:1578" placeholder="..." />
-                <marker date="1428582710903" expanded="true" signature="815:1257" placeholder="..." />
-                <marker date="1428582710903" expanded="true" signature="944:1170" placeholder="..." />
-                <marker date="1428582710903" expanded="true" signature="1308:1541" placeholder="..." />
-                <marker date="1428582710903" expanded="true" signature="1350:1524" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fuckgfw/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="300">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fuckgfw/logo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="495">
-              <caret line="13" column="134" selection-start-line="13" selection-start-column="134" selection-end-line="13" selection-end-column="134" />
-              <folding>
-                <marker date="1428584377764" expanded="true" signature="74:143" placeholder="..." />
-                <marker date="1428584377764" expanded="true" signature="86:135" placeholder="{...}" />
-                <marker date="1428584377764" expanded="true" signature="184:1229" placeholder="..." />
-                <marker date="1428584377764" expanded="true" signature="184:1234" placeholder="..." />
-                <marker date="1428584377764" expanded="true" signature="213:1227" placeholder="..." />
-                <marker date="1428584377764" expanded="true" signature="479:509" placeholder="..." />
-                <marker date="1428584377764" expanded="true" signature="606:1211" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fuckgfw/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="285">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -198,7 +103,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -259,12 +163,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,118 +183,6 @@
     <property name="SearchEverywhereHistory" value="" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-  </component>
-  <component name="RestoreUpdateTree">
-    <UpdateInfo date="Moments ago" ActionInfo="_Update">
-      <UpdatedFiles>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated from server" />
-          <option name="myStatusName" value="Changed on server" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CHANGED_ON_SERVER" />
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Updated" />
-            <option name="myStatusName" value="Changed" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="UPDATED" />
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/fuckgfw/donate-list.php</PATH>
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Created" />
-            <option name="myStatusName" value="Created" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="CREATED" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Deleted" />
-            <option name="myStatusName" value="Deleted" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="true" />
-            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Restored" />
-            <option name="myStatusName" value="Will be restored" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="RESTORED" />
-          </FILE-GROUP>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Modified" />
-          <option name="myStatusName" value="Modified" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MODIFIED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Skipped" />
-          <option name="myStatusName" value="Skipped" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="SKIPPED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with conflicts" />
-          <option name="myStatusName" value="Will be merged with conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_CONFLICTS" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with tree conflicts" />
-          <option name="myStatusName" value="Merged with tree conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with property conflicts" />
-          <option name="myStatusName" value="Will be merged with property conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged" />
-          <option name="myStatusName" value="Will be merged" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Not in repository" />
-          <option name="myStatusName" value="Not in repository" />
-          <option name="mySupportsDeletion" value="true" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UNKNOWN" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Locally added" />
-          <option name="myStatusName" value="Locally added" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="LOCALLY_ADDED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Locally removed" />
-          <option name="myStatusName" value="Locally removed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="LOCALLY_REMOVED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Switched" />
-          <option name="myStatusName" value="Switched" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="SWITCHED" />
-        </FILE-GROUP>
-      </UpdatedFiles>
-    </UpdateInfo>
   </component>
   <component name="RunManager" selected="JavaScript Debug.hasi-get-config.php">
     <configuration default="false" name="hasi-get-config.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/yanxi/fuckgfw/hasi-get-config.php">
@@ -445,12 +238,6 @@
       <created>1415961824491</created>
       <option name="number" value="Default" />
       <updated>1415961824491</updated>
-    </task>
-    <task id="LOCAL-00021" summary="gh">
-      <created>1425410731890</created>
-      <option name="number" value="00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1425410731890</updated>
     </task>
     <task id="LOCAL-00022" summary="gh">
       <created>1425410946618</created>
@@ -740,21 +527,26 @@
       <option name="project" value="LOCAL" />
       <updated>1428825458014</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="TEST PASS">
+      <created>1428825796131</created>
+      <option name="number" value="00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1428825796132</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="22" width="1368" height="747" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -766,6 +558,7 @@
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39968896" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -800,7 +593,8 @@
     <MESSAGE value="testing get config&#10;2" />
     <MESSAGE value="testing get config&#10;3&#10;fix hasi-user to hasi_user" />
     <MESSAGE value="testing get config&#10;3&#10;fix hasi_user to ssserver" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing get config&#10;3&#10;fix hasi_user to ssserver" />
+    <MESSAGE value="TEST PASS" />
+    <option name="LAST_COMMIT_MESSAGE" value="TEST PASS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1122,6 +916,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fuckgfw/hasi-get-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.84745765" vertical-offset="1300" max-vertical-offset="1890">
+          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding>
+            <marker date="1428825785574" expanded="true" signature="-1:-1" placeholder="select count..hasi_user..." />
+            <marker date="1428825785574" expanded="true" signature="-1:-1" placeholder="select count..hasi..." />
+            <marker date="1428825785574" expanded="true" signature="-1:-1" placeholder="select count..ssserver..." />
+            <marker date="1428825785574" expanded="true" signature="-1:-1" placeholder="select * fro..ssserver..." />
+            <marker date="1428825785574" expanded="true" signature="-1:-1" placeholder="select * fro..ssserver..." />
+            <marker date="1428825785574" expanded="true" signature="-1:-1" placeholder="select * fro..ssserver..." />
+            <marker date="1428825785574" expanded="true" signature="-1:-1" placeholder="update ssser..." />
+            <marker date="1428825785574" expanded="true" signature="-1:-1" placeholder="update ssser..." />
+            <marker date="1428825785574" expanded="true" signature="-1:-1" placeholder="update ssser..." />
+            <marker date="1428825785574" expanded="true" signature="-1:-1" placeholder="update ssser..." />
+            <marker date="1428825785574" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1428825785574" expanded="true" signature="-1:-1" placeholder="select * fro..hasi_user..." />
+            <marker date="1428825785574" expanded="true" signature="-1:-1" placeholder="update hasi_..." />
+            <marker date="1428825785574" expanded="true" signature="-1:-1" placeholder="select * fro..hasi_user..." />
+            <marker date="1428825785574" expanded="true" signature="-1:-1" placeholder="select * fro..ssserver..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fuckgfw/donate-list.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1335">
@@ -1130,79 +948,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fuckgfw/footer.php">
+    <entry file="file://$PROJECT_DIR$/fuckgfw/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="285">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
+        <state vertical-scroll-proportion="0.18644068" vertical-offset="115" max-vertical-offset="705">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <marker date="1428582710903" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428582710903" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428582710903" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428582710903" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428582710903" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428582710903" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428582710903" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428582710903" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428582710903" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428582710903" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428582710903" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fuckgfw/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="300">
+        <state vertical-scroll-proportion="0.10169491" vertical-offset="0" max-vertical-offset="590">
           <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fuckgfw/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="705">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <marker date="1428582710903" expanded="true" signature="221:616" placeholder="..." />
-            <marker date="1428582710903" expanded="true" signature="221:618" placeholder="..." />
-            <marker date="1428582710903" expanded="true" signature="221:645" placeholder="..." />
-            <marker date="1428582710903" expanded="true" signature="682:1596" placeholder="..." />
-            <marker date="1428582710903" expanded="true" signature="682:1624" placeholder="..." />
-            <marker date="1428582710903" expanded="true" signature="741:1591" placeholder="..." />
-            <marker date="1428582710903" expanded="true" signature="775:1578" placeholder="..." />
-            <marker date="1428582710903" expanded="true" signature="815:1257" placeholder="..." />
-            <marker date="1428582710903" expanded="true" signature="944:1170" placeholder="..." />
-            <marker date="1428582710903" expanded="true" signature="1308:1541" placeholder="..." />
-            <marker date="1428582710903" expanded="true" signature="1350:1524" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fuckgfw/logo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="495">
+        <state vertical-scroll-proportion="0.33795494" vertical-offset="0" max-vertical-offset="577">
           <caret line="13" column="134" selection-start-line="13" selection-start-column="134" selection-end-line="13" selection-end-column="134" />
           <folding>
-            <marker date="1428584377764" expanded="true" signature="74:143" placeholder="..." />
-            <marker date="1428584377764" expanded="true" signature="86:135" placeholder="{...}" />
-            <marker date="1428584377764" expanded="true" signature="184:1229" placeholder="..." />
-            <marker date="1428584377764" expanded="true" signature="184:1234" placeholder="..." />
-            <marker date="1428584377764" expanded="true" signature="213:1227" placeholder="..." />
-            <marker date="1428584377764" expanded="true" signature="479:509" placeholder="..." />
-            <marker date="1428584377764" expanded="true" signature="606:1211" placeholder="..." />
+            <marker date="1428584377764" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428584377764" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428584377764" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428584377764" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428584377764" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428584377764" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428584377764" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fuckgfw/hasi-get-config.php">
+    <entry file="file://$PROJECT_DIR$/fuckgfw/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9206349" vertical-offset="1452" max-vertical-offset="1890">
-          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-          <folding>
-            <marker date="1428825785574" expanded="true" signature="329:374" placeholder="select count..hasi_user..." />
-            <marker date="1428825785574" expanded="true" signature="589:610" placeholder="select count..hasi..." />
-            <marker date="1428825785574" expanded="true" signature="589:618" placeholder="select count..ssserver..." />
-            <marker date="1428825785574" expanded="true" signature="789:822" placeholder="select * fro..ssserver..." />
-            <marker date="1428825785574" expanded="true" signature="1124:1156" placeholder="select * fro..ssserver..." />
-            <marker date="1428825785574" expanded="true" signature="1599:1631" placeholder="select * fro..ssserver..." />
-            <marker date="1428825785574" expanded="true" signature="1810:1855" placeholder="update ssser..." />
-            <marker date="1428825785574" expanded="true" signature="1810:1856" placeholder="update ssser..." />
-            <marker date="1428825785574" expanded="true" signature="1833:1838" placeholder="update ssser..." />
-            <marker date="1428825785574" expanded="true" signature="1833:1839" placeholder="update ssser..." />
-            <marker date="1428825785574" expanded="true" signature="1925:2031" placeholder="insert into ..." />
-            <marker date="1428825785574" expanded="true" signature="2209:2232" placeholder="select * fro..hasi_user..." />
-            <marker date="1428825785574" expanded="true" signature="2412:2466" placeholder="update hasi_..." />
-            <marker date="1428825785574" expanded="true" signature="2812:2850" placeholder="select * fro..hasi_user..." />
-            <marker date="1428825785574" expanded="true" signature="3033:3067" placeholder="select * fro..ssserver..." />
-          </folding>
+        <state vertical-scroll-proportion="0.05199307" vertical-offset="0" max-vertical-offset="577">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
