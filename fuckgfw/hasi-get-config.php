@@ -21,7 +21,7 @@ if(isset($_GET['ver']))
     //$Des = new Des();
     if($result[0]==0)
     {
-        $sql = "select count(*) from hasi-user ";
+        $sql = "select count(*) from hasi_user ";
         $rawNum = mysql_query($sql,$conn);
         $numArray = mysql_fetch_array($rawNum);
         var_dump($numArray);
