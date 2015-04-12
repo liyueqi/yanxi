@@ -24,6 +24,7 @@ if(isset($_GET['ver']))
         $sql = "select count(*) from hasi-user ";
         $rawNum = mysql_query($sql,$conn);
         $numArray = mysql_fetch_array($rawNum);
+        var_dump($numArray);
         $num = $numArray[1];
         $sql = "select * from ssserver where id=1";
             $rawResult = mysql_query($sql,$conn);
@@ -32,7 +33,7 @@ if(isset($_GET['ver']))
 
         $least['num'] = $result['usernum'];
         $least['server'] =1;
-        
+        var_dump($least);
         for($i=1;$i<$num+1;$i++)
 
         {
