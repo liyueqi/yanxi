@@ -21,11 +21,11 @@ if(isset($_GET['ver']))
     //$Des = new Des();
     if($result[0]==0)
     {
-        $sql = "select count(*) from hasi_user ";
+        $sql = "select count(*) from ssserver ";
         $rawNum = mysql_query($sql,$conn);
         $numArray = mysql_fetch_array($rawNum);
         var_dump($numArray);
-        $num = $numArray[1];
+        $num = $numArray[0];
         $sql = "select * from ssserver where id=1";
             $rawResult = mysql_query($sql,$conn);
             $result = mysql_fetch_array($rawResult);

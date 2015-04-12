@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b3641ed-1d6e-4f39-99fb-c23adabe5828" name="默认的" comment="testing get config&#10;2">
+    <list default="true" id="0b3641ed-1d6e-4f39-99fb-c23adabe5828" name="默认的" comment="testing get config&#10;3&#10;fix hasi-user to hasi_user">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fuckgfw/hasi-get-config.php" afterPath="$PROJECT_DIR$/fuckgfw/hasi-get-config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -41,23 +41,24 @@
       <file leaf-file-name="hasi-get-config.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fuckgfw/hasi-get-config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2777778" vertical-offset="240" max-vertical-offset="1890">
-              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.63492066" vertical-offset="240" max-vertical-offset="1890">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
-                <marker date="1428825225906" expanded="true" signature="327:372" placeholder="select count..hasi_user..." />
-                <marker date="1428825225906" expanded="true" signature="587:617" placeholder="select count..hasi..." />
-                <marker date="1428825225906" expanded="true" signature="786:819" placeholder="select * fro..ssserver..." />
-                <marker date="1428825225906" expanded="true" signature="1119:1151" placeholder="select * fro..ssserver..." />
-                <marker date="1428825225906" expanded="true" signature="1590:1622" placeholder="select * fro..ssserver..." />
-                <marker date="1428825225906" expanded="true" signature="1801:1846" placeholder="update ssser..." />
-                <marker date="1428825225906" expanded="true" signature="1801:1847" placeholder="update ssser..." />
-                <marker date="1428825225906" expanded="true" signature="1824:1829" placeholder="update ssser..." />
-                <marker date="1428825225906" expanded="true" signature="1824:1830" placeholder="update ssser..." />
-                <marker date="1428825225906" expanded="true" signature="1916:2022" placeholder="insert into ..." />
-                <marker date="1428825225906" expanded="true" signature="2200:2223" placeholder="select * fro..hasi_user..." />
-                <marker date="1428825225906" expanded="true" signature="2403:2457" placeholder="update hasi_..." />
-                <marker date="1428825225906" expanded="true" signature="2803:2841" placeholder="select * fro..hasi_user..." />
-                <marker date="1428825225906" expanded="true" signature="3024:3058" placeholder="select * fro..ssserver..." />
+                <marker date="1428825432077" expanded="true" signature="327:372" placeholder="select count..hasi_user..." />
+                <marker date="1428825432077" expanded="true" signature="587:608" placeholder="select count..hasi..." />
+                <marker date="1428825432077" expanded="true" signature="587:616" placeholder="select count..ssserver..." />
+                <marker date="1428825432077" expanded="true" signature="785:818" placeholder="select * fro..ssserver..." />
+                <marker date="1428825432077" expanded="true" signature="1118:1150" placeholder="select * fro..ssserver..." />
+                <marker date="1428825432077" expanded="true" signature="1589:1621" placeholder="select * fro..ssserver..." />
+                <marker date="1428825432077" expanded="true" signature="1800:1845" placeholder="update ssser..." />
+                <marker date="1428825432077" expanded="true" signature="1800:1846" placeholder="update ssser..." />
+                <marker date="1428825432077" expanded="true" signature="1823:1828" placeholder="update ssser..." />
+                <marker date="1428825432077" expanded="true" signature="1823:1829" placeholder="update ssser..." />
+                <marker date="1428825432077" expanded="true" signature="1915:2021" placeholder="insert into ..." />
+                <marker date="1428825432077" expanded="true" signature="2199:2222" placeholder="select * fro..hasi_user..." />
+                <marker date="1428825432077" expanded="true" signature="2402:2456" placeholder="update hasi_..." />
+                <marker date="1428825432077" expanded="true" signature="2802:2840" placeholder="select * fro..hasi_user..." />
+                <marker date="1428825432077" expanded="true" signature="3023:3057" placeholder="select * fro..ssserver..." />
               </folding>
             </state>
           </provider>
@@ -445,12 +446,6 @@
       <option name="number" value="Default" />
       <updated>1415961824491</updated>
     </task>
-    <task id="LOCAL-00019" summary="gh">
-      <created>1425410443166</created>
-      <option name="number" value="00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1425410443166</updated>
-    </task>
     <task id="LOCAL-00020" summary="gh">
       <created>1425410612716</created>
       <option name="number" value="00020" />
@@ -739,7 +734,13 @@
       <option name="project" value="LOCAL" />
       <updated>1428825120305</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="testing get config&#10;3&#10;fix hasi-user to hasi_user">
+      <created>1428825249754</created>
+      <option name="number" value="00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1428825249754</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -797,7 +798,8 @@
     <MESSAGE value="add bootstrap v3" />
     <MESSAGE value="testing get config" />
     <MESSAGE value="testing get config&#10;2" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing get config&#10;2" />
+    <MESSAGE value="testing get config&#10;3&#10;fix hasi-user to hasi_user" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing get config&#10;3&#10;fix hasi-user to hasi_user" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1181,23 +1183,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fuckgfw/hasi-get-config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2777778" vertical-offset="240" max-vertical-offset="1890">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.63492066" vertical-offset="240" max-vertical-offset="1890">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
-            <marker date="1428825225906" expanded="true" signature="327:372" placeholder="select count..hasi_user..." />
-            <marker date="1428825225906" expanded="true" signature="587:617" placeholder="select count..hasi..." />
-            <marker date="1428825225906" expanded="true" signature="786:819" placeholder="select * fro..ssserver..." />
-            <marker date="1428825225906" expanded="true" signature="1119:1151" placeholder="select * fro..ssserver..." />
-            <marker date="1428825225906" expanded="true" signature="1590:1622" placeholder="select * fro..ssserver..." />
-            <marker date="1428825225906" expanded="true" signature="1801:1846" placeholder="update ssser..." />
-            <marker date="1428825225906" expanded="true" signature="1801:1847" placeholder="update ssser..." />
-            <marker date="1428825225906" expanded="true" signature="1824:1829" placeholder="update ssser..." />
-            <marker date="1428825225906" expanded="true" signature="1824:1830" placeholder="update ssser..." />
-            <marker date="1428825225906" expanded="true" signature="1916:2022" placeholder="insert into ..." />
-            <marker date="1428825225906" expanded="true" signature="2200:2223" placeholder="select * fro..hasi_user..." />
-            <marker date="1428825225906" expanded="true" signature="2403:2457" placeholder="update hasi_..." />
-            <marker date="1428825225906" expanded="true" signature="2803:2841" placeholder="select * fro..hasi_user..." />
-            <marker date="1428825225906" expanded="true" signature="3024:3058" placeholder="select * fro..ssserver..." />
+            <marker date="1428825432077" expanded="true" signature="327:372" placeholder="select count..hasi_user..." />
+            <marker date="1428825432077" expanded="true" signature="587:608" placeholder="select count..hasi..." />
+            <marker date="1428825432077" expanded="true" signature="587:616" placeholder="select count..ssserver..." />
+            <marker date="1428825432077" expanded="true" signature="785:818" placeholder="select * fro..ssserver..." />
+            <marker date="1428825432077" expanded="true" signature="1118:1150" placeholder="select * fro..ssserver..." />
+            <marker date="1428825432077" expanded="true" signature="1589:1621" placeholder="select * fro..ssserver..." />
+            <marker date="1428825432077" expanded="true" signature="1800:1845" placeholder="update ssser..." />
+            <marker date="1428825432077" expanded="true" signature="1800:1846" placeholder="update ssser..." />
+            <marker date="1428825432077" expanded="true" signature="1823:1828" placeholder="update ssser..." />
+            <marker date="1428825432077" expanded="true" signature="1823:1829" placeholder="update ssser..." />
+            <marker date="1428825432077" expanded="true" signature="1915:2021" placeholder="insert into ..." />
+            <marker date="1428825432077" expanded="true" signature="2199:2222" placeholder="select * fro..hasi_user..." />
+            <marker date="1428825432077" expanded="true" signature="2402:2456" placeholder="update hasi_..." />
+            <marker date="1428825432077" expanded="true" signature="2802:2840" placeholder="select * fro..hasi_user..." />
+            <marker date="1428825432077" expanded="true" signature="3023:3057" placeholder="select * fro..ssserver..." />
           </folding>
         </state>
       </provider>
