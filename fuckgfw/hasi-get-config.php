@@ -9,9 +9,9 @@ require_once("./dbConn.php");
 //require_once("./rc4.php");
 $conn = dbConn();
 $key = "e537bfa04fef8b9e6b29e66a61620ef6";
-if(isset($_POST['ver']))
+if(isset($_GET['ver']))
 {
-    $mac = $_POST['mac'];
+    $mac = $_GET['mac'];
     //echo $mac;
     $time = date('Y-m-d-H-i-s');
     $sql = sprintf("select count(*) from hasi_user where mac='%s'",mysql_real_escape_string($mac));
@@ -29,6 +29,7 @@ if(isset($_POST['ver']))
             $rawResult = mysql_query($sql,$conn);
             $result = mysql_fetch_array($rawResult);
             $least = array();
+
         $least['num'] = $result['usernum'];
         $least['server'] =1;
         
@@ -42,7 +43,10 @@ if(isset($_POST['ver']))
                 $least['num'] = $result['usernum'];
                 $least['server'] = $i;
             }
+            echo "|";
+            var_dump($result);
         }
+        var_dump($least);
         $server = $least['server'];
         $hash = md5($mac.$time);
         $sql = "select * from ssserver where id=$server";
