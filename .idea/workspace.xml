@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b3641ed-1d6e-4f39-99fb-c23adabe5828" name="默认的" comment="move some resources to SAE">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fuckgfw/header.php" afterPath="$PROJECT_DIR$/fuckgfw/header.php" />
+    <list default="true" id="0b3641ed-1d6e-4f39-99fb-c23adabe5828" name="默认的" comment="add buttons">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fuckgfw/logo.php" afterPath="$PROJECT_DIR$/fuckgfw/logo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -67,15 +66,15 @@
       <file leaf-file-name="logo.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fuckgfw/logo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22780374" vertical-offset="0" max-vertical-offset="856">
-              <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.36799064" vertical-offset="0" max-vertical-offset="856">
+              <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
               <folding>
-                <marker date="1429100854828" expanded="true" signature="115:184" placeholder="..." />
-                <marker date="1429100854828" expanded="true" signature="127:176" placeholder="{...}" />
-                <marker date="1429100854828" expanded="true" signature="225:1345" placeholder="..." />
-                <marker date="1429100854828" expanded="true" signature="254:1338" placeholder="..." />
-                <marker date="1429100854828" expanded="false" signature="520:550" placeholder="..." />
-                <marker date="1429100854828" expanded="true" signature="647:1322" placeholder="..." />
+                <marker date="1429101386747" expanded="true" signature="115:184" placeholder="..." />
+                <marker date="1429101386747" expanded="true" signature="127:176" placeholder="{...}" />
+                <marker date="1429101386747" expanded="true" signature="225:1362" placeholder="..." />
+                <marker date="1429101386747" expanded="true" signature="254:1355" placeholder="..." />
+                <marker date="1429101386747" expanded="false" signature="520:550" placeholder="..." />
+                <marker date="1429101386747" expanded="true" signature="647:1339" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -283,18 +282,6 @@
       <created>1415961824491</created>
       <option name="number" value="Default" />
       <updated>1415961824491</updated>
-    </task>
-    <task id="LOCAL-00026" summary="gh">
-      <created>1426089874316</created>
-      <option name="number" value="00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1426089874316</updated>
-    </task>
-    <task id="LOCAL-00027" summary="gh">
-      <created>1426089990767</created>
-      <option name="number" value="00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1426089990767</updated>
     </task>
     <task id="LOCAL-00028" summary="gh">
       <created>1426090030538</created>
@@ -578,7 +565,19 @@
       <option name="project" value="LOCAL" />
       <updated>1429100308652</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="move some resources to SAE">
+      <created>1429100866491</created>
+      <option name="number" value="00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1429100866491</updated>
+    </task>
+    <task id="LOCAL-00076" summary="add buttons">
+      <created>1429101270553</created>
+      <option name="number" value="00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1429101270553</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -640,7 +639,8 @@
     <MESSAGE value="testing get config&#10;3&#10;fix hasi_user to ssserver" />
     <MESSAGE value="TEST PASS" />
     <MESSAGE value="move some resources to SAE" />
-    <option name="LAST_COMMIT_MESSAGE" value="move some resources to SAE" />
+    <MESSAGE value="add buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="add buttons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1017,15 +1017,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fuckgfw/logo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22780374" vertical-offset="0" max-vertical-offset="856">
-          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.36799064" vertical-offset="0" max-vertical-offset="856">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
           <folding>
-            <marker date="1429100854828" expanded="true" signature="115:184" placeholder="..." />
-            <marker date="1429100854828" expanded="true" signature="127:176" placeholder="{...}" />
-            <marker date="1429100854828" expanded="true" signature="225:1345" placeholder="..." />
-            <marker date="1429100854828" expanded="true" signature="254:1338" placeholder="..." />
-            <marker date="1429100854828" expanded="false" signature="520:550" placeholder="..." />
-            <marker date="1429100854828" expanded="true" signature="647:1322" placeholder="..." />
+            <marker date="1429101386747" expanded="true" signature="115:184" placeholder="..." />
+            <marker date="1429101386747" expanded="true" signature="127:176" placeholder="{...}" />
+            <marker date="1429101386747" expanded="true" signature="225:1362" placeholder="..." />
+            <marker date="1429101386747" expanded="true" signature="254:1355" placeholder="..." />
+            <marker date="1429101386747" expanded="false" signature="520:550" placeholder="..." />
+            <marker date="1429101386747" expanded="true" signature="647:1339" placeholder="..." />
           </folding>
         </state>
       </provider>
