@@ -1,9 +1,9 @@
 <?php
 //$dir = dirname(__FILE__);
-$dirCss1 = "./bootstrap/css/bootstrap.css";
-$dirCss2= "./bootstrap/css/bootstrap-theme.css";
-$dirJs = "./bootstrap/js/bootstrap.js";
-$dirJquery = "./bootstrap/js/jquery.js";
+$dirCss1 = "https://kaguyablog.sinaapp.com/synapse-cdn/bootstrap/css/bootstrap.css";
+$dirCss2= "https://kaguyablog.sinaapp.com/synapse-cdn/bootstrap/css/bootstrap-theme.css";
+$dirJs = "https://kaguyablog.sinaapp.com/synapse-cdn/bootstrap/js/bootstrap.js";
+$dirJquery = "https://kaguyablog.sinaapp.com/synapse-cdn/bootstrap/js/jquery.js";
 echo "  <head>
     <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />
     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
