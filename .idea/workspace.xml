@@ -31,9 +31,11 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fuckgfw/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10514019" vertical-offset="0" max-vertical-offset="856">
-              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-              <folding />
+            <state vertical-scroll-proportion="0.12266355" vertical-offset="0" max-vertical-offset="856">
+              <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -283,12 +285,6 @@
       <created>1415961824491</created>
       <option name="number" value="Default" />
       <updated>1415961824491</updated>
-    </task>
-    <task id="LOCAL-00034" summary="new begining">
-      <created>1428004102568</created>
-      <option name="number" value="00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1428004102568</updated>
     </task>
     <task id="LOCAL-00035" summary="new begining">
       <created>1428063449369</created>
@@ -578,7 +574,13 @@
       <option name="project" value="LOCAL" />
       <updated>1429122612875</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="add buttons">
+      <created>1429122691071</created>
+      <option name="number" value="00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1429122691071</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1025,9 +1027,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fuckgfw/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10514019" vertical-offset="0" max-vertical-offset="856">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding />
+        <state vertical-scroll-proportion="0.12266355" vertical-offset="0" max-vertical-offset="856">
+          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
