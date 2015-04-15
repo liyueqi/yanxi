@@ -4,6 +4,7 @@ $dirCss1 = "https://kaguyablog.sinaapp.com/synapse-cdn/bootstrap/css/bootstrap.c
 $dirCss2= "https://kaguyablog.sinaapp.com/synapse-cdn/bootstrap/css/bootstrap-theme.css";
 $dirJs = "https://kaguyablog.sinaapp.com/synapse-cdn/bootstrap/js/bootstrap.js";
 $dirJquery = "https://kaguyablog.sinaapp.com/synapse-cdn/bootstrap/js/jquery.js";
+$buttons = "https://kaguyablog.sinaapp.com/synapse-cdn/bootstrap/css/buttons.css";
 echo "  <head>
     <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />
     <meta name=\"description\"
@@ -15,7 +16,7 @@ echo "  <head>
 	<title>Synapse for Hasi</title>
 	 <link href=\"\" rel=\"stylesheet\">
     <link href=\"$dirCss1\" rel=\"stylesheet\">
-
+    <link href=\"$buttons\" rel=\"stylesheet\">
     <script src=\"$dirJquery\"></script>
     <script src=\"$dirJs\"></script>
 	</head>
