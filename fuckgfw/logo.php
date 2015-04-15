@@ -19,7 +19,7 @@ echo "
 	<input type=\"hidden\" name=\"title\" placeholder=\"付款说明\" value=\"Donations - Synapse for Hasi\">
 	<input type=\"hidden\" name=\"memo\" placeholder=\"付款说明\" value=\"Hasi!\">
 	<a class=\"button button-glow button-border button-rounded button-primary\" href=\"https://kaguyablog.sinaapp.com/synapse-cdn/download/synapse.zip\" target=\"_blank\" role=\"button\">下载客户端(2015.04.05更新)</a>
-	<a class=\"button button-highlight button-rounded button-large\" href=\"javascript:javascript:document.alipay_form.submit();\" target=\"_blank\" role=\"button\">我来捐助</a>
+	<a class=\"button button-primary button-rounded button-large\" href=\"javascript:javascript:document.alipay_form.submit();\" target=\"_blank\" role=\"button\">我来捐助</a>
 </form>
 		</p>
   </div>
